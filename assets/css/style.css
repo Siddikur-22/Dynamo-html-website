@@ -920,7 +920,6 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-section .button-wrapper .btn1 .btn-2 {
   font-family: var(--font-public-sans);
-  gap: 20px;
 }
 .home1-section .banner-image-section {
   background-image: url(../image/All-image/banner-img/Dashboard\ image.png);
@@ -1486,6 +1485,12 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 }
 .faqs-section .accordion-faqs {
   margin-bottom: 80px;
+}
+.faqs-section .accordion-button {
+  background-color: #F4F6FF;
+}
+.faqs-section .accordion-body {
+  background-color: #F4F6FF;
 }
 
 .our-latest-card-section .section-title h2 {

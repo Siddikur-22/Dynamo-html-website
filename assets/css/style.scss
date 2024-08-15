@@ -1107,10 +1107,10 @@ header.style-1 {
 
         .btn1 {
             font-family: var(--font-public-sans);
-
+           
             .btn-2 {
                 font-family: var(--font-public-sans);
-                gap: 20px;
+               
             }
         }
     }
@@ -1655,6 +1655,7 @@ header.style-1 {
         .btn-2 {
             font-family: var(--font-public-sans);
             gap: 20px;
+            
         }
     }
 
@@ -1864,6 +1865,12 @@ header.style-1 {
 
     .accordion-faqs {
         margin-bottom: 80px;
+    }
+    .accordion-button{
+        background-color: #F4F6FF;
+    }
+    .accordion-body{
+        background-color: #F4F6FF;
     }
 }
 
