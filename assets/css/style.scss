@@ -579,18 +579,27 @@ header.style-1 {
 
     .nav-right {
         .button-group {
-
             .login-btn {
                 color: var(--title-color);
                 font-family: var(--font-public-sans);
+                font-size: 16px;
+                line-height: 28px;
             }
 
             .get-btn {
                 color: var(--title-color);
                 border: 1px solid #DDE1FD;
-                border-radius: 20px;
-                padding-left: 15px;
-                padding-right: 15px;
+                border-radius: 80px;
+                padding-left: 26px;
+                padding-top: 9;
+                padding-bottom: 9;
+
+                img {
+                    padding-right: 26px;
+                    padding-top: 14px;
+                    padding-bottom: 14px;
+                    padding-left: 8px;
+                }
             }
         }
 
@@ -1044,6 +1053,7 @@ header.style-1 {
     }
 }
 
+// header-area end
 //  home section start
 .home1-section {
 
@@ -1107,7 +1117,34 @@ header.style-1 {
 
         .btn1 {
             font-family: var(--font-public-sans);
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 600;
+            color: var(--white-color);
             padding-left: 32px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+
+            img {
+                padding-left: 8px;
+                padding-right: 32px;
+            }
+        }
+
+        .btn2 {
+            font-family: var(--font-public-sans);
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 600;
+            color: var(--title-color);
+            padding-left: 30px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+
+            img {
+                padding-left: 8px;
+                padding-right: 30px;
+            }
         }
     }
 
@@ -1199,7 +1236,7 @@ header.style-1 {
         border-radius: 16px;
         padding-left: 40px;
         padding-top: 40px;
-        padding-right:25px;
+        padding-right: 25px;
         padding-bottom: 73px;
 
         .icon {
@@ -1225,6 +1262,26 @@ header.style-1 {
             font-size: 18px;
             font-weight: 400;
             line-height: 28px;
+        }
+    }
+
+
+    .exploring-button {
+        .btn1 {
+            font-family: var(--font-public-sans);
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 600;
+            color:var(--white-color);
+            padding-left: 30px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+
+            img {
+                padding-left: 8px;
+                padding-right: 30px;
+            }
+
         }
     }
 }
@@ -1478,13 +1535,37 @@ header.style-1 {
 
         .btn1 {
             font-family: var(--font-public-sans);
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 600;
+            color: var(--white-color);
+            padding-left: 32px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+
+            img {
+                padding-left: 8px;
+                padding-right: 32px;
+            }
         }
 
-        .btn-2 {
+        .btn2 {
             font-family: var(--font-public-sans);
-            gap: 20px;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 600;
+            color: var(--title-color);
+            padding-left: 30px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+
+            img {
+                padding-left: 8px;
+                padding-right: 30px;
+            }
         }
     }
+
 }
 
 //  appreciation card end
@@ -1538,17 +1619,24 @@ header.style-1 {
             margin-bottom: 82px;
             margin-top: 42px;
 
-            .btn1 {
-                font-family: var(--font-public-sans);
-                background-color: var(--white-color);
-                color: var(--title-color);
-            }
+              .btn1 {
+            font-family: var(--font-public-sans);
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 600;
+            color:var(--title-color);
+            background-color: white;
+            padding-left: 32px;
+            padding-top: 14px;
+            padding-bottom: 14px;
 
-            .btn-2 {
-                font-family: var(--font-public-sans);
-                gap: 20px;
-                border: 1px solid white;
+            img {
+                padding-left: 8px;
+                padding-right: 32px;
             }
+        }
+
+        
         }
     }
 }
@@ -1891,7 +1979,27 @@ header.style-1 {
 
         }
     }
-
+.accordion-item{
+    .accordion-header{
+      button{
+        font-family: var(--font-public-sans);
+        color: var(--title-color);
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 500;
+      }
+    }
+    .accordion-body{
+      span{
+          font-family: var(--font-poppins);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+      }
+        
+    }
+}
+    
     .accordion-faqs {
         margin-bottom: 80px;
     }
@@ -2290,7 +2398,7 @@ header.style-1 {
 
         }
 
-        .button-wrapper-3 {
+        .button-wrapper-4 {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2300,15 +2408,36 @@ header.style-1 {
 
             .btn1 {
                 font-family: var(--font-public-sans);
-                background-color: var(--white-color);
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 600;
                 color: var(--title-color);
+                background-color: var(--white-color);
+                padding-left: 32px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+    
+                img {
+                    padding-left: 8px;
+                    padding-right: 32px;
+                }
             }
-
-            .btn-2 {
+    
+            .btn2 {
                 font-family: var(--font-public-sans);
-                gap: 20px;
-                border: 1px solid white;
-            }
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 600;
+                color: var(--white-color);
+                padding-left: 30px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+    
+                img {
+                    padding-left: 8px;
+                    padding-right: 30px;
+                }
+            }   
         }
     }
 
@@ -2417,3 +2546,67 @@ header.style-1 {
 }
 
 //footer-section end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn1 {
+    font-family: var(--font-public-sans);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--white-color);
+    padding-left: 32px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    img {
+        padding-left: 8px;
+        padding-right: 32px;
+    }
+}
+
+.btn2 {
+    font-family: var(--font-public-sans);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--title-color);
+    padding-left: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    img {
+        padding-left: 8px;
+        padding-right: 30px;
+    }
+}

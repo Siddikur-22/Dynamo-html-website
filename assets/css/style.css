@@ -493,13 +493,22 @@ header.style-1 {
 header.style-1 .nav-right .button-group .login-btn {
   color: var(--title-color);
   font-family: var(--font-public-sans);
+  font-size: 16px;
+  line-height: 28px;
 }
 header.style-1 .nav-right .button-group .get-btn {
   color: var(--title-color);
   border: 1px solid #DDE1FD;
-  border-radius: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
+  border-radius: 80px;
+  padding-left: 26px;
+  padding-top: 9;
+  padding-bottom: 9;
+}
+header.style-1 .nav-right .button-group .get-btn img {
+  padding-right: 26px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 8px;
 }
 header.style-1 .nav-right .mobile-menu-btn {
   display: none;
@@ -917,7 +926,31 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-section .button-wrapper .btn1 {
   font-family: var(--font-public-sans);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--white-color);
   padding-left: 32px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.home1-section .button-wrapper .btn1 img {
+  padding-left: 8px;
+  padding-right: 32px;
+}
+.home1-section .button-wrapper .btn2 {
+  font-family: var(--font-public-sans);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--title-color);
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.home1-section .button-wrapper .btn2 img {
+  padding-left: 8px;
+  padding-right: 30px;
 }
 .home1-section .banner-image-section {
   background-image: url(../image/All-image/banner-img/Dashboard\ image.png);
@@ -1002,6 +1035,20 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
+}
+.Exploring-card-section .exploring-button .btn1 {
+  font-family: var(--font-public-sans);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--white-color);
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.Exploring-card-section .exploring-button .btn1 img {
+  padding-left: 8px;
+  padding-right: 30px;
 }
 
 .Appreciation-section-title h2 {
@@ -1202,10 +1249,31 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 }
 .Appreciation-Feature-card .button-wrapper-2 .btn1 {
   font-family: var(--font-public-sans);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--white-color);
+  padding-left: 32px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
-.Appreciation-Feature-card .button-wrapper-2 .btn-2 {
+.Appreciation-Feature-card .button-wrapper-2 .btn1 img {
+  padding-left: 8px;
+  padding-right: 32px;
+}
+.Appreciation-Feature-card .button-wrapper-2 .btn2 {
   font-family: var(--font-public-sans);
-  gap: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--title-color);
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.Appreciation-Feature-card .button-wrapper-2 .btn2 img {
+  padding-left: 8px;
+  padding-right: 30px;
 }
 
 .Essential-section {
@@ -1249,13 +1317,18 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 }
 .Essential-section .Essential-section-title .button-wrapper-3 .btn1 {
   font-family: var(--font-public-sans);
-  background-color: var(--white-color);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
   color: var(--title-color);
+  background-color: white;
+  padding-left: 32px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
-.Essential-section .Essential-section-title .button-wrapper-3 .btn-2 {
-  font-family: var(--font-public-sans);
-  gap: 20px;
-  border: 1px solid white;
+.Essential-section .Essential-section-title .button-wrapper-3 .btn1 img {
+  padding-left: 8px;
+  padding-right: 32px;
 }
 
 .check-card-section .section-title h2 {
@@ -1512,6 +1585,19 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+.faqs-section .accordion-item .accordion-header button {
+  font-family: var(--font-public-sans);
+  color: var(--title-color);
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 500;
+}
+.faqs-section .accordion-item .accordion-body span {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }
 .faqs-section .accordion-faqs {
   margin-bottom: 80px;
@@ -1840,7 +1926,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   color: var(--white-color);
   font-family: var(--font-public-sans);
 }
-.footer-section .footer-top .button-wrapper-3 {
+.footer-section .footer-top .button-wrapper-4 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1848,15 +1934,34 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 82px;
   margin-top: 42px;
 }
-.footer-section .footer-top .button-wrapper-3 .btn1 {
+.footer-section .footer-top .button-wrapper-4 .btn1 {
   font-family: var(--font-public-sans);
-  background-color: var(--white-color);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
   color: var(--title-color);
+  background-color: var(--white-color);
+  padding-left: 32px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
-.footer-section .footer-top .button-wrapper-3 .btn-2 {
+.footer-section .footer-top .button-wrapper-4 .btn1 img {
+  padding-left: 8px;
+  padding-right: 32px;
+}
+.footer-section .footer-top .button-wrapper-4 .btn2 {
   font-family: var(--font-public-sans);
-  gap: 20px;
-  border: 1px solid white;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--white-color);
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.footer-section .footer-top .button-wrapper-4 .btn2 img {
+  padding-left: 8px;
+  padding-right: 30px;
 }
 .footer-section .footer-area {
   padding: 0 14%;
@@ -1932,4 +2037,34 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
+}
+
+.btn1 {
+  font-family: var(--font-public-sans);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--white-color);
+  padding-left: 32px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.btn1 img {
+  padding-left: 8px;
+  padding-right: 32px;
+}
+
+.btn2 {
+  font-family: var(--font-public-sans);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--title-color);
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.btn2 img {
+  padding-left: 8px;
+  padding-right: 30px;
 }/*# sourceMappingURL=style.css.map */
