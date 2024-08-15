@@ -1052,7 +1052,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   padding-top: 64px;
 }
 .Appreciation-Feature-card .appreciation-card .section-title-1 {
-  margin-top: 80px;
+  margin-top: 40px;
   margin-left: 40px;
 }
 .Appreciation-Feature-card .appreciation-card .section-title-1 h5 {
@@ -1064,6 +1064,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 23px;
 }
 .Appreciation-Feature-card .appreciation-card .section-title-1 h2 {
   color: var(--title-color);
