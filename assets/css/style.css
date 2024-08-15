@@ -1190,6 +1190,10 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   line-height: 52px;
   margin-top: 2px;
   margin-bottom: 12px;
+  max-width: 695px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Essential-section .Essential-section-title .Essential-section-title p {
   font-family: var(--font-poppins);

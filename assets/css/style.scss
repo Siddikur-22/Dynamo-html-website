@@ -1293,7 +1293,7 @@ header.style-1 {
     }
 
     .appreciation-card-bg-4 {
-    
+
         background-image: url("../image/All-image/banner-img/bg-4.png");
         border-radius: 16px;
         background-position: center center;
@@ -1457,66 +1457,73 @@ header.style-1 {
         }
     }
 }
+
 //  appreciation card end
 // Essential section start
-    .Essential-section{
-        background-image: url("../image/All-image/banner-img/Essential-section.png");
-        .Essential-section-title{
-            .Essential-section-title {
+.Essential-section {
+    background-image: url("../image/All-image/banner-img/Essential-section.png");
 
-                h2 {
-                    font-family: var(--font-public-sans);
-                    color: var(--white-color);
-                    font-weight: 700;
-                    font-size: 42px;
-                    line-height: 52px;
-                    margin-top: 2px;
-                    margin-bottom: 12px;
-                }
-    
-                p {
-                    font-family: var(--font-poppins);
-                    color: var(--white-color);
-                    font-size: 18px;
-                    font-weight: 400;
-                    line-height: 30px;
-                    max-width: 778px;
-                    width: 100%;
-                    margin-left: auto;
-                    margin-right: auto;
-    
-                }
-    
-                span {
-                    color: var(--white-color);
-                    font-family: var(--font-public-sans);
-    
-                }
-    
+    .Essential-section-title {
+        .Essential-section-title {
+
+            h2 {
+                font-family: var(--font-public-sans);
+                color: var(--white-color);
+                font-weight: 700;
+                font-size: 42px;
+                line-height: 52px;
+                margin-top: 2px;
+                margin-bottom: 12px;
+                max-width: 695px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
             }
-    
-            .button-wrapper-3 {
-                display: flex;
-                align-items: center;
-                justify-content: center;
+
+            p {
+                font-family: var(--font-poppins);
+                color: var(--white-color);
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                max-width: 778px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
+            span {
+                color: var(--white-color);
+                font-family: var(--font-public-sans);
+
+            }
+
+        }
+
+        .button-wrapper-3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 82px;
+            margin-top: 42px;
+
+            .btn1 {
+                font-family: var(--font-public-sans);
+                background-color: var(--white-color);
+                color: var(--title-color);
+            }
+
+            .btn-2 {
+                font-family: var(--font-public-sans);
                 gap: 20px;
-                margin-bottom: 82px;
-                margin-top: 42px;
-    
-                .btn1 {
-                    font-family: var(--font-public-sans);
-                    background-color: var(--white-color);
-                    color: var(--title-color);
-                }
-    
-                .btn-2 {
-                    font-family: var(--font-public-sans);
-                    gap: 20px;
-                    border: 1px solid white;
-                }
+                border: 1px solid white;
             }
         }
     }
+}
+
 // Essential section end
 
 // check card section start
@@ -2211,6 +2218,7 @@ header.style-1 {
     .footer-top {
         background-image: url("../image/All-image/banner-img/Gradient.png");
         background-size: cover;
+
         .try-section-title {
 
             h2 {
@@ -2268,6 +2276,7 @@ header.style-1 {
 
     .footer-area {
         padding: 0 14%;
+
         .footer-wrap {
             background-color: var(--white-color);
             border-radius: 20px 20px 0px 0px;
@@ -2275,11 +2284,12 @@ header.style-1 {
             padding-left: 80px;
             padding-right: 80px;
 
-            .logo-content{
-                img{
+            .logo-content {
+                img {
                     margin-bottom: 21px;
                 }
-                p{
+
+                p {
                     font-family: var(--font-poppins);
                     font-weight: 400;
                     font-size: 18px;
@@ -2287,17 +2297,19 @@ header.style-1 {
                     color: var(--paragraph-color);
                 }
             }
-            .contact-area{
+
+            .contact-area {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 margin-top: 16px;
-                .contact-wrap{
+
+                .contact-wrap {
                     display: flex;
                     align-items: center;
                     gap: 10px;
 
-                    a{
+                    a {
                         font-family: var(--font-poppins);
                         font-weight: 400;
                         font-size: 18px;
@@ -2305,7 +2317,8 @@ header.style-1 {
                         color: var(--paragraph-color);
                     }
                 }
-                .icon{
+
+                .icon {
                     background-color: #DEE2FD;
                     width: 40px;
                     height: 40px;
@@ -2314,7 +2327,7 @@ header.style-1 {
                     justify-content: center;
                     align-items: center;
 
-                    i{
+                    i {
                         color: #3147FF;
                     }
                 }
@@ -2331,9 +2344,10 @@ header.style-1 {
                     line-height: 36px;
                 }
             }
+
             .menu-container {
                 .widget-list {
-                   
+
                     li {
                         a {
                             color: var(--paragraph-color);
@@ -2341,18 +2355,20 @@ header.style-1 {
                             font-weight: 400;
                             font-size: 17px;
                             line-height: 30px;
-                           
+
 
                         }
                     }
                 }
             }
         }
+
         .copy-right {
             text-align: center;
             margin-top: 14px;
             margin-bottom: 14px;
-            span{
+
+            span {
                 font-family: var(--font-poppins);
                 font-weight: 400;
                 font-size: 16px;
