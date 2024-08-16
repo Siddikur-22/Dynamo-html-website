@@ -958,6 +958,10 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   background-repeat: no-repeat;
 }
 
+.logo-section {
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
 .logo-section .logo-wrap .logo-title {
   text-align: center;
 }
@@ -1296,7 +1300,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 .Essential-section {
   background-image: url("../image/All-image/banner-img/Essential-section.png");
 }
-.Essential-section .Essential-section-title .Essential-section-title h2 {
+.Essential-section .Essential-section-title h2 {
   font-family: var(--font-public-sans);
   color: var(--white-color);
   font-weight: 700;
@@ -1309,7 +1313,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-left: auto;
   margin-right: auto;
 }
-.Essential-section .Essential-section-title .Essential-section-title p {
+.Essential-section .Essential-section-title p {
   font-family: var(--font-poppins);
   font-size: 18px;
   font-weight: 400;
@@ -1318,8 +1322,9 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  color: var(--white-color);
 }
-.Essential-section .Essential-section-title .Essential-section-title span {
+.Essential-section .Essential-section-title span {
   color: var(--white-color);
   font-family: var(--font-public-sans);
 }

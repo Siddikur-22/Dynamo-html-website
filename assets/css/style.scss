@@ -1166,7 +1166,9 @@ header.style-1 {
 
 // logo section start
 .logo-section {
-    .logo-wrap {
+    margin-top: 110px;
+    margin-bottom: 110px;
+    .logo-wrap{
         .logo-title {
             text-align: center;
 
@@ -1587,40 +1589,39 @@ header.style-1 {
 .Essential-section {
     background-image: url("../image/All-image/banner-img/Essential-section.png");
 
-    .Essential-section-title {
-        .Essential-section-title {
+    .Essential-section-title{
 
-            h2 {
-                font-family: var(--font-public-sans);
-                color: var(--white-color);
-                font-weight: 700;
-                font-size: 42px;
-                line-height: 52px;
-                margin-top: 2px;
-                margin-bottom: 12px;
-                max-width: 695px;
-                width: 100%;
-                margin-left: auto;
-                margin-right: auto;
-            }
 
-            p {
-                font-family: var(--font-poppins);
-                font-size: 18px;
-                font-weight: 400;
-                line-height: 30px;
-                max-width: 778px;
-                width: 100%;
-                margin-left: auto;
-                margin-right: auto;
+        h2 {
+            font-family: var(--font-public-sans);
+            color: var(--white-color);
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 52px;
+            margin-top: 2px;
+            margin-bottom: 12px;
+            max-width: 695px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-            }
+        p {
+            font-family: var(--font-poppins);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            max-width: 778px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            color: var(--white-color);
 
-            span {
-                color: var(--white-color);
-                font-family: var(--font-public-sans);
+        }
 
-            }
+        span {
+            color: var(--white-color);
+            font-family: var(--font-public-sans);
 
         }
 
@@ -1651,6 +1652,7 @@ header.style-1 {
 
 
         }
+
     }
 }
 
