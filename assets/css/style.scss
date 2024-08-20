@@ -1103,10 +1103,57 @@ header.style-1 {
 
         }
     }
+    .key-frame {
+        align-items: center;
+        justify-content: center;
+        max-width: 745px;
+        width: 100%;
 
-    .review-button {
-        background-color: var(--white-color);
+        .key-style {
+            background-color: var(--white-color);
+            border-radius: 50px;
+            margin-top: 40px;
+            margin-bottom: 66px;
+            display: flex;
+
+            .key-point {
+                display: flex;
+                gap: 6px;
+
+                ul {
+                    li {
+                        svg {
+                            margin-top: 18px;
+                            margin-bottom: 18px;
+                            margin-left: 31px;
+                        }
+                    }
+                }
+
+                h3 {
+                    font-family: var(--font-public-sans);
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: var(--title-color);
+                    margin-top: 11px;
+                    margin-bottom: 11px;
+                }
+
+                span {
+                    font-family: var(--font-public-sans);
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: var(--paragraph-color);
+                }
+            }
+        }
     }
+
+
+
+
 
     .button-wrapper {
         display: flex;
@@ -1160,6 +1207,11 @@ header.style-1 {
 //  home section end
 
 // second banner section start
+.second-banner {
+    background-color: #0B0C0C;
+    .banner-image {
+    }
+}
 
 // second banner section end
 
@@ -1168,7 +1220,8 @@ header.style-1 {
 .logo-section {
     margin-top: 110px;
     margin-bottom: 110px;
-    .logo-wrap{
+
+    .logo-wrap {
         .logo-title {
             text-align: center;
 
@@ -1589,9 +1642,7 @@ header.style-1 {
 .Essential-section {
     background-image: url("../image/All-image/banner-img/Essential-section.png");
 
-    .Essential-section-title{
-
-
+    .Essential-section-title {
         h2 {
             font-family: var(--font-public-sans);
             color: var(--white-color);
@@ -1762,6 +1813,7 @@ header.style-1 {
 
     }
 }
+
 // feedback section end
 
 // Starter-Plan start
@@ -1829,7 +1881,7 @@ header.style-1 {
         }
     }
 
-   
+
 
     .planing-card {
         border: 1px solid #F8E37F;
@@ -1979,12 +2031,13 @@ header.style-1 {
     }
 
 }
+
 // Starter-Plan end
 
 
 // FAQS section start 
 .faqs-section {
-    
+
     .section-title {
         text-align: center;
         padding-bottom: 78px;
@@ -2031,11 +2084,13 @@ header.style-1 {
         }
 
         .accordion-body {
-            span {
+            p {
                 font-family: var(--font-poppins);
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 30px;
+                max-width: 636px;
+                width: 100%;
             }
 
         }
@@ -2469,7 +2524,6 @@ header.style-1 {
                 font-size: 18px;
                 line-height: 30px;
                 font-weight: 600;
-                color: var(--white-color);
                 padding-left: 30px;
                 padding-top: 14px;
                 padding-bottom: 14px;
@@ -2641,7 +2695,6 @@ header.style-1 {
     font-size: 18px;
     line-height: 30px;
     font-weight: 600;
-    color: var(--title-color);
     padding-left: 30px;
     padding-top: 14px;
     padding-bottom: 14px;

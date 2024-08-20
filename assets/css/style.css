@@ -914,8 +914,43 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-top: 24px;
   margin-bottom: 40px;
 }
-.home1-section .review-button {
+.home1-section .key-frame {
+  align-items: center;
+  justify-content: center;
+  max-width: 745px;
+  width: 100%;
+}
+.home1-section .key-frame .key-style {
   background-color: var(--white-color);
+  border-radius: 50px;
+  margin-top: 40px;
+  margin-bottom: 66px;
+  display: flex;
+}
+.home1-section .key-frame .key-style .key-point {
+  display: flex;
+  gap: 6px;
+}
+.home1-section .key-frame .key-style .key-point ul li svg {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 31px;
+}
+.home1-section .key-frame .key-style .key-point h3 {
+  font-family: var(--font-public-sans);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--title-color);
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.home1-section .key-frame .key-style .key-point span {
+  font-family: var(--font-public-sans);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--paragraph-color);
 }
 .home1-section .button-wrapper {
   display: flex;
@@ -958,6 +993,9 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   background-repeat: no-repeat;
 }
 
+.second-banner {
+  background-color: #0B0C0C;
+}
 .logo-section {
   margin-top: 110px;
   margin-bottom: 110px;
@@ -1642,11 +1680,13 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   line-height: 36px;
   font-weight: 500;
 }
-.faqs-section .accordion-item .accordion-body span {
+.faqs-section .accordion-item .accordion-body p {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  max-width: 636px;
+  width: 100%;
 }
 .faqs-section .accordion-faqs {
   margin-bottom: 80px;
@@ -2003,7 +2043,6 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
-  color: var(--white-color);
   padding-left: 30px;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -2108,7 +2147,6 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
-  color: var(--title-color);
   padding-left: 30px;
   padding-top: 14px;
   padding-bottom: 14px;
