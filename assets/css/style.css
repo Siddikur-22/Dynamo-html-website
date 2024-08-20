@@ -881,7 +881,6 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 935px;
 }
 .home1-section .section-title-first {
   margin-top: 110px;
@@ -890,7 +889,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-left: auto;
   margin-right: auto;
 }
-.home1-section .section-title-first h2 {
+.home1-section .section-title-first h1 {
   color: var(--title-color);
   font-family: var(--font-public-sans);
   font-size: 74px;
@@ -914,88 +913,61 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-top: 24px;
   margin-bottom: 40px;
 }
-.home1-section .key-frame {
-  align-items: center;
-  justify-content: center;
-  max-width: 745px;
-  width: 100%;
-}
-.home1-section .key-frame .key-style {
+.home1-section .section-title-first ul {
   background-color: var(--white-color);
   border-radius: 50px;
+  max-width: 705px;
+  width: 100%;
+  margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 66px;
+  padding: 20px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
-.home1-section .key-frame .key-style .key-point {
+.home1-section .section-title-first ul li {
   display: flex;
+  align-items: center;
   gap: 6px;
 }
-.home1-section .key-frame .key-style .key-point ul li svg {
-  margin-top: 18px;
-  margin-bottom: 18px;
-  margin-left: 31px;
-}
-.home1-section .key-frame .key-style .key-point h3 {
+.home1-section .section-title-first ul li h6 {
   font-family: var(--font-public-sans);
   font-weight: 600;
   font-size: 16px;
-  line-height: 28px;
-  color: var(--title-color);
-  margin-top: 11px;
-  margin-bottom: 11px;
-}
-.home1-section .key-frame .key-style .key-point span {
-  font-family: var(--font-public-sans);
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 28px;
   color: var(--paragraph-color);
+  margin-bottom: 0;
 }
-.home1-section .button-wrapper {
+.home1-section .section-title-first ul li h6 strong {
+  color: var(--title-color);
+}
+.home1-section .button-group {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  margin-bottom: 50px;
+  gap: 25px;
 }
-.home1-section .button-wrapper .btn1 {
-  font-family: var(--font-public-sans);
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 600;
+.home1-section .button-group .primary-btn {
+  background-color: var(--primary-color);
   color: var(--white-color);
-  padding-left: 32px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-.home1-section .button-wrapper .btn1 img {
-  padding-left: 8px;
-  padding-right: 32px;
-}
-.home1-section .button-wrapper .btn2 {
-  font-family: var(--font-public-sans);
+  padding: 14px 32px;
+  border-radius: 50px;
   font-size: 18px;
-  line-height: 30px;
   font-weight: 600;
-  padding-left: 30px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  font-family: var(--font-public-sans);
 }
-.home1-section .button-wrapper .btn2 img {
-  padding-left: 8px;
-  padding-right: 30px;
+.home1-section .button-group .primary-btn.transparent {
+  background-color: transparent;
+  border: 1px solid var(--title-color);
+  color: var(--title-color);
 }
-.home1-section .banner-image-section {
-  background-image: url(../image/All-image/banner-img/Dashboard\ image.png);
-  height: 580px;
-  background-size: contain;
-  background-repeat: no-repeat;
+.home1-section .banner-bottom-area {
+  background-image: url("/assets/image/All-image/banner-img/second-banner.png");
+  position: relative;
+  height: 100%;
 }
 
-.second-banner {
-  background-color: #0B0C0C;
-}
 .logo-section {
   margin-top: 110px;
   margin-bottom: 110px;
@@ -1030,7 +1002,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   color: var(--primary-color);
   letter-spacing: 3px;
 }
-.service-section .section-title h2 {
+.service-section .section-title h1 {
   font-family: var(--font-public-sans);
   color: var(--title-color);
   font-weight: 700;
@@ -1083,23 +1055,22 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 400;
   line-height: 28px;
 }
-.service-section .services-card-section .service-button {
-  padding-top: 70px;
-  padding-bottom: 120px;
+.service-section .service-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 70px;
+  margin-bottom: 120px;
 }
-.service-section .services-card-section .service-button .btn1 {
-  font-family: var(--font-public-sans);
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 600;
+.service-section .service-button .primary-btn {
+  background-color: var(--primary-color);
   color: var(--white-color);
-  padding-left: 30px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-.service-section .services-card-section .service-button .btn1 img {
-  padding-left: 8px;
-  padding-right: 30px;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--font-public-sans);
 }
 
 .Appreciation-Feature .section-title {
@@ -1111,7 +1082,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   color: var(--primary-color);
   letter-spacing: 3px;
 }
-.Appreciation-Feature .section-title h2 {
+.Appreciation-Feature .section-title h1 {
   font-family: var(--font-public-sans);
   color: var(--title-color);
   font-weight: 700;
@@ -1131,42 +1102,22 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-left: auto;
   margin-right: auto;
 }
-.Appreciation-Feature .feature-card-1 {
+.Appreciation-Feature .feature-card {
   background-image: url("../image/All-image/banner-img/bg-1.png");
   border-radius: 16px;
   background-position: center center;
   background-size: cover;
   padding-top: 64px;
-}
-.Appreciation-Feature .feature-card-2 {
-  background-image: url("../image/All-image/banner-img/bg-2.png");
-  border-radius: 16px;
-  background-position: center center;
-  background-size: cover;
-  padding-top: 64px;
-}
-.Appreciation-Feature .feature-card-3 {
-  background-image: url("../image/All-image/banner-img/bg-3.png");
-  border-radius: 16px;
-  background-position: center center;
-  background-size: cover;
-  padding-top: 64px;
-}
-.Appreciation-Feature .feature-card-4 {
-  background-image: url("../image/All-image/banner-img/bg-4.png");
-  border-radius: 16px;
-  background-position: center center;
-  background-size: cover;
-  padding-top: 64px;
-}
-.Appreciation-Feature .feature-card-1 {
   margin-bottom: 100px;
 }
-.Appreciation-Feature .feature-card-1 .content-1 {
+.Appreciation-Feature .feature-card.style-2 {
+  background-image: url("../image/All-image/banner-img/bg-2.png");
+}
+.Appreciation-Feature .feature-card .feature-content {
   margin-top: 40px;
   margin-left: 40px;
 }
-.Appreciation-Feature .feature-card-1 .content-1 h5 {
+.Appreciation-Feature .feature-card .feature-content h4 {
   width: 83px;
   height: 60px;
   background-color: #FFF8E9;
@@ -1177,7 +1128,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   justify-content: center;
   margin-bottom: 23px;
 }
-.Appreciation-Feature .feature-card-1 .content-1 h2 {
+.Appreciation-Feature .feature-card .feature-content h3 {
   color: var(--title-color);
   font-family: var(--font-public-sans);
   font-weight: 700;
@@ -1186,153 +1137,46 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.Appreciation-Feature .feature-card-1 .content-1 p {
+.Appreciation-Feature .feature-card .feature-content p {
   color: var(--paragraph-color);
   font-family: var(--font-poppins);
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  width: 426px;
+  max-width: 426px;
+  width: 100%;
+  margin-bottom: 32px;
 }
-.Appreciation-Feature .feature-card-2 {
-  margin-bottom: 100px;
-}
-.Appreciation-Feature .feature-card-2 .content-1 {
-  margin-top: 40px;
-  margin-left: 130px;
-}
-.Appreciation-Feature .feature-card-2 .content-1 h5 {
-  width: 83px;
-  height: 60px;
-  background-color: #DBFCFF;
-  color: #5EB8BF;
-  border-radius: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 23px;
-}
-.Appreciation-Feature .feature-card-2 .content-1 h2 {
-  color: var(--title-color);
+.Appreciation-Feature .feature-card .feature-content .learn-more-btn {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
   font-family: var(--font-public-sans);
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  margin-top: 20px;
-  margin-bottom: 10px;
 }
-.Appreciation-Feature .feature-card-2 .content-1 p {
-  color: var(--paragraph-color);
-  font-family: var(--font-poppins);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  width: 426px;
-}
-.Appreciation-Feature .feature-card-3 {
-  margin-bottom: 100px;
-}
-.Appreciation-Feature .feature-card-3 .content-3 {
-  margin-top: 40px;
-  margin-left: 40px;
-}
-.Appreciation-Feature .feature-card-3 .content-3 h5 {
-  width: 83px;
-  height: 60px;
-  background-color: #FFF2F7;
-  color: #E597B4;
-  border-radius: 80px;
+.Appreciation-Feature .Feature-button-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 23px;
-}
-.Appreciation-Feature .feature-card-3 .content-3 h2 {
-  color: var(--title-color);
-  font-family: var(--font-public-sans);
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.Appreciation-Feature .feature-card-3 .content-3 p {
-  color: var(--paragraph-color);
-  font-family: var(--font-poppins);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  width: 426px;
-}
-.Appreciation-Feature .feature-card-4 {
-  margin-bottom: 100px;
-}
-.Appreciation-Feature .feature-card-4 .content-4 {
-  margin-top: 40px;
-  margin-left: 40px;
-}
-.Appreciation-Feature .feature-card-4 .content-4 h5 {
-  width: 83px;
-  height: 60px;
-  background-color: #DDFFF5;
-  color: #6BC6AD;
-  border-radius: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 23px;
-}
-.Appreciation-Feature .feature-card-4 .content-4 h2 {
-  color: var(--title-color);
-  font-family: var(--font-public-sans);
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.Appreciation-Feature .feature-card-4 .content-4 p {
-  color: var(--paragraph-color);
-  font-family: var(--font-poppins);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  width: 426px;
-}
-.Appreciation-Feature .appreciation-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  gap: 25px;
   margin-top: 90px;
   margin-bottom: 110px;
 }
-.Appreciation-Feature .appreciation-btn .btn1 {
-  font-family: var(--font-public-sans);
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 600;
+.Appreciation-Feature .Feature-button-wrap .primary-btn {
+  background-color: var(--primary-color);
   color: var(--white-color);
-  padding-left: 32px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-.Appreciation-Feature .appreciation-btn .btn1 img {
-  padding-left: 8px;
-  padding-right: 32px;
-}
-.Appreciation-Feature .appreciation-btn .btn2 {
-  font-family: var(--font-public-sans);
+  padding: 14px 32px;
+  border-radius: 50px;
   font-size: 18px;
-  line-height: 30px;
   font-weight: 600;
-  padding-left: 30px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  font-family: var(--font-public-sans);
 }
-.Appreciation-Feature .appreciation-btn .btn2 img {
-  padding-left: 8px;
-  padding-right: 30px;
+.Appreciation-Feature .Feature-button-wrap .primary-btn.transparent {
+  background-color: transparent;
+  border: 1px solid var(--title-color);
+  color: var(--title-color);
 }
 
 .Essential-section {
