@@ -1888,6 +1888,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   color: var(--paragraph-color);
 }
 .footer-section .background-color .footer-wrap .logo-content .social-media {
+  display: flex;
   gap: 20px;
 }
 .footer-section .background-color .footer-wrap .footer-widget .widget-title h4 {
