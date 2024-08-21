@@ -405,6 +405,10 @@ ul {
     margin-bottom: 10px;
 }
 
+.pt-120{
+    padding-top: 120px;
+
+}
 .pt-80 {
     padding-top: 80px;
 }
@@ -461,17 +465,17 @@ ul {
     }
 }
 
-// .mb-60 {
-//     margin-bottom: 60px;
+.mb-60 {
+    margin-bottom: 60px;
 
-//     @include xl-down-device() {
-//         margin-bottom: 50px;
-//     }
+    @include xl-down-device() {
+        margin-bottom: 50px;
+    }
 
-//     @include md-down-device() {
-//         margin-bottom: 40px;
-//     }
-// }
+    @include md-down-device() {
+        margin-bottom: 40px;
+    }
+}
 
 .mb-70 {
     margin-bottom: 70px;
@@ -479,6 +483,10 @@ ul {
     @include md-down-device() {
         margin-bottom: 40px;
     }
+}
+
+.mb-110 {
+    margin-bottom: 110px;
 }
 
 .mb-50 {
@@ -535,6 +543,9 @@ ul {
 
 .mt-25 {
     margin-top: 25px;
+}
+.mb-100{
+    margin-bottom: 100px;
 }
 
 .mb-50 {
@@ -1190,7 +1201,8 @@ header.style-1 {
             left: 47%;
             transform: translate(-50%, -50%);
             z-index: 2;
-            i{
+
+            i {
                 font-size: 50px;
             }
         }
@@ -1201,34 +1213,26 @@ header.style-1 {
 
 // logo section start
 .logo-section {
-    margin-top: 110px;
-    margin-bottom: 110px;
-
     .logo-wrap {
         .logo-title {
             text-align: center;
-
+            margin-bottom: 35px;
             h6 {
                 color: var(--paragraph-color);
                 font-family: var(--font-public-sans);
                 font-size: 18px;
                 line-height: 28px;
             }
-
             span {
                 color: var(--primary-color);
-
             }
         }
-
         .logo-area {
             .logo-wrap {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: 70px;
-                margin-top: 40px;
-                margin-bottom: 100px;
             }
         }
     }
@@ -1239,9 +1243,6 @@ header.style-1 {
 // service-section start
 .service-section {
     .section-title {
-        text-align: center;
-        padding-bottom: 80px;
-
         span {
             text-transform: uppercase;
             color: var(--primary-color);
@@ -1272,45 +1273,38 @@ header.style-1 {
         }
     }
 
-    .services-card-section {
-        padding-bottom: 70px;
+    .service-card {
+        background-color: #E4E6FF;
+        border-radius: 16px;
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-right: 25px;
+        padding-bottom: 73px;
 
-        .service-card {
-            background-color: #E4E6FF;
-            border-radius: 16px;
-            padding-left: 40px;
-            padding-top: 40px;
-            padding-right: 25px;
-            padding-bottom: 73px;
-
-            .icon {
-                margin-bottom: 44px;
-            }
-
-            h2 {
-                color: var(--title-color);
-                max-width: 262px;
-                width: 100%;
-                font-family: var(--font-public-sans);
-                font-weight: 700;
-                font-size: 24px;
-                line-height: 36px;
-                margin-bottom: 10px;
-            }
-
-            p {
-                max-width: 305px;
-                width: 100%;
-                color: var(--paragraph-color);
-                font-family: var(--font-poppins);
-                font-size: 18px;
-                font-weight: 400;
-                line-height: 28px;
-            }
+        .icon {
+            margin-bottom: 44px;
         }
 
+        h2 {
+            color: var(--title-color);
+            max-width: 262px;
+            width: 100%;
+            font-family: var(--font-public-sans);
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            margin-bottom: 10px;
+        }
 
-
+        p {
+            max-width: 305px;
+            width: 100%;
+            color: var(--paragraph-color);
+            font-family: var(--font-poppins);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+        }
     }
 
     .service-button {
@@ -1318,9 +1312,6 @@ header.style-1 {
         align-items: center;
         justify-content: center;
         gap: 25px;
-        margin-top: 70px;
-        margin-bottom: 120px;
-
         .primary-btn {
             background-color: var(--primary-color);
             color: var(--white-color);
@@ -1331,6 +1322,7 @@ header.style-1 {
             font-family: var(--font-public-sans);
         }
     }
+
 }
 
 // service-section end
@@ -1338,8 +1330,6 @@ header.style-1 {
 //  appreciation card start
 .Appreciation-Feature {
     .section-title {
-        text-align: center;
-        padding-bottom: 80px;
 
         span {
             text-transform: uppercase;
@@ -1377,8 +1367,6 @@ header.style-1 {
         background-position: center center;
         background-size: cover;
         padding-top: 64px;
-        margin-bottom: 100px;
-
         .feature-content {
             margin-top: 40px;
             margin-left: 40px;
@@ -1483,8 +1471,6 @@ header.style-1 {
         align-items: center;
         justify-content: center;
         gap: 25px;
-        margin-top: 90px;
-        margin-bottom: 110px;
 
         .primary-btn {
             background-color: var(--primary-color);
@@ -1574,12 +1560,8 @@ header.style-1 {
 // feedback section start
 
 .feedback-section {
-    margin-top: 110px;
-    margin-bottom: 110px;
 
     .section-title {
-        text-align: center;
-        padding-bottom: 70px;
 
         span {
             text-transform: uppercase;
@@ -1685,10 +1667,6 @@ header.style-1 {
 
 
     .section-title {
-        text-align: center;
-        padding-bottom: 78px;
-        margin-top: 110px;
-
         span {
             text-transform: uppercase;
             color: var(--primary-color);
@@ -1847,8 +1825,6 @@ header.style-1 {
         align-items: center;
         justify-content: center;
         gap: 25px;
-        margin-top: 70px;
-        margin-bottom: 120px;
 
         .primary-btn {
             color: var(--title-color);
@@ -1869,9 +1845,6 @@ header.style-1 {
 .faqs-section {
 
     .section-title {
-        text-align: center;
-        padding-bottom: 78px;
-
         span {
             text-transform: uppercase;
             color: var(--primary-color);
@@ -1925,11 +1898,6 @@ header.style-1 {
 
         }
     }
-
-    .accordion-faqs {
-        margin-bottom: 80px;
-    }
-
     .accordion-button {
         background-color: #F4F6FF;
     }
