@@ -371,20 +371,6 @@ ul {
   }
 }
 
-.mb-60 {
-  margin-bottom: 60px;
-}
-@media (max-width: 1199px) {
-  .mb-60 {
-    margin-bottom: 50px;
-  }
-}
-@media (max-width: 767px) {
-  .mb-60 {
-    margin-bottom: 40px;
-  }
-}
-
 .mb-70 {
   margin-bottom: 70px;
 }
@@ -876,31 +862,32 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   display: block;
 }
 
-.home1-section {
+.banner-section {
   background-image: url("../image/All-image/shape/Background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
-.home1-section .section-title-first {
+.banner-section .section-title-first {
   margin-top: 110px;
   max-width: 970px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-.home1-section .section-title-first h1 {
+.banner-section .section-title-first h1 {
   color: var(--title-color);
   font-family: var(--font-public-sans);
   font-size: 74px;
   font-weight: 800;
   line-height: 84px;
 }
-.home1-section .section-title-first span {
+.banner-section .section-title-first span {
   color: var(--primary-color);
   font-family: var(--font-public-sans);
 }
-.home1-section .section-title-first p {
+.banner-section .section-title-first p {
   color: var(--paragraph-color);
   font-family: var(--font-poppins);
   font-weight: 400;
@@ -913,7 +900,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-top: 24px;
   margin-bottom: 40px;
 }
-.home1-section .section-title-first ul {
+.banner-section .section-title-first ul {
   background-color: var(--white-color);
   border-radius: 50px;
   max-width: 705px;
@@ -927,28 +914,29 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   justify-content: space-between;
   gap: 20px;
 }
-.home1-section .section-title-first ul li {
+.banner-section .section-title-first ul li {
   display: flex;
   align-items: center;
   gap: 6px;
 }
-.home1-section .section-title-first ul li h6 {
+.banner-section .section-title-first ul li h6 {
   font-family: var(--font-public-sans);
   font-weight: 600;
   font-size: 16px;
   color: var(--paragraph-color);
   margin-bottom: 0;
 }
-.home1-section .section-title-first ul li h6 strong {
+.banner-section .section-title-first ul li h6 strong {
   color: var(--title-color);
 }
-.home1-section .button-group {
+.banner-section .button-group {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 25px;
+  margin-bottom: 250px;
 }
-.home1-section .button-group .primary-btn {
+.banner-section .button-group .primary-btn {
   background-color: var(--primary-color);
   color: var(--white-color);
   padding: 14px 32px;
@@ -957,15 +945,41 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 600;
   font-family: var(--font-public-sans);
 }
-.home1-section .button-group .primary-btn.transparent {
+.banner-section .button-group .primary-btn.transparent {
   background-color: transparent;
   border: 1px solid var(--title-color);
   color: var(--title-color);
 }
-.home1-section .banner-bottom-area {
-  background-image: url("/assets/image/All-image/banner-img/second-banner.png");
-  position: relative;
+
+.banner-bottom-area {
+  background-image: url("../image/All-image/banner-img/second-banner.png");
+  max-height: 439px;
   height: 100%;
+  position: relative;
+}
+.banner-bottom-area .video-area {
+  position: relative;
+}
+.banner-bottom-area .video-area img {
+  position: relative;
+  top: -117px;
+}
+.banner-bottom-area .video-area .video-icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.banner-bottom-area .video-area .video-icon i {
+  font-size: 50px;
 }
 
 .logo-section {
@@ -1203,7 +1217,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 }
 
 .Essential-section {
-  background-image: url("../image/All-image/banner-img/Essential-section.png");
+  background-image: url("../image/All-image/banner-img/Essential-img.png");
 }
 .Essential-section .Essential-section-title h1 {
   font-family: var(--font-public-sans);
