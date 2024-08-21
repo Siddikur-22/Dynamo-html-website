@@ -1224,6 +1224,10 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 .Essential-section {
   background-image: url("../image/All-image/banner-img/Essential-img.png");
 }
+.Essential-section .Essential-section-title {
+  margin-top: 137px;
+  margin-bottom: 80px;
+}
 .Essential-section .Essential-section-title h1 {
   font-family: var(--font-public-sans);
   color: var(--white-color);
@@ -1243,21 +1247,15 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   line-height: 30px;
   max-width: 778px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  margin-bottom: 42px;
   color: var(--white-color);
-}
-.Essential-section .Essential-section-title span {
-  color: var(--white-color);
-  font-family: var(--font-public-sans);
 }
 .Essential-section .Essential-section-title .Essential-button {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 25px;
-  margin-top: 70px;
-  margin-bottom: 120px;
 }
 .Essential-section .Essential-section-title .Essential-button .primary-btn {
   background-color: var(--white-color);
@@ -1851,15 +1849,14 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   color: var(--white-color);
   font-family: var(--font-public-sans);
 }
-.footer-section .footer-top .footer-btn-group {
+.footer-section .footer-top .try-section-title .footer-btn-group {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 25px;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  margin-top: 42px;
 }
-.footer-section .footer-top .footer-btn-group .primary-btn {
+.footer-section .footer-top .try-section-title .footer-btn-group .primary-btn {
   background-color: var(--white-color);
   color: var(--title-color);
   padding: 14px 32px;
@@ -1868,50 +1865,65 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 600;
   font-family: var(--font-public-sans);
 }
-.footer-section .footer-top .footer-btn-group .primary-btn.transparent {
+.footer-section .footer-top .try-section-title .footer-btn-group .primary-btn.transparent {
   background-color: transparent;
   border: 1px solid var(--border-color);
   color: var(--white-color);
 }
-.footer-section .footer-area {
-  padding: 0 14%;
-}
-.footer-section .footer-area .footer-wrap {
+.footer-section .background-color {
   background-color: var(--white-color);
   border-radius: 20px 20px 0px 0px;
-  padding-top: 40px;
-  padding-left: 80px;
-  padding-right: 80px;
 }
-.footer-section .footer-area .footer-wrap .logo-content img {
+.footer-section .background-color .footer-wrap {
+  padding: 50px;
+}
+.footer-section .background-color .footer-wrap .logo-content img {
   margin-bottom: 21px;
 }
-.footer-section .footer-area .footer-wrap .logo-content p {
+.footer-section .background-color .footer-wrap .logo-content p {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: var(--paragraph-color);
 }
-.footer-section .footer-area .footer-wrap .contact-area {
+.footer-section .background-color .footer-wrap .logo-content .social-media {
+  gap: 20px;
+}
+.footer-section .background-color .footer-wrap .footer-widget .widget-title h4 {
+  color: var(--title-color);
+  font-family: var(--font-public-sans);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.footer-section .background-color .footer-wrap .footer-widget .menu-container .widget-list li a {
+  color: var(--paragraph-color);
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+}
+.footer-section .background-color .contact-area {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 16px;
+  border: 1px solid #D5DCFC;
+  padding: 16px;
 }
-.footer-section .footer-area .footer-wrap .contact-area .contact-wrap {
+.footer-section .background-color .contact-area .hotline-area {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.footer-section .footer-area .footer-wrap .contact-area .contact-wrap a {
+.footer-section .background-color .contact-area .hotline-area a {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: var(--paragraph-color);
 }
-.footer-section .footer-area .footer-wrap .contact-area .icon {
+.footer-section .background-color .contact-area .icon {
   background-color: #DEE2FD;
   width: 40px;
   height: 40px;
@@ -1920,58 +1932,20 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   justify-content: center;
   align-items: center;
 }
-.footer-section .footer-area .footer-wrap .contact-area .icon i {
+.footer-section .background-color .contact-area .icon i {
   color: #3147FF;
 }
-.footer-section .footer-area .footer-widget .widget-title h4 {
-  color: var(--title-color);
-  font-family: var(--font-public-sans);
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
+.footer-section .background-color .footer-bottom-area {
+  background-color: #EDF0FF;
 }
-.footer-section .footer-area .footer-widget .menu-container .widget-list li a {
-  color: var(--paragraph-color);
-  font-family: var(--font-poppins);
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 30px;
-}
-.footer-section .footer-area .copy-right {
+.footer-section .background-color .footer-bottom-area .copy-right {
   text-align: center;
   margin-top: 14px;
   margin-bottom: 14px;
 }
-.footer-section .footer-area .copy-right span {
+.footer-section .background-color .footer-bottom-area .copy-right span {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-}
-.footer-section .btn1 {
-  font-family: var(--font-public-sans);
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 600;
-  color: var(--white-color);
-  padding-left: 32px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-.footer-section .btn1 img {
-  padding-left: 8px;
-  padding-right: 32px;
-}
-.footer-section .btn2 {
-  font-family: var(--font-public-sans);
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 600;
-  padding-left: 30px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-.footer-section .btn2 img {
-  padding-left: 8px;
-  padding-right: 30px;
 }/*# sourceMappingURL=style.css.map */

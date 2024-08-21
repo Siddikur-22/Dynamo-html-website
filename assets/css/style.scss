@@ -405,10 +405,11 @@ ul {
     margin-bottom: 10px;
 }
 
-.pt-120{
+.pt-120 {
     padding-top: 120px;
 
 }
+
 .pt-80 {
     padding-top: 80px;
 }
@@ -544,7 +545,8 @@ ul {
 .mt-25 {
     margin-top: 25px;
 }
-.mb-100{
+
+.mb-100 {
     margin-bottom: 100px;
 }
 
@@ -1217,16 +1219,19 @@ header.style-1 {
         .logo-title {
             text-align: center;
             margin-bottom: 35px;
+
             h6 {
                 color: var(--paragraph-color);
                 font-family: var(--font-public-sans);
                 font-size: 18px;
                 line-height: 28px;
             }
+
             span {
                 color: var(--primary-color);
             }
         }
+
         .logo-area {
             .logo-wrap {
                 display: flex;
@@ -1312,6 +1317,7 @@ header.style-1 {
         align-items: center;
         justify-content: center;
         gap: 25px;
+
         .primary-btn {
             background-color: var(--primary-color);
             color: var(--white-color);
@@ -1367,6 +1373,7 @@ header.style-1 {
         background-position: center center;
         background-size: cover;
         padding-top: 64px;
+
         .feature-content {
             margin-top: 40px;
             margin-left: 40px;
@@ -1500,6 +1507,9 @@ header.style-1 {
     background-image: url("../image/All-image/banner-img/Essential-img.png");
 
     .Essential-section-title {
+        margin-top: 137px;
+        margin-bottom: 80px;
+
         h1 {
             font-family: var(--font-public-sans);
             color: var(--white-color);
@@ -1521,15 +1531,9 @@ header.style-1 {
             line-height: 30px;
             max-width: 778px;
             width: 100%;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
+            margin-bottom: 42px;
             color: var(--white-color);
-
-        }
-
-        span {
-            color: var(--white-color);
-            font-family: var(--font-public-sans);
 
         }
 
@@ -1538,8 +1542,6 @@ header.style-1 {
             align-items: center;
             justify-content: center;
             gap: 25px;
-            margin-top: 70px;
-            margin-bottom: 120px;
 
             .primary-btn {
                 background-color: var(--white-color);
@@ -1898,6 +1900,7 @@ header.style-1 {
 
         }
     }
+
     .accordion-button {
         background-color: #F4F6FF;
     }
@@ -2255,12 +2258,12 @@ header.style-1 {
     justify-content: center;
     gap: 20px;
 
+
     .footer-top {
         background-image: url("../image/All-image/banner-img/Gradient.png");
         background-size: cover;
 
         .try-section-title {
-
             h1 {
                 font-family: var(--font-public-sans);
                 color: var(--white-color);
@@ -2287,47 +2290,42 @@ header.style-1 {
             span {
                 color: var(--white-color);
                 font-family: var(--font-public-sans);
-
             }
 
-        }
+            .footer-btn-group {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 25px;
+                margin-top: 42px;
 
-        .footer-btn-group {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 25px;
-            margin-top: 40px;
-            margin-bottom: 80px;
+                .primary-btn {
+                    background-color: var(--white-color);
+                    color: var(--title-color);
+                    padding: 14px 32px;
+                    border-radius: 50px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: var(--font-public-sans);
 
-            .primary-btn {
-                background-color: var(--white-color);
-                color: var(--title-color);
-                padding: 14px 32px;
-                border-radius: 50px;
-                font-size: 18px;
-                font-weight: 600;
-                font-family: var(--font-public-sans);
+                }
 
-            }
-
-            .primary-btn.transparent {
-                background-color: transparent;
-                border: 1px solid var(--border-color);
-                color: var(--white-color);
+                .primary-btn.transparent {
+                    background-color: transparent;
+                    border: 1px solid var(--border-color);
+                    color: var(--white-color);
+                }
             }
         }
+
     }
 
-    .footer-area {
-        padding: 0 14%;
+    .background-color {
+        background-color: var(--white-color);
+        border-radius: 20px 20px 0px 0px;
 
         .footer-wrap {
-            background-color: var(--white-color);
-            border-radius: 20px 20px 0px 0px;
-            padding-top: 40px;
-            padding-left: 80px;
-            padding-right: 80px;
+            padding: 50px;
 
             .logo-content {
                 img {
@@ -2341,117 +2339,97 @@ header.style-1 {
                     line-height: 30px;
                     color: var(--paragraph-color);
                 }
+
+                .social-media {
+                    gap: 20px;
+                }
             }
 
-            .contact-area {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                margin-top: 16px;
-
-                .contact-wrap {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-
-                    a {
-                        font-family: var(--font-poppins);
-                        font-weight: 400;
-                        font-size: 18px;
-                        line-height: 30px;
-                        color: var(--paragraph-color);
+            .footer-widget {
+                .widget-title {
+                    h4 {
+                        color: var(--title-color);
+                        font-family: var(--font-public-sans);
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 36px;
                     }
                 }
 
-                .icon {
-                    background-color: #DEE2FD;
-                    width: 40px;
-                    height: 40px;
-                    border-radius: 50%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    i {
-                        color: #3147FF;
-                    }
-                }
-            }
-        }
-
-        .footer-widget {
-            .widget-title {
-                h4 {
-                    color: var(--title-color);
-                    font-family: var(--font-public-sans);
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 36px;
-                }
-            }
-
-            .menu-container {
-                .widget-list {
-
-                    li {
-                        a {
-                            color: var(--paragraph-color);
-                            font-family: var(--font-poppins);
-                            font-weight: 400;
-                            font-size: 17px;
-                            line-height: 30px;
+                .menu-container {
+                    .widget-list {
+                        li {
+                            a {
+                                color: var(--paragraph-color);
+                                font-family: var(--font-poppins);
+                                font-weight: 400;
+                                font-size: 17px;
+                                line-height: 30px;
 
 
+                            }
                         }
                     }
                 }
             }
+
         }
 
-        .copy-right {
-            text-align: center;
-            margin-top: 14px;
-            margin-bottom: 14px;
+        .contact-area {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #D5DCFC;
+            padding: 16px;
 
-            span {
-                font-family: var(--font-poppins);
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 28px;
+            .hotline-area {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                a {
+                    font-family: var(--font-poppins);
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: var(--paragraph-color);
+                }
+            }
+
+            .icon {
+                background-color: #DEE2FD;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    color: #3147FF;
+                }
+            }
+        }
+
+        .footer-bottom-area {
+            background-color: #EDF0FF;
+
+            .copy-right {
+                text-align: center;
+                margin-top: 14px;
+                margin-bottom: 14px;
+
+                span {
+                    font-family: var(--font-poppins);
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                }
             }
         }
     }
 
-    .btn1 {
-        font-family: var(--font-public-sans);
-        font-size: 18px;
-        line-height: 30px;
-        font-weight: 600;
-        color: var(--white-color);
-        padding-left: 32px;
-        padding-top: 14px;
-        padding-bottom: 14px;
 
-        img {
-            padding-left: 8px;
-            padding-right: 32px;
-        }
-    }
-
-    .btn2 {
-        font-family: var(--font-public-sans);
-        font-size: 18px;
-        line-height: 30px;
-        font-weight: 600;
-        padding-left: 30px;
-        padding-top: 14px;
-        padding-bottom: 14px;
-
-        img {
-            padding-left: 8px;
-            padding-right: 30px;
-        }
-    }
 }
 
 //footer-section end
