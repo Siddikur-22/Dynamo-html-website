@@ -2573,7 +2573,8 @@ header.style-2 .banner-img-wrap .banner-img {
 }
 .who-we-are-section .mission-wrap {
   background-color: #FFEEE2;
-  border-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 40px;
@@ -2595,6 +2596,7 @@ header.style-2 .banner-img-wrap .banner-img {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 60px;
 }
 .who-we-are-section .button-wrap .button {
   border: 1px solid #161616;
@@ -2689,14 +2691,24 @@ header.style-2 .banner-img-wrap .banner-img {
   border-bottom: 1px solid rgba(11, 12, 12, 0.1);
   margin-bottom: 20px;
 }
+.our-service-section .service-card-2 .content i {
+  display: flex;
+  align-items: center;
+  background-color: #013228;
+  height: 94px;
+  width: 94px;
+  padding: 22px;
+  border-radius: 50px;
+}
 .our-service-section .service-card-2 .content h4 {
   margin-top: 15px;
 }
 .our-service-section .service-card-2 .content h4 a {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
-  font-size: 28px;
-  font-weight: 700;
+  font-family: var(--font-public-sans);
+  font-weight: normal;
+  font-size: 30px;
+  font-weight: 600;
   line-height: 1.2;
   transition: 0.5s;
 }
@@ -2728,7 +2740,7 @@ header.style-2 .banner-img-wrap .banner-img {
   width: 100%;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 30px;
   margin-bottom: 0;
   padding-top: 15px;
 }
@@ -2745,9 +2757,9 @@ header.style-2 .banner-img-wrap .banner-img {
 .our-service-section .service-card-2 .explore-btn {
   color: var(--background-color-2-2);
   font-family: var(--font-inter);
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 9px;
   letter-spacing: 0.36px;
   white-space: nowrap;
   display: inline-flex;
@@ -2812,6 +2824,29 @@ header.style-2 .banner-img-wrap .banner-img {
 }
 .Experienced-Creative .Experienced-content .Experienced-bottom .Experienced-button-wrap ul li a i {
   color: var(--primary-color-2);
+}
+.Experienced-Creative .Experienced-content .video-img-wrap {
+  position: relative;
+}
+.Experienced-Creative .Experienced-content .video-img-wrap .video-img {
+  position: relative;
+}
+.Experienced-Creative .Experienced-content .video-img-wrap .video-img img {
+  width: 100%;
+}
+.Experienced-Creative .Experienced-content .play-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  background-color: var(--white-color);
 }
 .Experienced-Creative .Experienced-content .bottom-content p {
   font-family: var(--font-public-sans);
@@ -2957,6 +2992,23 @@ header.style-2 .banner-img-wrap .banner-img {
   background-color: var(--white-color);
   border: 1px solid #E1E1E1;
   color: var(--paragraph-color-2);
+}
+
+.marquee-section {
+  background-color: var(--background-color-2-2);
+}
+.marquee-section .marquee-text {
+  display: flex;
+  align-items: center;
+  padding: 28px 28px;
+  gap: 36px;
+}
+.marquee-section .marquee-text h6 {
+  font-weight: 600;
+  font-family: var(--font-public-sans);
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--white-color);
 }
 
 .Our-Newest-Articles .Newest-Articles-content {
