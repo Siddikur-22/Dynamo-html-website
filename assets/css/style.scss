@@ -3461,6 +3461,7 @@ header.style-2 {
 
         .Experienced-bottom {
             .Experienced-button-wrap {
+
                 ul {
                     display: flex;
                     align-items: center;
@@ -4062,6 +4063,7 @@ header.style-2 {
 
 .Feedback-Showcase {
     background-color: #013228;
+
     .Feedback-Showcase-content {
         .section-title {
             >span {
@@ -4311,14 +4313,17 @@ header.style-2 {
 // footer section style-2 start
 .footer-section-style-2 {
     background-color: #0B1D21;
+    margin-top: 400px;
 
     .footer-top-wrap {
         padding: 0 5%;
+        top: -225px;
+
         .footer-top-area {
             .footer-top-wrap {
+                position: relative;
                 background-color: var(--background-color-2-2);
                 border-radius: 32px;
-
                 padding-left: 93px;
                 padding-top: 76px;
                 padding-bottom: 83px;
@@ -4361,7 +4366,11 @@ header.style-2 {
                     }
                 }
 
-
+                .cta-section {
+                    position: absolute;
+                    top: -45%;
+                    right: -12%;
+                }
             }
         }
 

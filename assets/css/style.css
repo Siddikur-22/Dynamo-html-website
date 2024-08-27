@@ -3467,11 +3467,14 @@ header.style-2 .banner-img-wrap .banner-img {
 
 .footer-section-style-2 {
   background-color: #0B1D21;
+  margin-top: 400px;
 }
 .footer-section-style-2 .footer-top-wrap {
   padding: 0 5%;
+  top: -225px;
 }
 .footer-section-style-2 .footer-top-wrap .footer-top-area .footer-top-wrap {
+  position: relative;
   background-color: var(--background-color-2-2);
   border-radius: 32px;
   padding-left: 93px;
@@ -3508,6 +3511,11 @@ header.style-2 .banner-img-wrap .banner-img {
   font-size: 20px;
   line-height: 40px;
   color: var(--white-color);
+}
+.footer-section-style-2 .footer-top-wrap .footer-top-area .footer-top-wrap .cta-section {
+  position: absolute;
+  top: -45%;
+  right: -12%;
 }
 .footer-section-style-2 .footer-menu-wrap .title-content p {
   color: #CDD5D7;
