@@ -2571,9 +2571,48 @@ header.style-2 .banner-img-wrap .banner-img {
   font-size: 18px;
   line-height: 34px;
 }
-.who-we-are-section .our-mission .content {
+.who-we-are-section .mission-wrap {
+  background-color: #FFEEE2;
+  border-radius: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.who-we-are-section .mission-img-wrapper .mission-image {
   display: flex;
-  justify-content: space-between;
+}
+.who-we-are-section .bottom-wrap {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 40px;
+}
+.who-we-are-section .bottom-wrap ul li a {
+  color: var(--paragraph-color-2);
+  gap: 8px;
+}
+.who-we-are-section .button-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.who-we-are-section .button-wrap .button {
+  border: 1px solid #161616;
+  border-radius: 50px;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.who-we-are-section .button-wrap .button a {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  gap: 6px;
+}
+.who-we-are-section .button-wrap .button a i {
+  padding-right: 32px;
 }
 
 .our-service-section {
@@ -3429,34 +3468,37 @@ header.style-2 .banner-img-wrap .banner-img {
 .footer-section-style-2 {
   background-color: #0B1D21;
 }
-.footer-section-style-2 .footer-top-area .footer-top-wrap {
+.footer-section-style-2 .footer-top-wrap {
+  padding: 0 5%;
+}
+.footer-section-style-2 .footer-top-wrap .footer-top-area .footer-top-wrap {
   background-color: var(--background-color-2-2);
   border-radius: 32px;
   padding-left: 93px;
   padding-top: 76px;
   padding-bottom: 83px;
 }
-.footer-section-style-2 .footer-top-area .footer-top-wrap .title-top h2 {
+.footer-section-style-2 .footer-top-wrap .footer-top-area .footer-top-wrap .title-top h2 {
   font-family: var(--font-public-sans);
   font-weight: 700;
   font-size: 58px;
   line-height: 76px;
   color: var(--white-color);
 }
-.footer-section-style-2 .footer-top-area .footer-top-wrap .title-top .bottom-btn {
+.footer-section-style-2 .footer-top-wrap .footer-top-area .footer-top-wrap .title-top .bottom-btn {
   display: flex;
   align-items: center;
   gap: 24px;
   padding-top: 37px;
 }
-.footer-section-style-2 .footer-top-area .footer-top-wrap .title-top .bottom-btn h3 {
+.footer-section-style-2 .footer-top-wrap .footer-top-area .footer-top-wrap .title-top .bottom-btn h3 {
   font-family: var(--font-public-sans);
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
   color: var(--white-color);
 }
-.footer-section-style-2 .footer-top-area .footer-top-wrap .title-top .bottom-btn a {
+.footer-section-style-2 .footer-top-wrap .footer-top-area .footer-top-wrap .title-top .bottom-btn a {
   background-color: #013228;
   border-radius: 50px;
   color: var(--white-color);
