@@ -3337,7 +3337,7 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
 .Our-Newest-Articles .blog-card.style-2 .blog-card-img-wrap .date span strong {
   font-size: 22px;
   font-weight: 700;
-  font-family: var(--font-hankenGrotesk);
+  font-family: var(--font-public-sans);
   margin-bottom: 5px;
   display: block;
 }
