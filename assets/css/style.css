@@ -1655,12 +1655,9 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   flex-wrap: wrap;
   gap: 10px;
 }
-.our-latest-card-section .blog-card .card-content .blog-meta .category span {
-  font-family: var(--font-poppins);
-  color: var(--paragraph-color);
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 14px;
+.our-latest-card-section .blog-card .card-content .blog-meta .category span a {
+  color: black;
+  text-decoration: none;
 }
 .our-latest-card-section .blog-card .card-content .blog-meta .category li {
   position: relative;
@@ -2489,19 +2486,26 @@ header.style-2 .banner-area-2 .banner-content .banner-content-bottom a {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-header.style-2 .banner-area-2 .banner-content .banner-content-bottom .ratting-area {
+header.style-2 .banner-area-2 .banner-content .banner-content-bottom .client {
+  display: flex;
+  gap: 5px;
+}
+header.style-2 .banner-area-2 .banner-content .banner-content-bottom .client .client-img .client-image {
+  margin-left: -30px;
+}
+header.style-2 .banner-area-2 .banner-content .banner-content-bottom .client .ratting-area {
   align-items: center;
   gap: 5px;
 }
-header.style-2 .banner-area-2 .banner-content .banner-content-bottom .ratting-area .star {
+header.style-2 .banner-area-2 .banner-content .banner-content-bottom .client .ratting-area .star {
   display: flex;
   align-items: center;
   gap: 5px;
 }
-header.style-2 .banner-area-2 .banner-content .banner-content-bottom .ratting-area .star li i {
+header.style-2 .banner-area-2 .banner-content .banner-content-bottom .client .ratting-area .star li i {
   color: var(--primary-color-2-2);
 }
-header.style-2 .banner-area-2 .banner-content .banner-content-bottom .ratting-area .star span {
+header.style-2 .banner-area-2 .banner-content .banner-content-bottom .client .ratting-area .star span {
   color: var(--background-color-2);
   font-family: var(--font-inter);
   font-weight: 500;
@@ -3115,6 +3119,13 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+.Our-Newest-Articles .blog-card {
+  background-color: #FFF6F1;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+}
 .Our-Newest-Articles .blog-card .blog-card-img-wrap {
   position: relative;
   overflow: hidden;
@@ -3183,25 +3194,12 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
   flex-wrap: wrap;
   gap: 10px;
 }
-.Our-Newest-Articles .blog-card .card-content .blog-meta .category span {
+.Our-Newest-Articles .blog-card .card-content .blog-meta .category li a {
   font-family: var(--font-poppins);
   color: var(--paragraph-color);
   font-weight: 400;
   font-size: 15px;
   line-height: 14px;
-}
-.Our-Newest-Articles .blog-card .card-content .blog-meta .category li {
-  position: relative;
-  line-height: 1;
-}
-.Our-Newest-Articles .blog-card .card-content .blog-meta .category li a {
-  color: var(--text-color);
-  font-family: var(--font-inter);
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 1;
-  text-decoration: underline;
-  transition: 0.5s;
 }
 .Our-Newest-Articles .blog-card .card-content .blog-meta .category li a:hover {
   color: var(--primary-color1);
@@ -3210,6 +3208,16 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
   position: relative;
   padding-left: 20px;
   line-height: 1;
+}
+.Our-Newest-Articles .blog-card .card-content .blog-meta .blog-comment li a {
+  font-family: var(--font-poppins);
+  color: var(--paragraph-color);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+}
+.Our-Newest-Articles .blog-card .card-content .blog-meta .blog-comment li a:hover {
+  color: var(--primary-color1);
 }
 .Our-Newest-Articles .blog-card .card-content .blog-meta .blog-comment::before {
   content: "";
@@ -3255,9 +3263,9 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
 .Our-Newest-Articles .blog-card .card-content .read-more-btn {
   color: var(--primary-color-2);
   font-family: var(--font-inter);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1;
+  font-size: 16px;
+  line-height: 9px;
+  font-weight: 400;
   text-decoration: underline;
   white-space: nowrap;
   display: inline-flex;
@@ -3377,6 +3385,12 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
 .Our-Newest-Articles .blog-card.style-2:hover .blog-card-img-wrap .date {
   background-color: var(--primary-color1);
 }
+.Our-Newest-Articles .blog-card.two {
+  background-color: #F8F8F8;
+}
+.Our-Newest-Articles .blog-card.three {
+  background-color: #F8F8F8;
+}
 
 .Feedback-Showcase {
   background-color: #013228;
@@ -3434,8 +3448,11 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
   align-items: center;
   justify-content: space-around;
   background-color: var(--white-color);
-  border-top-left-radius: 500px;
-  border-bottom-left-radius: 500px;
+  border-top-left-radius: 208px;
+  border-bottom-left-radius: 208px;
+}
+.Feedback-Showcase .showcase-content .showcase-img {
+  padding: 20px;
 }
 .Feedback-Showcase .showcase-content .video-play-icon {
   position: absolute;
@@ -3445,7 +3462,11 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
 .Feedback-Showcase .showcase-content .video-play-icon a {
   background-color: var(--background-color-2);
   border-radius: 50px;
-  padding: 10px;
+  width: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 30px;
 }
 .Feedback-Showcase .showcase-content .video-play-icon a i {
@@ -3483,10 +3504,14 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
   position: absolute;
   top: -7%;
   right: -3%;
-  padding: 20px 21px;
   background-color: #013228;
   border: 5px solid white;
   border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .Feedback-Showcase .button-right {
   float: right;
@@ -3499,13 +3524,17 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
   background-color: var(--white-color);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-  padding: 20px;
+  width: 61px;
+  height: 42px;
+  padding: 21px;
 }
 .Feedback-Showcase .button-right ul li .button-two {
   background-color: var(--background-color-2-2);
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  padding: 20px;
+  width: 61px;
+  height: 42px;
+  padding: 21px;
 }
 
 .Startup-Approach .Startup-Approach-content {
