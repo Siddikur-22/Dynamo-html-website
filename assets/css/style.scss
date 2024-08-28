@@ -4249,10 +4249,10 @@ header.style-2 {
         position: relative;
         display: flex;
         align-items: center;
-        justify-content: space-around;
         background-color: var(--white-color);
         border-top-left-radius: 208px;
         border-bottom-left-radius: 208px;
+        gap: 43px;
 
         .showcase-img{
             padding: 20px;
