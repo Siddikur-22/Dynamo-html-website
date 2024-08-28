@@ -1617,7 +1617,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   z-index: 1;
 }
 .our-latest-card-section .blog-card .blog-card-img-wrap .date {
-  color: var(--white-color);
+  color: black;
   font-family: var(--font-inter);
   font-size: 14px;
   font-weight: 500;
@@ -1626,14 +1626,11 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   align-items: center;
   gap: 5px;
   padding: 10px 16px;
-  background-color: var(--primary-color2);
+  background-color: black;
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   z-index: 1;
-}
-.our-latest-card-section .blog-card .blog-card-img-wrap .date svg {
-  fill: var(--white-color);
 }
 .our-latest-card-section .blog-card .card-content {
   padding-top: 25px;
@@ -3155,23 +3152,24 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
   content: "";
   z-index: 1;
 }
-.Our-Newest-Articles .blog-card .blog-card-img-wrap .date {
+.Our-Newest-Articles .blog-card .blog-card-img-wrap .top-button {
   color: var(--white-color);
   font-family: var(--font-inter);
   font-size: 14px;
+  line-height: 24px;
   font-weight: 500;
-  line-height: 1;
   display: inline-flex;
   align-items: center;
   gap: 5px;
   padding: 10px 16px;
-  background-color: var(--primary-color2);
+  background-color: var(--title-color);
+  border-radius: 8px;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  top: 12px;
+  right: 20px;
   z-index: 1;
 }
-.Our-Newest-Articles .blog-card .blog-card-img-wrap .date svg {
+.Our-Newest-Articles .blog-card .blog-card-img-wrap .top-button svg {
   fill: var(--white-color);
 }
 .Our-Newest-Articles .blog-card .card-content {
@@ -3516,17 +3514,17 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
 .Feedback-Showcase .button-right {
   float: right;
 }
-.Feedback-Showcase .button-right ul {
-  display: flex;
-  gap: 10px;
-}
-.Feedback-Showcase .button-right ul li .button-one {
+.Feedback-Showcase .button-right .button-one {
   background-color: var(--white-color);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   width: 61px;
   height: 42px;
   padding: 21px;
+}
+.Feedback-Showcase .button-right ul {
+  display: flex;
+  gap: 10px;
 }
 .Feedback-Showcase .button-right ul li .button-two {
   background-color: var(--background-color-2-2);

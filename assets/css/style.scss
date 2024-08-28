@@ -1976,6 +1976,9 @@ header.style-1 {
             position: relative;
             overflow: hidden;
 
+            .devloment{
+                
+            }
             .card-img {
                 position: relative;
                 overflow: hidden;
@@ -2004,7 +2007,7 @@ header.style-1 {
             }
 
             .date {
-                color: var(--white-color);
+                color:black;
                 font-family: var(--font-inter);
                 font-size: 14px;
                 font-weight: 500;
@@ -2013,15 +2016,13 @@ header.style-1 {
                 align-items: center;
                 gap: 5px;
                 padding: 10px 16px;
-                background-color: var(--primary-color2);
+                background-color: black;
                 position: absolute;
-                bottom: 0;
+                top: 0;
                 right: 0;
                 z-index: 1;
 
-                svg {
-                    fill: var(--white-color);
-                }
+               
             }
         }
 
@@ -3897,20 +3898,21 @@ header.style-2 {
                 }
             }
 
-            .date {
+            .top-button {
                 color: var(--white-color);
-                font-family: var(--font-inter);
+                font-family:var(--font-inter);
                 font-size: 14px;
+                line-height:24px;
                 font-weight: 500;
-                line-height: 1;
                 display: inline-flex;
                 align-items: center;
                 gap: 5px;
                 padding: 10px 16px;
-                background-color: var(--primary-color2);
+                background-color:var(--title-color);
+                border-radius: 8px;
                 position: absolute;
-                bottom: 0;
-                right: 0;
+                top: 12px;
+                right: 20px;
                 z-index: 1;
 
                 svg {
@@ -4335,21 +4337,20 @@ header.style-2 {
 
     .button-right {
         float: right;
+        .button-one {
+            background-color: var(--white-color);
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            width: 61px;
+            height: 42px;
+            padding: 21px;
+        }
 
         ul {
             display: flex;
             gap: 10px;
 
             li {
-                .button-one {
-                    background-color: var(--white-color);
-                    border-top-left-radius: 50px;
-                    border-bottom-left-radius: 50px;
-                    width: 61px;
-                    height: 42px;
-                    padding: 21px;
-                }
-
                 .button-two {
                     background-color: var(--background-color-2-2);
                     border-top-right-radius: 50px;
@@ -4357,14 +4358,10 @@ header.style-2 {
                     width: 61px;
                     height: 42px;
                     padding: 21px;
-
                 }
-
             }
         }
     }
-
-
 }
 
 // Feedback Showcase end
