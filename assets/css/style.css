@@ -3521,6 +3521,9 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
   width: 61px;
   height: 42px;
   padding: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .Feedback-Showcase .button-right ul {
   display: flex;
@@ -3533,6 +3536,9 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
   width: 61px;
   height: 42px;
   padding: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Startup-Approach .Startup-Approach-content {

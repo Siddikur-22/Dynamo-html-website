@@ -4344,6 +4344,9 @@ header.style-2 {
             width: 61px;
             height: 42px;
             padding: 21px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         ul {
@@ -4358,6 +4361,9 @@ header.style-2 {
                     width: 61px;
                     height: 42px;
                     padding: 21px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
             }
         }
