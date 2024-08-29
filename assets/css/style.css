@@ -504,6 +504,64 @@ ul {
   }
 }
 
+.primary-btn1 {
+  border-radius: 50px;
+  background-color: var(--background-color-2-2);
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--white-color);
+  line-height: 24px;
+  padding-left: 26px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: relative;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  /* Styling ::before pseudo-element */
+  /* Styling ::after pseudo-element */
+  /* Hover state for the class */
+  /* Hover state for ::before and ::after */
+}
+.primary-btn1 .primary-btn1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #007bff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.primary-btn1 .primary-btn1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #007bff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+.primary-btn1 .primary-btn1:hover {
+  background-color: #007bff; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+.primary-btn1 .primary-btn1:hover::before {
+  background-color: white;
+  transform: scaleX(1); /* Expands from left to right */
+}
+.primary-btn1 .primary-btn1:hover::after {
+  background-color: white;
+  transform: scaleX(1); /* Expands from right to left */
+}
+
 header.style-1 {
   width: 100%;
   z-index: 999;
@@ -2463,26 +2521,6 @@ header.style-2 .banner-area-2 .banner-content .banner-content-bottom {
   align-items: center;
   gap: 36px;
 }
-@media (max-width: 576px) {
-  header.style-2 .banner-area-2 .banner-content .banner-content-bottom {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-}
-header.style-2 .banner-area-2 .banner-content .banner-content-bottom a {
-  background-color: var(--background-color-2-2);
-  border-radius: 80px;
-  color: var(--white-color);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  font-family: var(--font-inter);
-  padding-left: 26px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
 header.style-2 .banner-area-2 .banner-content .banner-content-bottom .client {
   display: flex;
   gap: 5px;
@@ -2784,7 +2822,7 @@ header.style-2 .banner-area-2 .banner-img-wrap .banner-img {
   color: var(--primary-color1);
 }
 .our-service-section .service-card-2 .content svg {
-  fill: var(--title-color);
+  fill: var(--background-color-2-2);
 }
 .our-service-section .service-card-2 .content p {
   color: var(--white-color);
