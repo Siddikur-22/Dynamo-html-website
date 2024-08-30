@@ -3001,11 +3001,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
 }
 .our-recent-work .Inventory-content {
   background-color: #F8F8F8;
-  padding-top: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
   padding-bottom: 0px;
   border-radius: 16px;
+  padding: 40px 40px 0px;
 }
 .our-recent-work .Inventory-content .content .title h2 {
   font-family: var(--font-public-sans);
