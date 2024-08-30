@@ -3065,9 +3065,45 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   border: 1px solid #161616;
   color: var(--white-color);
 }
+.our-recent-work .Inventory-content .content .content-img {
+  position: relative;
+}
 .our-recent-work .Inventory-content .content .content-img img {
   width: 100%;
+  opacity: 1;
+  display: block;
   height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.our-recent-work .Inventory-content .content .content-img .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.our-recent-work .Inventory-content .content .content-img .middle .text {
+  background-color: var(--background-color-2-2);
+  color: var(--white-color);
+  height: 104px;
+  width: 104px;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 16px 32px;
+}
+.our-recent-work .Inventory-content .content .content-img:hover .img {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.our-recent-work .Inventory-content .content .content-img:hover .middle {
+  opacity: 1;
 }
 .our-recent-work .Inventory-content:hover {
   background-color: #FFF6F1;
@@ -3075,19 +3111,12 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
 .our-recent-work .Inventory-content:hover .content .title h2 {
   color: var(--primary-color-2);
 }
-.our-recent-work .Inventory-content:hover .content-img img {
-  background-color: rgba(2, 15, 12, 0.3019607843);
-  opacity: 30%;
-  border-radius: 35px 35px 0px 0px;
-  z-index: 1;
-}
 
 .marquee-section {
   background-color: var(--background-color-2-2);
 }
 .marquee-section .marquee_text {
   overflow: hidden;
-  align-items: center;
   padding: 28px 28px;
 }
 .marquee-section .marquee_text .js-marquee {
@@ -3944,8 +3973,8 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
 }
 .footer-section-style-2 .footer-top-wrap .footer-top-area .footer-top-wrap .cta-section {
   position: absolute;
-  top: -53%;
-  right: -71%;
+  top: -132px;
+  right: -118px;
 }
 .footer-section-style-2 .footer-menu-wrap .title-content p {
   color: #CDD5D7;
@@ -4028,7 +4057,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   line-height: 20px;
   color: #CDD5D7;
 }
-.footer-section-style-2 .footer-bottom-wrap .footer-bottom .copy-write-area span {
+.footer-section-style-2 .footer-bottom-wrap .footer-bottom .copy-write-area a {
   color: #FF7322;
 }
 .footer-section-style-2 .footer-bottom-wrap .footer-bottom .footer-bottom-write ul {

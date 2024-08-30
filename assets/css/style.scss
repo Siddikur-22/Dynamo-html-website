@@ -1156,7 +1156,7 @@ header.style-1 {
 // header-area end
 //  home section start
 .banner-section {
-    
+
     background-image: url("../image/All-image/shape/Background.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -1301,7 +1301,7 @@ header.style-1 {
 
 // logo section start
 .logo-section {
-    
+
     .logo-wrap {
         .logo-title {
             text-align: center;
@@ -3823,30 +3823,61 @@ header.style-2 {
             }
 
             .content-img {
+                position: relative;
+
                 img {
                     width: 100%;
+                    opacity: 1;
+                    display: block;
                     height: auto;
+                    transition: .5s ease;
+                    backface-visibility: hidden;
+                }
+
+                .middle {
+                    transition: .5s ease;
+                    opacity: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    text-align: center;
+
+                    .text {
+                        background-color: var(--background-color-2-2);
+                        color: var(--white-color);
+                        height: 104px;
+                        width: 104px;
+                        font-size: 16px;
+                        line-height: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50%;
+                        padding: 16px 32px;
+                    }
+                }
+
+                &:hover .img {
+                    background-color: rgba(0, 0, 0, 0.3);
+
+                }
+
+                &:hover .middle {
+                    opacity: 1;
+
                 }
             }
         }
 
         &:hover {
             background-color: #FFF6F1;
-
             .content {
                 .title {
                     h2 {
                         color: var(--primary-color-2);
                     }
-                }
-            }
-
-            .content-img {
-                img {
-                    background-color: #020F0C4D;
-                    opacity: 30%;
-                    border-radius: 35px 35px 0px 0px;
-                    z-index: 1;
                 }
             }
         }
@@ -3860,8 +3891,8 @@ header.style-2 {
 
     .marquee_text {
         overflow: hidden;
-        align-items: center;
         padding: 28px 28px;
+
         .js-marquee {
             display: flex;
             align-items: center;
@@ -4855,8 +4886,10 @@ header.style-2 {
                 position: relative;
                 background-color: var(--background-color-2-2);
                 border-radius: 32px;
+
                 .title-top {
                     padding: 40px 20px;
+
                     h2 {
                         font-family: var(--font-public-sans);
                         font-weight: 700;
@@ -4864,6 +4897,7 @@ header.style-2 {
                         line-height: 76px;
                         color: var(--white-color);
                     }
+
                     .bottom-btn {
                         display: flex;
                         align-items: center;
@@ -4891,17 +4925,17 @@ header.style-2 {
                         }
                     }
                 }
-                .image-wrap{
-                    z-index:-1;
-                    img{
-                       
-                    }
+
+                .image-wrap {
+                    z-index: -1;
+
+                   
                 }
 
                 .cta-section {
                     position: absolute;
-                    top: -53%;
-                    right: -71%;
+                    top: -132px;
+                    right: -118px;
                 }
             }
         }
@@ -5025,7 +5059,7 @@ header.style-2 {
                 line-height: 20px;
                 color: #CDD5D7;
 
-                span {
+                a {
                     color: #FF7322;
                 }
             }
