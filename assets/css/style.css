@@ -4020,6 +4020,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
 .footer-section-style-2 .footer-wrap-2 {
   margin-bottom: 70px;
 }
+.footer-section-style-2 .footer-wrap-2 .from {
+  position: relative;
+}
 .footer-section-style-2 .footer-wrap-2 .from .from-top-title {
   color: #fffbf9;
   font-family: var(--font-public-sans);
@@ -4038,6 +4041,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-size: 16px;
   line-height: 16px;
   color: #939393;
+}
+.footer-section-style-2 .footer-wrap-2 .from .submit {
+  position: absolute;
+  right: 12px;
 }
 .footer-section-style-2 .footer-wrap-2 .from .form-check {
   font-family: var(--font-inter);

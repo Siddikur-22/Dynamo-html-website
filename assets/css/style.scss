@@ -4874,6 +4874,7 @@ header.style-2 {
   .footer-wrap-2 {
     margin-bottom: 70px;
     .from {
+        position: relative;
       .from-top-title {
         color: #fffbf9;
         font-family: var(--font-public-sans);
@@ -4892,6 +4893,10 @@ header.style-2 {
           line-height: 16px;
           color: #939393;
         }
+      }
+      .submit{
+        position: absolute;
+        right: 12px;
       }
       .form-check {
         font-family: var(--font-inter);
