@@ -600,57 +600,26 @@ ul {
   padding: 16px 30px;
   position: relative;
   display: inline-block;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  /* Smooth transition */
-
-  /* Styling ::before pseudo-element */
-  .primary-btn1::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background-color: #007bff;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    transform: scaleX(0);
-    transform-origin: left;
-  }
-
-  /* Styling ::after pseudo-element */
-  .primary-btn1::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background-color: #007bff;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    transform: scaleX(0);
-    transform-origin: right;
-  }
-
-  /* Hover state for the class */
-  .primary-btn1:hover {
-    background-color: #007bff;
-    /* Background color on hover */
-    color: white;
-    /* Text color on hover */
-  }
-
-  /* Hover state for ::before and ::after */
-  .primary-btn1:hover::before {
-    background-color: white;
-    transform: scaleX(1);
-    /* Expands from left to right */
-  }
-
-  .primary-btn1:hover::after {
-    background-color: white;
-    transform: scaleX(1);
-    /* Expands from right to left */
-  }
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+.primary-btn1:hover {
+  background-color: var(--background-color-2);
+  color: var(--white-color);
+}
+.primary-btn2 {
+  border-radius: 50px;
+  background-color: var(--background-color-2);
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white-color);
+  padding: 12px 27px;
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+.primary-btn2:hover {
+  background-color: var(--background-color-2-2);
+  color: var(--white-color);
 }
 
 // ==================================
@@ -681,18 +650,15 @@ header.style-1 {
       }
 
       .get-btn {
-        color: var(--title-color);
-        border: 1px solid #dde1fd;
-        border-radius: 80px;
-        padding-left: 26px;
-        padding-top: 9;
-        padding-bottom: 9;
-
         img {
           padding-right: 26px;
           padding-top: 14px;
           padding-bottom: 14px;
           padding-left: 8px;
+        }
+        &.get-btn:hover {
+          background-color: var(--background-color-2-2);
+          color: var(--white-color);
         }
       }
     }
@@ -2482,7 +2448,6 @@ header.style-1 {
 // ==================================
 
 // header-style-2 start
-
 header.style-2 {
   width: 100%;
   z-index: 999;
@@ -2967,7 +2932,8 @@ header.style-2 {
 
   // banner-content-style end
 }
-
+// header-style-2 end
+// banner style-2 start
 .banner-area-2 {
   position: relative;
 
@@ -3103,9 +3069,7 @@ header.style-2 {
     }
   }
 }
-
-// header-style-2 end
-
+// banner style-2 end
 // Functions-section start
 .functions-section {
   background-color: var(--background-color-2);
@@ -3283,6 +3247,13 @@ header.style-2 {
         i {
           line-height: 1;
         }
+      }
+    }
+    .button:hover {
+      background-color:var(--background-color-2);
+      transition: background-color 0.4s ease, color 0.3s ease;
+      a {
+        color: var(--white-color);
       }
     }
   }
@@ -3649,7 +3620,17 @@ header.style-2 {
         font-family: var(--font-inter);
         padding: 16px 32px;
       }
+   
     }
+    .button-wrap:hover{
+        a {
+            background-color:var(--background-color-2);
+            transition: background-color 0.4s ease, color 0.3s ease;
+          color: var(--white-color);
+        }
+        
+    }
+   
   }
 
   .Inventory-content {
@@ -3872,6 +3853,15 @@ header.style-2 {
         padding: 16px 35px;
       }
     }
+    .button-wrap:hover{
+        a {
+            background-color:var(--background-color-2);
+            transition: background-color 0.4s ease, color 0.3s ease;
+          color: var(--white-color);
+        }
+        
+    }
+
   }
 
   .blog-card {
