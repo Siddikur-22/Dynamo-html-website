@@ -3441,10 +3441,7 @@ header.style-2 {
         }
 
         .content {
-            padding-bottom: 15px;
-            border-bottom: 1px solid rgba(#0B0C0C, 0.1);
-            margin-bottom: 20px;
-
+            padding-bottom: 32px;
             .icon {
                 display: flex;
                 align-items: center;
@@ -4593,6 +4590,7 @@ header.style-2 {
             position: absolute;
             top: -15%;
             left: 32%;
+            
 
             i {
                 height: 104px;
@@ -4882,13 +4880,17 @@ header.style-2 {
         top: -175px;
 
         .footer-top-area {
+           
             .footer-top-wrap {
                 position: relative;
                 background-color: var(--background-color-2-2);
                 border-radius: 32px;
+                
+               
 
                 .title-top {
                     padding: 40px 20px;
+                    
 
                     h2 {
                         font-family: var(--font-public-sans);
@@ -4943,7 +4945,9 @@ header.style-2 {
     }
 
     .footer-menu-wrap {
+        border-bottom: 1px solid #0C6A574D;
         .title-content {
+           
             p {
                 color: #CDD5D7;
                 max-width: 408px;

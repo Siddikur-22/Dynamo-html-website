@@ -2759,9 +2759,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .our-service-section-card .service-card-2 .content {
-  padding-bottom: 15px;
-  border-bottom: 1px solid rgba(11, 12, 12, 0.1);
-  margin-bottom: 20px;
+  padding-bottom: 32px;
 }
 .our-service-section-card .service-card-2 .content .icon {
   display: flex;
@@ -3975,6 +3973,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   position: absolute;
   top: -132px;
   right: -118px;
+}
+.footer-section-style-2 .footer-menu-wrap {
+  border-bottom: 1px solid rgba(12, 106, 87, 0.3019607843);
 }
 .footer-section-style-2 .footer-menu-wrap .title-content p {
   color: #CDD5D7;
