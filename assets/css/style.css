@@ -4672,7 +4672,6 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   justify-content: center;
 }
 .banner-area-3 .banner-content .banner-content-bottom .button-and-arrow-up h5 {
-  align-items: center;
   font-family: var(--font-public-sans);
   font-weight: 500;
   font-size: 15px;
@@ -5501,6 +5500,29 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   text-align: center;
   margin: 0 auto;
 }
+.our-Methodology .dynamic-Approach {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 92px;
+}
+.our-Methodology .dynamic-Approach .yellow-circle {
+  background-color: rgb(242, 204, 77);
+  height: 142px;
+  width: 142px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-Methodology .dynamic-Approach .yellow-circle h4 {
+  text-align: center;
+  font-family: var(--font-public-sans);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgb(26, 26, 26);
+}
 .our-Methodology .startup-card {
   position: relative;
 }
@@ -5512,8 +5534,6 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   width: 104px;
   background-color: white;
   border-radius: 50px;
-  align-items: center;
-  justify-content: center;
 }
 .our-Methodology .startup-card .card-top-area h4 {
   font-family: var(--font-poppins);
@@ -5524,11 +5544,13 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 25px;
 }
 .our-Methodology .startup-card .card-top-area span {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -10px;
 }
 .our-Methodology .startup-card .content {
   background-color: rgb(215, 198, 248);
@@ -5627,6 +5649,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   border: 1px solid white;
   border-radius: 46px;
   padding: 3px 12px;
+  margin-right: 9px;
 }
 .explore-our-projects .marketing-card .card-content .btn-wrapper .write-icon-up .up-arrow {
   border: 1px solid rgb(242, 204, 77);
@@ -5696,8 +5719,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   color: #cdd5d7;
   text-decoration: underline;
 }
-.footer-section-style-3 .footer-menu-wrap .contact-area .hotline-area .hotline-content h5 {
-  margin-top: 24px;
+.footer-section-style-3 .footer-menu-wrap .contact-area .hotline-area .hotline-content h6 {
   color: var(--white-color);
   font-family: var(--font-public-sans);
   font-weight: 500;
@@ -5705,7 +5727,8 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   line-height: 20px;
   color: #cdd5d7;
 }
-.footer-section-style-3 .footer-menu-wrap .contact-area .hotline-area .hotline-content h6 {
+.footer-section-style-3 .footer-menu-wrap .contact-area .location-area h5 {
+  margin-top: 10px;
   color: var(--white-color);
   font-family: var(--font-public-sans);
   font-weight: 500;
@@ -5720,7 +5743,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   position: relative;
 }
 .footer-section-style-3 .footer-wrap-2 .from .from-top-title {
-  color: #fffbf9;
+  color: white;
   font-family: var(--font-public-sans);
   font-size: 24px;
   font-weight: 600;
@@ -5730,24 +5753,22 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .footer-section-style-3 .footer-wrap-2 .from .footer-email {
   display: flex;
   align-items: center;
+  color: white;
 }
 .footer-section-style-3 .footer-wrap-2 .from .footer-email .form-control {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #939393;
+  color: white;
+  background-color: rgb(38, 41, 46);
+  border: 1px solid rgb(38, 41, 46);
+  padding: 16px 20px;
 }
 .footer-section-style-3 .footer-wrap-2 .from .submit {
   position: absolute;
   right: 12px;
-}
-.footer-section-style-3 .footer-wrap-2 .from .form-check {
-  font-family: var(--font-inter);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 22px;
-  color: #cdd5d7;
+  background-color: rgb(38, 41, 46);
 }
 .footer-section-style-3 .footer-wrap-2 .logo-content img {
   margin-bottom: 21px;
@@ -5830,18 +5851,4 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .footer-section-style-3 .footer-bottom-wrap .footer-bottom .footer-bottom-write ul li a:hover .footer-svg {
   background-color: rgb(242, 204, 77);
   fill: black;
-}
-.footer-section-style-3 .footer-bottom-wrap .footer-bottom .up-button-wrap {
-  position: absolute;
-  right: -246px;
-  top: -24px;
-}
-.footer-section-style-3 .footer-bottom-wrap .footer-bottom .up-button-wrap #up-arrow-wrap {
-  background-color: rgb(237, 119, 51);
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

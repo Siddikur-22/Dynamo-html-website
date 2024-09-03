@@ -5629,8 +5629,8 @@ header.style-3 {
           align-items:center;
           justify-content: center;
         }
+
         h5{
-          align-items: center;
           font-family: var(--font-public-sans);
           font-weight: 500;
           font-size: 15px;
@@ -6661,6 +6661,30 @@ header.style-3 {
       }
     }
   }
+  .dynamic-Approach{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 92px;
+    .yellow-circle{
+      background-color: rgba(242, 204, 77, 1);
+      height: 142px;
+      width: 142px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h4{
+        text-align: center;
+        font-family: var(--font-public-sans);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        color: rgba(26, 26, 26, 1);
+    
+      }
+    }
+  }
   .startup-card {
     position: relative;
     .card-top-area {
@@ -6671,8 +6695,6 @@ header.style-3 {
       width: 104px;
       background-color: white;
       border-radius: 50px;
-      align-items: center;
-      justify-content: center;
       // background-image: url("../image/All-image/shape/step-shape-1.png");
       // background-repeat: no-repeat;
       h4{
@@ -6684,11 +6706,13 @@ header.style-3 {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-top: 25px;
       }
       span{
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: -10px;
       }
     }
     .content {
@@ -6727,9 +6751,10 @@ header.style-3 {
   }
   }
  .video-img-wrap{
-  // position: absolute;
   .img-wrap{
+  
     img{
+      // position: absolute;
       width: 100%;
       border-radius: 48px 0px;
     }
@@ -6814,6 +6839,7 @@ header.style-3 {
         border: 1px solid white;
         border-radius: 46px;
         padding:3px 12px ;
+        margin-right: 9px;
       }
     }
     .write-icon-up{
@@ -6914,17 +6940,6 @@ header.style-3 {
             color: #cdd5d7;
             text-decoration: underline;
           }
-
-          h5 {
-            margin-top: 24px;
-            color: var(--white-color);
-            font-family: var(--font-public-sans);
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 20px;
-            color: #cdd5d7;
-          }
-
           h6 {
             color: var(--white-color);
             font-family: var(--font-public-sans);
@@ -6935,6 +6950,18 @@ header.style-3 {
           }
         }
       }
+      .location-area{
+        h5 {
+          margin-top: 10px;
+          color: var(--white-color);
+          font-family: var(--font-public-sans);
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 20px;
+          color: #cdd5d7;
+        }
+      }
+    
     }
   }
 
@@ -6943,7 +6970,7 @@ header.style-3 {
     .from {
         position: relative;
       .from-top-title {
-        color: #fffbf9;
+        color: white;
         font-family: var(--font-public-sans);
         font-size: 24px;
         font-weight: 600;
@@ -6953,25 +6980,25 @@ header.style-3 {
       .footer-email {
         display: flex;
         align-items: center;
+        color:white;
+       
         .form-control {
           font-family: var(--font-poppins);
           font-weight: 400;
           font-size: 16px;
           line-height: 16px;
-          color: #939393;
+          color:white;
+          background-color: rgba(38, 41, 46, 1);
+          border: 1px solid rgba(38, 41, 46, 1);
+          padding: 16px 20px;
         }
       }
       .submit{
         position: absolute;
         right: 12px;
+        background-color:rgba(38, 41, 46, 1);
       }
-      .form-check {
-        font-family: var(--font-inter);
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 22px;
-        color: #cdd5d7;
-      }
+   
     }
 
     .logo-content {
@@ -7040,7 +7067,6 @@ header.style-3 {
       }
 
       .footer-bottom-write {
-        
         ul {
           display: flex;
           align-items: center;
@@ -7079,20 +7105,7 @@ header.style-3 {
           }
         }
       }
-      .up-button-wrap {
-        position: absolute;
-        right: -246px;
-        top: -24px;
-        #up-arrow-wrap {
-          background-color: rgba(237, 119, 51, 1);
-          width: 50px;
-          height: 50px;
-          border-radius: 50px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-      }
+  
     }
   }
 }
