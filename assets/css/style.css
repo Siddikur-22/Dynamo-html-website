@@ -564,6 +564,18 @@ ul {
   transition: background-color 0.4s ease, color 0.3s ease;
 }
 
+.primary-btn3 {
+  border-radius: 8px 0px;
+  background-color: var(--primary-color-3-white);
+  font-family: var(--font-public-sans);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(26, 26, 26);
+  padding: 12px 27px;
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+
 .primary-btn2:hover {
   background-color: var(--background-color-2-2);
   color: var(--white-color);
@@ -4185,12 +4197,12 @@ header.style-3 {
 }
 header.style-3 .nav-right .button-group {
   gap: 6px;
-  background-color: var(--background-color-2);
+  color: rgb(26, 26, 26);
   border-radius: 50px;
 }
 header.style-3 .nav-right .button-group .get-btn {
   border-radius: 80px;
-  color: var(--white-color);
+  color: rgb(26, 26, 26);
   font-size: 16px;
   font-weight: 500;
   font-family: var(--font-inter);
