@@ -5001,6 +5001,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .Discover-Creative .Discover-content .Discover-bottom-content .logo-wrapper {
   padding: 54px 90px;
+  overflow: hidden;
 }
 
 .innovation-solution-section {
