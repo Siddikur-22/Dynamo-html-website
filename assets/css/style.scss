@@ -7260,6 +7260,7 @@ header.style-3 {
     align-items: center;
     justify-content: center;
     .content {
+    a{
       .contact-button {
         background-color:rgba(242, 204, 77, 1);
         width: 116px;
@@ -7267,28 +7268,29 @@ header.style-3 {
         border-radius: 50%;
         padding: 17px 31px;
         margin: 0 auto;
-        .arrow {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
+  
+      .arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-        h5 {
-         a{
-          font-family: var(--font-public-sans);
-          font-weight: 500;
-          font-size: 18px;
-          line-height: 18px;
-          color:rgba(26, 28, 31, 1);
-          max-width: 99px;
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          margin: 0 auto;
-         }
-        }
+      h5 {
+        font-family: var(--font-public-sans);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        color:rgba(26, 28, 31, 1);
+        max-width: 99px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    
+      }
+   
       }
       .title {
        padding-top: 10px;
@@ -7315,6 +7317,7 @@ header.style-3 {
           margin: 0 auto;
         }
       }
+    }
     }
   }
 

@@ -6053,7 +6053,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   align-items: center;
   justify-content: center;
 }
-.contact-section .contact-area .content .contact-button {
+.contact-section .contact-area .content a .contact-button {
   background-color: rgb(242, 204, 77);
   width: 116px;
   height: 116px;
@@ -6061,12 +6061,12 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   padding: 17px 31px;
   margin: 0 auto;
 }
-.contact-section .contact-area .content .contact-button .arrow {
+.contact-section .contact-area .content a .contact-button .arrow {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.contact-section .contact-area .content .contact-button h5 a {
+.contact-section .contact-area .content a .contact-button h5 {
   font-family: var(--font-public-sans);
   font-weight: 500;
   font-size: 18px;
@@ -6080,10 +6080,10 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   text-align: center;
   margin: 0 auto;
 }
-.contact-section .contact-area .content .title {
+.contact-section .contact-area .content a .title {
   padding-top: 10px;
 }
-.contact-section .contact-area .content .title h2 {
+.contact-section .contact-area .content a .title h2 {
   font-family: var(--font-public-sans);
   font-weight: 700;
   font-size: 47px;
@@ -6093,7 +6093,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   max-width: 686px;
   width: 100%;
 }
-.contact-section .contact-area .content .title p {
+.contact-section .contact-area .content a .title p {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 20px;
