@@ -1733,6 +1733,10 @@ header.style-1 {
         display: flex;
         gap: 23px;
         margin-top: 36px;
+        position: relative;
+        .write-side-shape{
+          position: absolute;
+        }
 
         h2 {
           color: var(--title-color);
@@ -7319,6 +7323,7 @@ header.style-3 {
 // footer section style-3 start
 .footer-section-style-3 {
   background-color: #0b1d21;
+
   .footer-menu-wrap {
 
     .title-content {
@@ -7411,7 +7416,6 @@ header.style-3 {
       }
     }
   }
-
   .footer-wrap-2 {
     margin-bottom: 70px;
     .from {
@@ -8270,7 +8274,14 @@ header.style-4 {
 // Discover start
 .Discover-section {
   background-color: #fffbf9;
+  overflow: hidden;
   .Discover-content {
+    padding: 95px 0px;
+    .js-marquee {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+    }
     span {
       color: var(--title-color-4);
       font-family: var(--font-poppins);
@@ -8298,9 +8309,7 @@ header.style-4 {
       }
     }
     .logo-wrapper {
-      display: flex;
-      align-content: center;
-      justify-content: space-between;
+      overflow: hidden;
     }
   }
 }
@@ -8334,9 +8343,7 @@ header.style-4 {
       @include sm-down-device() {
         margin-bottom: 10px;
       }
-    }
-    .Top-content {
-    }
+    } 
     .logo-wrapper {
       display: flex;
       align-content: center;
@@ -8589,7 +8596,7 @@ header.style-4 {
   }
   .service-card-4 {
     background-color: white;
-    border: 1px solid #00000066;
+    border: 1px solid #C8D3FF66;
     padding: 35px 30px;
     position: relative;
 
@@ -9160,6 +9167,376 @@ header.style-4 {
   }
 }
 //  Client Feedback end
+// Our-ToolSet start
+.Our-Toolset{
+  .Toolset-section {
+    .content {
+      .title {
+       .top-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 19px;
+        > span {
+          color: var(--title-color-4);
+          font-family: var(--font-poppins);
+          text-transform: uppercase;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 1px;
+          font-weight: 400;
+          border-radius: 8px;
+          padding: 7px 28px;
+          svg {
+            margin: 10px;
+          }
+  
+          @include xl-device() {
+            margin-bottom: 15px;
+          }
+  
+          @include lg-device() {
+            margin-bottom: 10px;
+          }
+  
+          @include sm-down-device() {
+            margin-bottom: 10px;
+          }
+        }
+       }
+        h2 {
+          font-family: var(--font-public-sans);
+          font-weight: 800;
+          font-size: 60px;
+          line-height: 70px;
+          color: var(--title-color-4);
+          text-align: center;
+          max-width: 750px;
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  .top-button-wrapper{
+    padding-bottom: 12px;
+      .font-btn{
+        border: 3px solid #F3F6F9;
+        font-family: var(--font-public-sans);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #161616;
+        padding: 14px 52px;
+        &:hover{
+          background-color: #204AF4;
+          color: white;
+        }
+      }
+      .back-btn{
+        border: 3px solid #F3F6F9;
+        font-family: var(--font-public-sans);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #161616;
+        padding: 14px 52px;
+        &:hover{
+          background-color: #204AF4;
+          color: white;
+        }
+      }
+  }
+
+  .tolset-logo-area{
+    background-color:#F8F8F8;
+    .tolset-card-area{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      .tolset-card {
+     
+        .content {
+          background-color: white;
+          border-radius: 16px;
+          padding: 13px;
+          width: 119px;
+          height: 119px;
+          .icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 8px;
+            &.style-2{
+              background-color:#F2F2F2;
+              border-radius: 50%;
+              height: 62px;
+              width: 62px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin: 0 auto;
+            }
+          }
+    
+          h5 {
+            font-family:var(--font-poppins);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color:#26252EB2;
+            opacity: 70%;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+    .tolset-card-area-2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      .tolset-card {
+     
+        .content {
+          background-color: white;
+          border-radius: 16px;
+          padding: 13px;
+          width: 119px;
+          height: 119px;
+          .icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 8px;
+            &.style-2{
+              background-color:#F2F2F2;
+              border-radius: 50%;
+              height: 62px;
+              width: 62px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin: 0 auto;
+            }
+          }
+    
+          h5 {
+            font-family:var(--font-poppins);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color:#26252EB2;
+            opacity: 70%;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+}
+// Our-ToolSet end
+// client-speak-about start
+.client-speak-about{
+  .insights-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .section-title {
+      position: relative;
+      .shape{
+        position: absolute;
+        top: 80%;
+        left: 100%;
+
+      }
+      h2 {
+        font-family: var(--font-public-sans);
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 70px;
+        color: var(--title-color);
+        max-width: 598px;
+        width: 100%;
+        .blue{
+          color: #615CF6;
+        }
+        .outstranding-p {
+          color:#3F444BB2;
+          opacity: 70%;
+          font-family: var(--font-public-sans);
+          font-weight: 400;
+          font-size: 26px;
+          line-height: 40px;
+          letter-spacing: 3px;
+
+        }
+      }
+      p {
+        font-family: var(--font-poppins);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: var(--paragraph-color-4);
+        max-width: 675px;
+        width: 100%;
+      }
+    }
+
+
+  }
+  .video-img-wrap-4 {
+    position: relative;
+    .client-img{
+      .boy-img{
+        position: absolute;
+        top: -7%;
+        left: 67%;
+        width: 107px;
+        height: 107px;
+      }
+      .logo{
+        position: absolute;
+        top: 4%;
+        right:22%; 
+        background-color: #FCECD2;
+        width: 78px;
+        height: 78px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         border-radius: 14px;
+      }
+      &.client-2{
+        .boy-img{
+          left:-4%;
+          top: 38%;
+        }
+        .logo{
+          background-color: #E3F0B8;
+          top: 49%;
+          left:-7%; 
+        }
+      }
+      &.client-3{
+        .boy-img{
+          left: 95%;
+          top: 65%;
+        }
+        .logo{
+          background-color: #FDEFFF;
+          top: 57%;
+          right:-7%; 
+        }
+      }
+      &.client-4{
+        .boy-img{
+          left: 37%;
+          top: 90%;
+        }
+        .logo{
+          background-color: #C1D9CE;
+          top: 100%;
+          left: 43%;
+        }
+      }
+     
+    }
+    .video-img {
+      position: relative;
+      img {
+        width: 100%;
+        border-radius: 24px;
+      }
+  
+    }
+  }
+
+  .play-icon {
+svg{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+  }
+}
+// client-speak-about end
+// working-process start
+.working-process{
+  .working-section {
+    .content {
+      .title {
+       .top-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 19px;
+        > span {
+          color: var(--title-color-4);
+          font-family: var(--font-poppins);
+          text-transform: uppercase;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 1px;
+          font-weight: 400;
+          border-radius: 8px;
+          padding: 7px 28px;
+          svg {
+            margin: 10px;
+          }
+  
+          @include xl-device() {
+            margin-bottom: 15px;
+          }
+  
+          @include lg-device() {
+            margin-bottom: 10px;
+          }
+  
+          @include sm-down-device() {
+            margin-bottom: 10px;
+          }
+        }
+       }
+        h2 {
+          font-family: var(--font-public-sans);
+          font-weight: 800;
+          font-size: 60px;
+          line-height: 70px;
+          color: var(--title-color-4);
+          text-align: center;
+          max-width: 750px;
+          width: 100%;
+          margin: 0 auto;
+        }
+        h3{
+          font-family: var(--font-public-sans);
+          font-weight: 400;
+          font-size: 60px;
+          line-height: 74px;
+          text-align: center;
+          color: #BBA5E0;
+          span{
+            color: #615CF6;
+          }
+        }
+      }
+    }
+  }
+}
+// working-process end
 // INSIGHTS section-start
 .insights-section{
   .insights-content {
@@ -9561,9 +9938,6 @@ header.style-4 {
   }
 }
 // INSIGHTS section-end
-// girl-bottom-image start
-
-// girl-bottom-image end
 // footer section style-4 start
 .footer-section-style-4 {
   background-color: #161616;
