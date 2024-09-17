@@ -94,6 +94,10 @@ ul {
   list-style: none;
 }
 
+.p-header {
+  padding: 30px 196px 0px;
+}
+
 .pb-80 {
   padding-bottom: 80px;
 }
@@ -102,16 +106,24 @@ ul {
   padding-bottom: 30px;
 }
 
+.pb-18 {
+  padding-bottom: 18px;
+}
+
 .pb-32 {
   padding-bottom: 32px;
 }
 
-.pb-52 {
-  padding-bottom: 52px;
+.pb-46 {
+  padding-bottom: 46px;
 }
 
-.pb-25 {
-  padding-bottom: 25px;
+.pb-14 {
+  padding-bottom: 14px;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
 }
 
 .pt-50 {
@@ -120,6 +132,10 @@ ul {
 
 .pt-60 {
   padding-top: 60px;
+}
+
+.pt-65 {
+  padding-top: 65px;
 }
 
 .ptt-50 {
@@ -146,6 +162,10 @@ ul {
 
 .pt-113 {
   padding-top: 113px;
+}
+
+.pt-137 {
+  padding-top: 137px;
 }
 
 .pb-110 {
@@ -648,21 +668,24 @@ header.style-1 {
     padding: 15px 0;
   }
 }
-header.style-1 .nav-right .button-group .login-btn {
-  color: var(--title-color);
-  font-family: var(--font-public-sans);
+header.style-1 .nav-right .button-group .log {
+  font-weight: 500;
   font-size: 16px;
   line-height: 28px;
+  color: var(--title-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
 }
-header.style-1 .nav-right .button-group .get-btn img {
-  padding-right: 26px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 8px;
-}
-header.style-1 .nav-right .button-group .get-btn.get-btn:hover {
-  background-color: var(--background-color-2-2);
-  color: var(--white-color);
+header.style-1 .nav-right .button-group .get {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--title-color);
+  border: 1px solid #DDE1FD;
+  padding: 9px 26px 9px 26px;
+  border-radius: 66px;
 }
 header.style-1 .nav-right .mobile-menu-btn {
   display: none;
@@ -6374,6 +6397,9 @@ header.style-4 .nav-right .button-group .primary-btn4 {
 header.style-4 .nav-right .button-group .primary-btn4 svg {
   margin-left: 16px;
 }
+header.style-4 .nav-right .button-group .primary-btn4:hover {
+  background-color: #615CF6;
+}
 header.style-4 .nav-right .mobile-menu-btn {
   display: none;
   visibility: hidden;
@@ -6748,7 +6774,7 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   max-width: 1007px;
   width: 100%;
 }
-.banner-area-4 .banner-content > span {
+.banner-area-4 .banner-content span {
   color: var(--title-color-4);
   font-family: var(--font-poppins);
   text-transform: uppercase;
@@ -6756,25 +6782,24 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   line-height: 24px;
   letter-spacing: 1px;
   font-weight: 400;
-  background-color: rgb(224, 224, 224);
   border-radius: 8px;
   padding: 7px 28px;
 }
-.banner-area-4 .banner-content > span svg {
+.banner-area-4 .banner-content span svg {
   margin: 10px;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .banner-area-4 .banner-content > span {
+  .banner-area-4 .banner-content span {
     margin-bottom: 15px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .banner-area-4 .banner-content > span {
+  .banner-area-4 .banner-content span {
     margin-bottom: 10px;
   }
 }
 @media (max-width: 576px) {
-  .banner-area-4 .banner-content > span {
+  .banner-area-4 .banner-content span {
     margin-bottom: 10px;
   }
 }
@@ -6794,9 +6819,7 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   justify-content: center;
 }
 .banner-area-4 .banner-content .banner-content-bottom .nav-start .button-group {
-  background-color: var(--background-color-2);
   border-radius: 50px;
-  margin-right: 24px;
 }
 .banner-area-4 .banner-content .banner-content-bottom .nav-start .button-group .primary-btn4 {
   border-radius: 6px;
@@ -6811,6 +6834,9 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
 }
 .banner-area-4 .banner-content .banner-content-bottom .nav-start .button-group .primary-btn4 svg {
   margin-left: 16px;
+}
+.banner-area-4 .banner-content .banner-content-bottom .nav-start .button-group .primary-btn4:hover {
+  background-color: var(--title-color);
 }
 .banner-area-4 .banner-content .banner-content-bottom p {
   font-family: var(--font-inter);
@@ -7039,15 +7065,24 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   font-size: 14px;
   line-height: 24px;
 }
+.why-choose-us-section .write-side .content .write-img {
+  position: absolute;
+  top: 184px;
+}
+.why-choose-us-section .write-side .content .write-img img {
+  border-radius: 24px;
+}
+.why-choose-us-section .write-side .content .write-img .small-img {
+  position: absolute;
+  bottom: -33px;
+  right: -52px;
+}
+.why-choose-us-section .write-side .content .write-img .small-img img {
+  border-radius: 0px 0px 80px 0px;
+}
 .why-choose-us-section .bottom-content {
   background-color: rgb(248, 248, 248);
   padding-top: 77px;
-}
-.why-choose-us-section .bottom-content .write-side .write-img img {
-  border-radius: 24px;
-}
-.why-choose-us-section .bottom-content .write-side .write-img .small-img img {
-  border-radius: 0px 0px 80px 0px;
 }
 .why-choose-us-section .bottom-content .unique-content .check-area {
   display: flex;
@@ -7184,10 +7219,11 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   padding: 16px 36px;
 }
 .our-expertise-section .service-card-4 {
+  position: relative;
   background-color: white;
+  border-radius: 24px 0px 0px 0px;
   border: 1px solid rgba(200, 211, 255, 0.4);
   padding: 35px 30px;
-  position: relative;
 }
 @media (max-width: 1399px) {
   .our-expertise-section .service-card-4 {
@@ -7215,13 +7251,14 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
 }
 .our-expertise-section .service-card-4 .content h4 {
   padding-top: 28px;
+  margin: 0px;
 }
 .our-expertise-section .service-card-4 .content h4 a {
   font-family: var(--font-public-sans);
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
-  color: #615CF6;
+  color: #161616;
 }
 @media (max-width: 1399px) {
   .our-expertise-section .service-card-4 .content h4 a {
@@ -7237,6 +7274,9 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   .our-expertise-section .service-card-4 .content h4 a {
     font-size: 22px;
   }
+}
+.our-expertise-section .service-card-4 .content h4 a:hover {
+  color: #615CF6;
 }
 .our-expertise-section .service-card-4 .content .key-content {
   padding-top: 16px;
@@ -7268,19 +7308,34 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
 .our-expertise-section .service-card-4 .content:hover .middle {
   opacity: 1;
 }
+.our-expertise-section .service-card-4.two {
+  border-radius: 0px 0px 0px 0px;
+}
 .our-expertise-section .service-card-4.two .content .icon {
   background-color: #FFEEE4;
+}
+.our-expertise-section .service-card-4.three {
+  border-radius: 0px 24px 0px 0px;
 }
 .our-expertise-section .service-card-4.three .content .icon {
   background-color: #F4FFCE;
 }
+.our-expertise-section .service-card-4.four {
+  border-radius: 0px 0px 0px 24px;
+}
 .our-expertise-section .service-card-4.four .content .icon {
   background-color: #E0F2FF;
 }
-.our-expertise-section .service-card-4.fivee .content .icon {
-  background-color: #DDFFFC;
+.our-expertise-section .service-card-4.five {
+  border-radius: 0px 0px 0px 0px;
 }
 .our-expertise-section .service-card-4.five .content .icon {
+  background-color: #DDFFFC;
+}
+.our-expertise-section .service-card-4.six {
+  border-radius: 0px 0px 24px 0px;
+}
+.our-expertise-section .service-card-4.six .content .icon {
   background-color: #FFF4DE;
 }
 
@@ -7303,13 +7358,16 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   border-radius: 6px;
   padding: 15px 45px;
 }
+.expertise-bottom-area .expertise-bottom-content .button-wrap a:hover {
+  background-color: var(--title-color);
+}
 
-.our-latest-projects .project-content {
+.project-showcase .project-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.our-latest-projects .project-content .section-title > span {
+.project-showcase .project-content .section-title span {
   color: var(--title-color-4);
   font-family: var(--font-poppins);
   text-transform: uppercase;
@@ -7320,25 +7378,25 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   border-radius: 8px;
   padding: 7px 28px;
 }
-.our-latest-projects .project-content .section-title > span svg {
+.project-showcase .project-content .section-title span svg {
   margin: 10px;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .our-latest-projects .project-content .section-title > span {
+  .project-showcase .project-content .section-title span {
     margin-bottom: 15px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .our-latest-projects .project-content .section-title > span {
+  .project-showcase .project-content .section-title span {
     margin-bottom: 10px;
   }
 }
 @media (max-width: 576px) {
-  .our-latest-projects .project-content .section-title > span {
+  .project-showcase .project-content .section-title span {
     margin-bottom: 10px;
   }
 }
-.our-latest-projects .project-content .section-title h2 {
+.project-showcase .project-content .section-title h2 {
   font-family: var(--font-public-sans);
   font-weight: 800;
   font-size: 60px;
@@ -7347,13 +7405,13 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 14px;
   margin-top: 12px;
 }
-.our-latest-projects .project-content .section-title h2 > span {
+.project-showcase .project-content .section-title h2 > span {
   color: var(--paragraph-color-2);
 }
-.our-latest-projects .project-content .section-title h2 .blue-dot {
+.project-showcase .project-content .section-title h2 .blue-dot {
   color: rgb(97, 92, 246);
 }
-.our-latest-projects .project-content .section-title p {
+.project-showcase .project-content .section-title p {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 18px;
@@ -7362,7 +7420,7 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   max-width: 675px;
   width: 100%;
 }
-.our-latest-projects .project-content .button-wrap a {
+.project-showcase .project-content .button-wrap a {
   border: 1px solid #161616;
   border-radius: 6px;
   color: var(--title-color);
@@ -7372,13 +7430,20 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   font-family: var(--font-poppins);
   padding: 16px 36px;
 }
-.our-latest-projects .Supply-content {
+.project-showcase .project-content .button-wrap a:hover {
+  background-color: #615CF6;
+  border: 1px solid #615CF6;
+  color: var(--white-color);
+}
+.project-showcase .project-content .button-wrap a:hover svg path {
+  fill: white;
+}
+.project-showcase .Supply-content {
   background-color: rgb(245, 245, 245);
-  padding-bottom: 0px;
   border-radius: 16px;
   padding: 24px;
 }
-.our-latest-projects .Supply-content .content .title {
+.project-showcase .Supply-content .content .title {
   background-color: rgb(255, 255, 255);
   border-radius: 16px;
   display: flex;
@@ -7386,7 +7451,7 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   justify-content: space-between;
   padding: 40px 50px;
 }
-.our-latest-projects .Supply-content .content .title h2 {
+.project-showcase .Supply-content .content .title h2 {
   font-family: var(--font-public-sans);
   color: var(--title-color);
   font-weight: 700;
@@ -7395,25 +7460,25 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   max-width: 277px;
   width: 100%;
 }
-.our-latest-projects .Supply-content .content .title .write-arrow-up {
+.project-showcase .Supply-content .content .title .write-arrow-up {
   border: 1px solid rgb(238, 238, 238);
   border-radius: 12px;
   padding: 14px 15px;
 }
-.our-latest-projects .Supply-content .content .title .write-arrow-up svg {
+.project-showcase .Supply-content .content .title .write-arrow-up svg {
   width: 40px;
   height: 40px;
 }
-.our-latest-projects .Supply-content .content .button-wrap {
+.project-showcase .Supply-content .content .button-wrap {
   margin-bottom: 30px;
 }
-.our-latest-projects .Supply-content .content .button-wrap ul {
+.project-showcase .Supply-content .content .button-wrap ul {
   display: flex;
   align-items: center;
   justify-content: right;
   gap: 12px;
 }
-.our-latest-projects .Supply-content .content .button-wrap ul li .ui-ux {
+.project-showcase .Supply-content .content .button-wrap ul li .ui-ux {
   background-color: var(--white-color);
   color: var(--paragraph-color-2);
   padding: 8px 16px 8px 16px;
@@ -7424,12 +7489,12 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   font-size: 14px;
   line-height: 16px;
 }
-.our-latest-projects .Supply-content .content .button-wrap ul li .ui-ux:hover {
+.project-showcase .Supply-content .content .button-wrap ul li .ui-ux:hover {
   background-color: var(--title-color);
   border: 1px solid #161616;
   color: var(--white-color);
 }
-.our-latest-projects .Supply-content .content .button-wrap ul li .mobile-app {
+.project-showcase .Supply-content .content .button-wrap ul li .mobile-app {
   background-color: var(--white-color);
   color: var(--paragraph-color-2);
   padding: 8px 16px 8px 16px;
@@ -7440,23 +7505,23 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   font-size: 14px;
   line-height: 16px;
 }
-.our-latest-projects .Supply-content .content .button-wrap ul li .mobile-app:hover {
+.project-showcase .Supply-content .content .button-wrap ul li .mobile-app:hover {
   background-color: var(--title-color);
   border: 1px solid #161616;
   color: var(--white-color);
 }
-.our-latest-projects .Supply-content .content .content-img {
+.project-showcase .Supply-content .content .content-img {
   position: relative;
   background-color: rgb(255, 255, 255);
   border-radius: 16px;
   padding: 24px;
   margin-bottom: 21px;
 }
-.our-latest-projects .Supply-content .content .content-img img {
+.project-showcase .Supply-content .content .content-img img {
   width: 100%;
   border-radius: 12px;
 }
-.our-latest-projects .Supply-content .content .content-img .middle {
+.project-showcase .Supply-content .content .content-img .middle {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
@@ -7466,7 +7531,7 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.our-latest-projects .Supply-content .content .content-img .middle .text {
+.project-showcase .Supply-content .content .content-img .middle .text {
   background-color: var(--background-color-2-2);
   color: var(--white-color);
   height: 104px;
@@ -7479,24 +7544,24 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   border-radius: 50%;
   padding: 16px 32px;
 }
-.our-latest-projects .Supply-content.supply-2 {
+.project-showcase .Supply-content.supply-2 {
   background-color: rgb(229, 207, 233);
 }
-.our-latest-projects .Supply-content.supply-2 .content .title h2 {
+.project-showcase .Supply-content.supply-2 .content .title h2 {
   max-width: 260px;
   width: 100%;
 }
-.our-latest-projects .Supply-content.supply-3 {
+.project-showcase .Supply-content.supply-3 {
   background-color: rgb(233, 253, 244);
 }
-.our-latest-projects .Supply-content.supply-3 .content .title h2 {
+.project-showcase .Supply-content.supply-3 .content .title h2 {
   max-width: 290px;
   width: 100%;
 }
-.our-latest-projects .Supply-content.supply-4 {
+.project-showcase .Supply-content.supply-4 {
   background-color: rgb(243, 225, 196);
 }
-.our-latest-projects .Supply-content.supply-4 .content .title h2 {
+.project-showcase .Supply-content.supply-4 .content .title h2 {
   max-width: 260px;
   width: 100%;
 }
@@ -7560,30 +7625,38 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   text-align: center;
   margin: 0 auto;
 }
-.client-Feedback .customer-section .client-image-wrap img {
-  border-radius: 28px;
+.client-Feedback .back-color {
+  padding: 0px 186px 0px 186px;
 }
-.client-Feedback .customer-section .right-side-wrapper .title {
+.client-Feedback .back-color .review-content {
+  background-color: #EEE4FF;
+  border-radius: 32px 32px 0px 0px;
+}
+.client-Feedback .back-color .review-content .customer-section .client-image-wrap img {
+  border-radius: 28px;
+  margin-left: 75px;
+}
+.client-Feedback .back-color .review-content .customer-section .right-side-wrapper .title {
   padding-bottom: 36px;
 }
-.client-Feedback .customer-section .right-side-wrapper .title h2 {
+.client-Feedback .back-color .review-content .customer-section .right-side-wrapper .title h2 {
   font-family: var(--font-public-sans);
   font-weight: 500;
   font-size: 28px;
   line-height: 40px;
   color: rgb(97, 92, 246);
 }
-.client-Feedback .customer-section .right-side-wrapper .title p {
+.client-Feedback .back-color .review-content .customer-section .right-side-wrapper .title p {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 26px;
   line-height: 46px;
   color: var(--paragraph-color-4);
 }
-.client-Feedback .carousel {
+.client-Feedback .back-color .review-content .carousel {
   position: relative;
 }
-.client-Feedback .carousel .carousel-control-prev {
+.client-Feedback .back-color .review-content .carousel .carousel-control-prev {
   position: absolute;
   background-color: #ffffff;
   width: 37px;
@@ -7592,13 +7665,13 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   left: 85%;
   top: 65%;
 }
-.client-Feedback .carousel .carousel-control-prev:hover {
+.client-Feedback .back-color .review-content .carousel .carousel-control-prev:hover {
   background-color: #615CF6;
 }
-.client-Feedback .carousel .carousel-control-prev:hover svg path {
+.client-Feedback .back-color .review-content .carousel .carousel-control-prev:hover svg path {
   fill: white;
 }
-.client-Feedback .carousel .carousel-control-next {
+.client-Feedback .back-color .review-content .carousel .carousel-control-next {
   position: absolute;
   background-color: #ffffff;
   width: 37px;
@@ -7607,20 +7680,20 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   left: 90%;
   top: 65%;
 }
-.client-Feedback .carousel .carousel-control-next:hover {
+.client-Feedback .back-color .review-content .carousel .carousel-control-next:hover {
   background-color: #615CF6;
 }
-.client-Feedback .carousel .carousel-control-next:hover svg path {
+.client-Feedback .back-color .review-content .carousel .carousel-control-next:hover svg path {
   fill: white;
 }
-.client-Feedback .carousel .check-card h2 {
+.client-Feedback .back-color .review-content .carousel .check-card h2 {
   color: rgb(97, 92, 246);
   font-family: var(--font-public-sans);
   font-weight: 500;
   font-size: 28px;
   line-height: 40px;
 }
-.client-Feedback .carousel .check-card p {
+.client-Feedback .back-color .review-content .carousel .check-card p {
   max-width: 769px;
   width: 100%;
   color: var(--paragraph-color-4);
@@ -7630,44 +7703,59 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 400;
   padding-bottom: 36px;
 }
-.client-Feedback .carousel .check-card .client-img {
+.client-Feedback .back-color .review-content .carousel .check-card .client-img {
   display: flex;
   gap: 22px;
   padding-bottom: 47px;
   border-bottom: 1px solid #D5C5EF;
 }
-.client-Feedback .carousel .check-card .client-img img {
+.client-Feedback .back-color .review-content .carousel .check-card .client-img img {
   border-radius: 8px;
   width: 70px;
   height: 77px;
 }
-.client-Feedback .carousel .check-card .client-img .client-title h2 {
+.client-Feedback .back-color .review-content .carousel .check-card .client-img .client-title h2 {
   font-family: var(--font-public-sans);
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
   color: rgb(63, 68, 75);
 }
-.client-Feedback .carousel .check-card .client-img .client-title h5 {
+.client-Feedback .back-color .review-content .carousel .check-card .client-img .client-title h5 {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
   color: rgb(49, 71, 255);
 }
-.client-Feedback .bottom-write-side {
+.client-Feedback .back-color .review-content .shape-icon .left-shape {
+  position: absolute;
+  top: -15%;
+  left: 25px;
+}
+.client-Feedback .back-color .review-content .shape-icon .bottom-shape {
+  position: absolute;
+  bottom: -15%;
+  left: 10px;
+}
+.client-Feedback .back-color .review-content .right-shape {
+  position: absolute;
+  top: 45%;
+  right: 15%;
+}
+.client-Feedback .back-color .review-content .bottom-write-side {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 32px;
 }
-.client-Feedback .bottom-write-side .write-side-logo .logo-wrapper {
+.client-Feedback .back-color .review-content .bottom-write-side .write-side-logo .logo-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 46px;
 }
-.client-Feedback .bottom-write-side .write-side-logo .logo-wrapper .logo-wrap span {
+.client-Feedback .back-color .review-content .bottom-write-side .write-side-logo .logo-wrapper .logo-wrap span {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 14px;
@@ -7760,22 +7848,21 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
 }
-.Our-Toolset .tolset-logo-area .tolset-card-area .tolset-card .content {
+.Our-Toolset .tolset-logo-area .tolset-card-area .content {
   background-color: white;
   border-radius: 16px;
   padding: 13px;
   width: 119px;
   height: 119px;
 }
-.Our-Toolset .tolset-logo-area .tolset-card-area .tolset-card .content .icon {
+.Our-Toolset .tolset-logo-area .tolset-card-area .content .icon {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 8px;
 }
-.Our-Toolset .tolset-logo-area .tolset-card-area .tolset-card .content .icon.style-2 {
+.Our-Toolset .tolset-logo-area .tolset-card-area .content .icon.style-2 {
   background-color: #F2F2F2;
   border-radius: 50%;
   height: 62px;
@@ -7785,45 +7872,7 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   justify-content: center;
   margin: 0 auto;
 }
-.Our-Toolset .tolset-logo-area .tolset-card-area .tolset-card .content h5 {
-  font-family: var(--font-poppins);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: rgba(38, 37, 46, 0.6980392157);
-  opacity: 70%;
-  text-align: center;
-}
-.Our-Toolset .tolset-card-area-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
-.Our-Toolset .tolset-card-area-2 .tolset-card .content {
-  background-color: white;
-  border-radius: 16px;
-  padding: 13px;
-  width: 119px;
-  height: 119px;
-}
-.Our-Toolset .tolset-card-area-2 .tolset-card .content .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 8px;
-}
-.Our-Toolset .tolset-card-area-2 .tolset-card .content .icon.style-2 {
-  background-color: #F2F2F2;
-  border-radius: 50%;
-  height: 62px;
-  width: 62px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-}
-.Our-Toolset .tolset-card-area-2 .tolset-card .content h5 {
+.Our-Toolset .tolset-logo-area .tolset-card-area .content h5 {
   font-family: var(--font-poppins);
   font-weight: 500;
   font-size: 16px;
@@ -7946,6 +7995,9 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   border-radius: 50px;
 }
 
+.working-process {
+  background-color: #F8F4FF;
+}
 .working-process .working-section .content .title .top-content {
   display: flex;
   align-items: center;
@@ -8003,13 +8055,54 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
 .working-process .working-section .content .title h3 span {
   color: #615CF6;
 }
+.working-process .progress-step {
+  padding-left: 141px;
+}
+.working-process .progress-step .content {
+  display: flex;
+  align-items: center;
+  gap: 69px;
+}
+.working-process .progress-step .content .step-card {
+  background-color: var(--white-color);
+  padding: 27px 35px;
+  border-radius: 16px;
+}
+.working-process .progress-step .content .step-card h4 {
+  font-family: var(--font-public-sans);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--title-color);
+  text-align: center;
+  margin: 0px;
+}
+.working-process .progress-step .content .step-no {
+  text-align: center;
+}
+.working-process .progress-step .content .step-no h3 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  color: #615CF6;
+  margin: 0px;
+}
+.working-process .progress-step .content .step-no span {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(38, 37, 46, 0.6980392157);
+  opacity: 70%;
+}
 
 .insights-section .insights-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.insights-section .insights-content .section-title > span {
+.insights-section .insights-content .section-title span {
   color: var(--title-color-4);
   font-family: var(--font-poppins);
   text-transform: uppercase;
@@ -8020,21 +8113,21 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   border-radius: 8px;
   padding: 7px 28px;
 }
-.insights-section .insights-content .section-title > span svg {
+.insights-section .insights-content .section-title span svg {
   margin: 10px;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .insights-section .insights-content .section-title > span {
+  .insights-section .insights-content .section-title span {
     margin-bottom: 15px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .insights-section .insights-content .section-title > span {
+  .insights-section .insights-content .section-title span {
     margin-bottom: 10px;
   }
 }
 @media (max-width: 576px) {
-  .insights-section .insights-content .section-title > span {
+  .insights-section .insights-content .section-title span {
     margin-bottom: 10px;
   }
 }
@@ -8073,6 +8166,14 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   line-height: 24px;
   font-family: var(--font-poppins);
   padding: 16px 36px;
+}
+.insights-section .insights-content .button-wrap a:hover {
+  background-color: #615CF6;
+  border: 1px solid #615CF6;
+  color: var(--white-color);
+}
+.insights-section .insights-content .button-wrap a:hover svg path {
+  fill: white;
 }
 .insights-section .blog-card-4 .blog-card-img-wrap {
   position: relative;
@@ -8363,6 +8464,7 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .footer-section-style-4 .contact-section-4 .contact-area .content {
   display: flex;
@@ -8384,6 +8486,10 @@ header.style-4 .main-menu > ul li.menu-item-has-children > i {
 .footer-section-style-4 .contact-section-4 .contact-area .content .contact-button .arrow a svg {
   width: 76px;
   height: 76px;
+}
+.footer-section-style-4 .contact-section-4 .contact-area .content .arrow-shape {
+  position: absolute;
+  right: 14%;
 }
 .footer-section-style-4 .contact-section-4 .contact-area .content .title {
   padding-top: 10px;
