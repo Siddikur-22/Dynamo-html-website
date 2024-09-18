@@ -2172,7 +2172,11 @@ header.style-1 {
   }
 
   .accordion-item {
+    border: none;
+    padding-bottom: 24px;
+    border-radius: 16px;
     .accordion-header {
+
       button {
         font-family: var(--font-public-sans);
         color: var(--title-color);
