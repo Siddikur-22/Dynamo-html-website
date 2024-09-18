@@ -3241,9 +3241,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   text-align: left;
 }
 .Experienced-Creative .Experienced-content .bottom-content .logo-wrapper {
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
+  overflow: hidden;
+}
+.Experienced-Creative .Experienced-content .bottom-content .logo-wrapper a {
+  margin-right: 103px;
 }
 
 .our-recent-work .recent-content {

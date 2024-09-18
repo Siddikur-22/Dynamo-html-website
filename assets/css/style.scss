@@ -3854,9 +3854,10 @@ header.style-2 {
       }
 
       .logo-wrapper {
-        display: flex;
-        align-content: center;
-        justify-content: space-between;
+        overflow: hidden;
+        a{
+         margin-right: 103px;
+        }
       }
     }
   }
