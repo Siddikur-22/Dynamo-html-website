@@ -1633,6 +1633,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   background-color: #f6f8ff;
   border-radius: 24px;
   padding: 30px;
+  position: relative;
 }
 .feedback-section .carousel .check-card .client-div {
   display: flex;
@@ -1665,6 +1666,11 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-size: 22px;
   font-weight: 400;
   line-height: 38px;
+}
+.feedback-section .carousel .check-card .right-side-shape {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
 }
 
 .Pricing-section {
@@ -5842,6 +5848,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   border: 1px solid #F2CC4D;
 }
 .feedback-section-3 .carousel .check-card {
+  position: relative;
   background-color: #ffffff;
   border-radius: 0px 32px;
   padding: 40px;
