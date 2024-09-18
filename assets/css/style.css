@@ -703,6 +703,13 @@ header.style-1 .nav-right .button-group .get {
   padding: 9px 26px 9px 26px;
   border-radius: 66px;
 }
+header.style-1 .nav-right .button-group .get:hover {
+  background-color: #3147FF;
+  color: white;
+}
+header.style-1 .nav-right .button-group .get:hover svg path {
+  fill: white;
+}
 header.style-1 .nav-right .mobile-menu-btn {
   display: none;
   visibility: hidden;
@@ -1152,10 +1159,26 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 600;
   font-family: var(--font-public-sans);
 }
+.banner-section .button-group .primary-btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--title-color);
+  color: var(--title-color);
+}
+.banner-section .button-group .primary-btn:hover svg path {
+  fill: var(--title-color);
+}
 .banner-section .button-group .primary-btn.transparent {
   background-color: transparent;
   border: 1px solid var(--title-color);
   color: var(--title-color);
+}
+.banner-section .button-group .primary-btn.transparent:hover {
+  background-color: #3147FF;
+  border: 1px solid #3147FF;
+  color: white;
+}
+.banner-section .button-group .primary-btn.transparent:hover svg path {
+  fill: white;
 }
 
 .banner-bottom-area {
@@ -1203,10 +1226,12 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   color: var(--primary-color);
 }
 .logo-section .logo-wrap .logo-area .logo-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 70px;
+  overflow: hidden;
+  max-width: 940px;
+  margin: 0 auto;
+}
+.logo-section .logo-wrap .logo-area .logo-wrap a {
+  margin-left: 70px;
 }
 
 .service-section .section-title span {
@@ -1241,11 +1266,25 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   padding-top: 40px;
   padding-right: 25px;
   padding-bottom: 73px;
+  position: relative;
 }
 .service-section .service-card .icon {
   margin-bottom: 44px;
 }
-.service-section .service-card h2 {
+.service-section .service-card .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 88%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.service-section .service-card:hover .middle {
+  opacity: 1;
+}
+.service-section .service-card .content h2 {
   color: var(--title-color);
   max-width: 262px;
   width: 100%;
@@ -1255,7 +1294,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   line-height: 36px;
   margin-bottom: 10px;
 }
-.service-section .service-card p {
+.service-section .service-card .content p {
   max-width: 305px;
   width: 100%;
   color: var(--paragraph-color);
@@ -1263,6 +1302,24 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
+}
+.service-section .service-card .bottom-right-shape {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+.service-section .service-card:hover {
+  background-color: #1E2FC0;
+  opacity: 77%;
+}
+.service-section .service-card:hover .icon svg path {
+  fill: white;
+}
+.service-section .service-card:hover .content h4 {
+  color: white;
+}
+.service-section .service-card:hover .content p {
+  color: white;
 }
 .service-section .service-button {
   display: flex;
@@ -1278,6 +1335,14 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-size: 18px;
   font-weight: 600;
   font-family: var(--font-public-sans);
+}
+.service-section .service-button .primary-btn:hover {
+  background-color: transparent;
+  border: 1px solid #161616;
+  color: var(--title-color);
+}
+.service-section .service-button .primary-btn:hover svg path {
+  fill: var(--title-color);
 }
 
 .Appreciation-Feature .section-title span {
@@ -1381,8 +1446,14 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 600;
   font-family: var(--font-public-sans);
 }
+.Appreciation-Feature .feature-card .feature-content .learn-more-btn svg {
+  margin-left: 8px;
+}
 .Appreciation-Feature .feature-card.style-2 {
   background-image: url("../image/All-image/banner-img/bg-2.png");
+}
+.Appreciation-Feature .feature-card.style-2 .feature-content .learn-more-btn svg {
+  margin-left: 8px;
 }
 .Appreciation-Feature .feature-card.style-2 .feature-content .step-no span {
   background-color: #dbfcff;
@@ -1391,12 +1462,18 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 .Appreciation-Feature .feature-card.style-3 {
   background-image: url("../image/All-image/banner-img/bg-3.png");
 }
+.Appreciation-Feature .feature-card.style-3 .feature-content .learn-more-btn svg {
+  margin-left: 8px;
+}
 .Appreciation-Feature .feature-card.style-3 .feature-content .step-no span {
   background-color: #fff2f7;
   color: #e597b4;
 }
 .Appreciation-Feature .feature-card.style-4 {
   background-image: url("../image/All-image/banner-img/bg-4.png");
+}
+.Appreciation-Feature .feature-card.style-4 .feature-content .learn-more-btn svg {
+  margin-left: 8px;
 }
 .Appreciation-Feature .feature-card.style-4 .feature-content .step-no span {
   background-color: #ddfff5;
@@ -1417,10 +1494,26 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 600;
   font-family: var(--font-public-sans);
 }
+.Appreciation-Feature .Feature-button-wrap .primary-btn:hover {
+  background-color: transparent;
+  border: 1px solid #161616;
+  color: var(--title-color);
+}
+.Appreciation-Feature .Feature-button-wrap .primary-btn:hover svg path {
+  fill: var(--title-color);
+}
 .Appreciation-Feature .Feature-button-wrap .primary-btn.transparent {
   background-color: transparent;
   border: 1px solid var(--title-color);
   color: var(--title-color);
+}
+.Appreciation-Feature .Feature-button-wrap .primary-btn.transparent:hover {
+  background-color: #3147FF;
+  border: 1px solid #3147FF;
+  color: var(--white-color);
+}
+.Appreciation-Feature .Feature-button-wrap .primary-btn.transparent:hover svg path {
+  fill: var(--title-color);
 }
 
 .Essential-section {
@@ -1468,6 +1561,14 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 600;
   font-family: var(--font-public-sans);
 }
+.Essential-section .Essential-section-title .Essential-button .primary-btn:hover {
+  background-color: #3147FF;
+  border: 1px solid #3147FF;
+  color: var(--white-color);
+}
+.Essential-section .Essential-section-title .Essential-button .primary-btn:hover svg path {
+  fill: var(--white-color);
+}
 
 .feedback-section .section-title span {
   text-transform: uppercase;
@@ -1500,21 +1601,33 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 }
 .feedback-section .carousel .carousel-control-prev {
   position: absolute;
-  background-color: #3147ff;
+  background-color: #ffffff;
   width: 44px;
   height: 44px;
   border-radius: 50px;
   margin-left: 600px;
   margin-top: 450px;
 }
+.feedback-section .carousel .carousel-control-prev:hover {
+  background-color: #3147FF;
+}
+.feedback-section .carousel .carousel-control-prev:hover svg path {
+  fill: white;
+}
 .feedback-section .carousel .carousel-control-next {
   position: absolute;
-  background-color: #3147ff;
+  background-color: #ffffff;
   width: 44px;
   height: 44px;
   border-radius: 50px;
   margin-right: 600px;
   margin-top: 450px;
+}
+.feedback-section .carousel .carousel-control-next:hover {
+  background-color: #3147FF;
+}
+.feedback-section .carousel .carousel-control-next:hover svg path {
+  fill: white;
 }
 .feedback-section .carousel .check-card {
   background-color: #f6f8ff;
@@ -1689,6 +1802,34 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-size: 18px;
   font-weight: 600;
   font-family: var(--font-public-sans);
+}
+.Pricing-section .pricing-button .primary-btn:hover {
+  background-color: #3147FF;
+  border: 1px solid #3147FF;
+  color: var(--white-color);
+}
+.Pricing-section .pricing-button .primary-btn:hover svg path {
+  fill: var(--white-color);
+}
+
+.marquee-section-1 {
+  background-color: #141415;
+}
+.marquee-section-1 .marquee_text {
+  overflow: hidden;
+  padding: 28px 28px;
+}
+.marquee-section-1 .marquee_text .js-marquee {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.marquee-section-1 .marquee_text h6 {
+  font-weight: 600;
+  font-family: var(--font-public-sans);
+  font-size: 22px;
+  line-height: 30px;
+  color: var(--white-color);
 }
 
 .faqs-section .section-title span {
@@ -2065,10 +2206,26 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 600;
   font-family: var(--font-public-sans);
 }
+.footer-section .footer-top .try-section-title .footer-btn-group .primary-btn:hover {
+  background-color: #3147FF;
+  border: 1px solid #3147FF;
+  color: var(--white-color);
+}
+.footer-section .footer-top .try-section-title .footer-btn-group .primary-btn:hover svg path {
+  fill: var(--white-color);
+}
 .footer-section .footer-top .try-section-title .footer-btn-group .primary-btn.transparent {
   background-color: transparent;
   border: 1px solid var(--border-color);
   color: var(--white-color);
+}
+.footer-section .footer-top .try-section-title .footer-btn-group .primary-btn.transparent:hover {
+  background-color: #3147FF;
+  border: 1px solid #3147FF;
+  color: var(--white-color);
+}
+.footer-section .footer-top .try-section-title .footer-btn-group .primary-btn.transparent:hover svg path {
+  fill: var(--white-color);
 }
 .footer-section .background-color {
   background-color: var(--white-color);
@@ -3618,7 +3775,53 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-.Feedback-Showcase .showcase-content {
+.Feedback-Showcase .carousel {
+  position: relative;
+  margin-bottom: 110px;
+}
+.Feedback-Showcase .carousel .carousel-control-prev {
+  position: absolute;
+  left: 88%;
+  top: 99%;
+  background-color: var(--white-color);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 61px;
+  height: 42px;
+  padding: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 100%;
+}
+.Feedback-Showcase .carousel .carousel-control-prev:hover {
+  background-color: var(--background-color-2-2);
+}
+.Feedback-Showcase .carousel .carousel-control-prev:hover path {
+  fill: white;
+}
+.Feedback-Showcase .carousel .carousel-control-next {
+  position: absolute;
+  right: 2%;
+  top: 99%;
+  background-color: var(--white-color);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 61px;
+  height: 42px;
+  padding: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 100%;
+}
+.Feedback-Showcase .carousel .carousel-control-next:hover {
+  background-color: var(--background-color-2-2);
+}
+.Feedback-Showcase .carousel .carousel-control-next:hover path {
+  fill: white;
+}
+.Feedback-Showcase .carousel .showcase-content {
   position: relative;
   display: flex;
   align-items: center;
@@ -3627,15 +3830,15 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   border-bottom-left-radius: 208px;
   gap: 43px;
 }
-.Feedback-Showcase .showcase-content .showcase-img {
+.Feedback-Showcase .carousel .showcase-content .showcase-img {
   padding: 20px;
 }
-.Feedback-Showcase .showcase-content .video-play-icon {
+.Feedback-Showcase .carousel .showcase-content .video-play-icon {
   position: absolute;
   top: 80px;
   left: 70px;
 }
-.Feedback-Showcase .showcase-content .video-play-icon a {
+.Feedback-Showcase .carousel .showcase-content .video-play-icon a {
   background-color: var(--background-color-2);
   border-radius: 50px;
   width: 53px;
@@ -3645,10 +3848,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   justify-content: center;
   font-size: 30px;
 }
-.Feedback-Showcase .showcase-content .video-play-icon a i {
+.Feedback-Showcase .carousel .showcase-content .video-play-icon a i {
   color: var(--white-color);
 }
-.Feedback-Showcase .showcase-content .content .title p {
+.Feedback-Showcase .carousel .showcase-content .content .title p {
   font-family: var(--font-inter);
   font-weight: 400;
   font-size: 23px;
@@ -3656,27 +3859,27 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   max-width: 703px;
   width: 100%;
 }
-.Feedback-Showcase .showcase-content .bottom-content {
+.Feedback-Showcase .carousel .showcase-content .bottom-content {
   margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.Feedback-Showcase .showcase-content .bottom-content .client-name h2 {
+.Feedback-Showcase .carousel .showcase-content .bottom-content .client-name h2 {
   font-family: var(--font-public-sans);
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
   color: var(--title-color);
 }
-.Feedback-Showcase .showcase-content .bottom-content .client-name h4 {
+.Feedback-Showcase .carousel .showcase-content .bottom-content .client-name h4 {
   font-family: var(--font-inter);
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: var(--primary-color-2);
 }
-.Feedback-Showcase .showcase-content .icon-write {
+.Feedback-Showcase .carousel .showcase-content .icon-write {
   position: absolute;
   top: -7%;
   right: -3%;
@@ -3688,47 +3891,6 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.Feedback-Showcase .button-right {
-  float: right;
-}
-.Feedback-Showcase .button-right .button-one {
-  background-color: var(--white-color);
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  width: 61px;
-  height: 42px;
-  padding: 21px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.Feedback-Showcase .button-right .button-one:hover {
-  background-color: var(--background-color-2-2);
-}
-.Feedback-Showcase .button-right .button-one:hover path {
-  fill: white;
-}
-.Feedback-Showcase .button-right ul {
-  display: flex;
-  gap: 10px;
-}
-.Feedback-Showcase .button-right ul li .button-two {
-  background-color: var(--white-color);
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  width: 61px;
-  height: 42px;
-  padding: 21px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.Feedback-Showcase .button-right ul li .button-two:hover {
-  background-color: var(--background-color-2-2);
-}
-.Feedback-Showcase .button-right ul li .button-two:hover path {
-  fill: white;
 }
 
 .Our-Newest-Articles .Newest-Articles-content {
@@ -5462,11 +5624,12 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   align-items: center;
   justify-content: center;
   gap: 40px;
+  position: relative;
 }
 .our-Methodology .dynamic-approach-card .dynamic-card .card-top-area {
   position: absolute;
   top: -25%;
-  left: 32%;
+  left: 3%;
   height: 104px;
   width: 104px;
   background-color: white;
@@ -5507,11 +5670,26 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   text-align: center;
   padding: 84px 18px 54px 19px;
 }
+.our-Methodology .dynamic-approach-card .dynamic-card.two .card-top-area {
+  position: absolute;
+  top: -25%;
+  left: 32%;
+}
 .our-Methodology .dynamic-approach-card .dynamic-card.two .content {
   background-color: rgb(153, 231, 242);
 }
+.our-Methodology .dynamic-approach-card .dynamic-card.three .card-top-area {
+  position: absolute;
+  top: -25%;
+  left: 60%;
+}
 .our-Methodology .dynamic-approach-card .dynamic-card.three .content {
   background-color: rgb(201, 218, 143);
+}
+.our-Methodology .dynamic-approach-card .dynamic-card.four .card-top-area {
+  position: absolute;
+  top: -25%;
+  left: 88%;
 }
 .our-Methodology .dynamic-approach-card .dynamic-card.four .content {
   background-color: rgb(255, 212, 201);
@@ -7057,6 +7235,14 @@ header.style-4 .nav-right .mobile-menu-btn svg {
 .why-choose-us-section .top-content .button-wrapper .button-area .primary-btn4 svg {
   margin-left: 10px;
 }
+.why-choose-us-section .top-content .button-wrapper .button-area .primary-btn4:hover {
+  background-color: #615CF6;
+  border: 1px solid #615CF6;
+  color: var(--white-color);
+}
+.why-choose-us-section .top-content .button-wrapper .button-area .primary-btn4:hover svg path {
+  fill: white;
+}
 .why-choose-us-section .top-content .button-wrapper .left-content .content .rating-content h6 span {
   font-family: var(--font-poppins);
   font-weight: 500;
@@ -7474,6 +7660,12 @@ header.style-4 .nav-right .mobile-menu-btn svg {
 .project-showcase .Supply-content .content .title .write-arrow-up svg {
   width: 40px;
   height: 40px;
+}
+.project-showcase .Supply-content .content .title .write-arrow-up:hover {
+  background-color: #615CF6;
+}
+.project-showcase .Supply-content .content .title .write-arrow-up:hover svg path {
+  fill: white;
 }
 .project-showcase .Supply-content .content .button-wrap {
   margin-bottom: 30px;
