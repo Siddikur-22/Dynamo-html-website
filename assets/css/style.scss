@@ -1951,7 +1951,6 @@ header.style-1 {
       margin-right: auto;
     }
   }
-
   .carousel {
     position: relative;
     margin-bottom: 110px;
@@ -2080,7 +2079,26 @@ header.style-1 {
       margin-right: auto;
     }
   }
-
+  .nav-button-wrapper{
+    
+    .nav-pills{
+      border: 1px solid #DDE1FD;
+      max-width: 304px;
+      width: 100%;
+      padding: 11px;
+      border-radius: 97px;
+      gap:5px;
+      text-align: center;
+      margin: 0 auto;
+      .nav-link{
+        border-radius: 80px;
+        font-family: var(--font-public-sans);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
   .pricing-card {
     border: 1px solid #f8e37f;
     border-radius: 32px;
@@ -3990,7 +4008,7 @@ header.style-2 {
 // Experienced-Creative start
 .Experienced-Creative {
   background-color: #fffbf9;
-
+  position: relative;
   .Experienced-content {
     .section-title {
       h2 {
@@ -4085,6 +4103,13 @@ header.style-2 {
          margin-right: 103px;
         }
       }
+    }
+  }
+  .right-side-net-shape{
+    .right-net{
+      position: absolute;
+      right: 0%;
+      top: 0%;
     }
   }
 }
@@ -5473,6 +5498,9 @@ header.style-2 {
               font-weight: 400;
               font-size: 17px;
               line-height: 30px;
+              &:hover{
+               color:#ED7733;
+              }
             }
           }
         }

@@ -1794,6 +1794,23 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-left: auto;
   margin-right: auto;
 }
+.Pricing-section .nav-button-wrapper .nav-pills {
+  border: 1px solid #DDE1FD;
+  max-width: 304px;
+  width: 100%;
+  padding: 11px;
+  border-radius: 97px;
+  gap: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+.Pricing-section .nav-button-wrapper .nav-pills .nav-link {
+  border-radius: 80px;
+  font-family: var(--font-public-sans);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
 .Pricing-section .pricing-card {
   border: 1px solid #f8e37f;
   border-radius: 32px;
@@ -3382,6 +3399,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
 
 .Experienced-Creative {
   background-color: #fffbf9;
+  position: relative;
 }
 .Experienced-Creative .Experienced-content .section-title h2 {
   font-family: var(--font-public-sans);
@@ -3455,6 +3473,11 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
 }
 .Experienced-Creative .Experienced-content .bottom-content .logo-wrapper a {
   margin-right: 103px;
+}
+.Experienced-Creative .right-side-net-shape .right-net {
+  position: absolute;
+  right: 0%;
+  top: 0%;
 }
 
 .our-recent-work .recent-content {
@@ -4617,6 +4640,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 400;
   font-size: 17px;
   line-height: 30px;
+}
+.footer-section-style-2 .footer-wrap-2 .footer-widget .menu-container .widget-list li a:hover {
+  color: #ED7733;
 }
 .footer-section-style-2 .footer-bottom-wrap {
   margin-top: 27px;
