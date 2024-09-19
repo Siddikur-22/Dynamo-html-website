@@ -3538,6 +3538,7 @@ header.style-2 {
 // Functions-section end
 // who-we-are-section start
 .who-we-are-section {
+  position: relative;
   .section-head {
     .content {
       > span {
@@ -3578,6 +3579,25 @@ header.style-2 {
         max-width: 750px;
         width: 100%;
       }
+    }
+  }
+  .right-side-led-shape{
+    .led-light{
+      position: absolute;
+      right: 27%;
+      top: 34%;
+    }
+    .round-element-2{
+      position: absolute;
+      right: 9%;
+      top: 10%;
+      z-index: -1;
+      opacity: 30%;
+    }
+    .right-side-svg{
+      position: absolute;
+      right: 0%;
+      top:0%;;
     }
   }
 
@@ -5950,7 +5970,9 @@ header.style-3 {
 .banner-area-3 {
   position: relative;
   background-image: url("../image/All-image/banner-img/banner-img-3.png");
-
+  .scroll-list{
+    
+  }
   .banner-content {
     max-width: 670px;
     width: 100%;
@@ -6126,7 +6148,7 @@ header.style-3 {
       z-index: -1;
       opacity: 30%;
     }
-    .aircraft{
+    .aircraft-2{
       position: absolute;
       right: 8%;
       top: 17%;

@@ -2985,6 +2985,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   background-color: #064135;
 }
 
+.who-we-are-section {
+  position: relative;
+}
 .who-we-are-section .section-head .content > span {
   font-family: var(--font-inter);
   font-weight: 500;
@@ -3018,6 +3021,23 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   color: var(--paragraph-color-2);
   max-width: 750px;
   width: 100%;
+}
+.who-we-are-section .right-side-led-shape .led-light {
+  position: absolute;
+  right: 27%;
+  top: 34%;
+}
+.who-we-are-section .right-side-led-shape .round-element-2 {
+  position: absolute;
+  right: 9%;
+  top: 10%;
+  z-index: -1;
+  opacity: 30%;
+}
+.who-we-are-section .right-side-led-shape .right-side-svg {
+  position: absolute;
+  right: 0%;
+  top: 0%;
 }
 .who-we-are-section .mission-wrap {
   background-image: linear-gradient(to right, #ffeee2, #fff8f3);
@@ -5144,7 +5164,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   z-index: -1;
   opacity: 30%;
 }
-.about-company-section .right-side-shape .aircraft {
+.about-company-section .right-side-shape .aircraft-2 {
   position: absolute;
   right: 8%;
   top: 17%;
