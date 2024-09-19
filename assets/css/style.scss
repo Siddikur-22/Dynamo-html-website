@@ -2873,6 +2873,9 @@ header.style-1 {
                 font-weight: 400;
                 font-size: 17px;
                 line-height: 30px;
+                &:hover{
+                  color: #3147FF;
+                }
               }
             }
           }

@@ -2458,6 +2458,9 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-size: 17px;
   line-height: 30px;
 }
+.footer-section .background-color .footer-wrap .footer-widget .menu-container .widget-list li a:hover {
+  color: #3147FF;
+}
 .footer-section .background-color .contact-area {
   display: flex;
   align-items: center;
