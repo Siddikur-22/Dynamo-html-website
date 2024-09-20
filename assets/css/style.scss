@@ -6806,7 +6806,13 @@ header.style-3 {
       }
     }
   }
+  .how-we-do-card-wrapper{
+    height: 520px;
+    overflow-x: clip;
+    overflow-y: scroll;
+ 
   .how-we-write-wrap {
+
     .write-image {
       padding-bottom: 32px;
       img {
@@ -6835,6 +6841,7 @@ header.style-3 {
       }
     }
   }
+}
 }
 // how-we-do section end
 // marquee-section start

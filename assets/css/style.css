@@ -5719,13 +5719,18 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .how-we-do-section .how-we-middle-wrap .content .bottom-wrap .button-top-area a:hover svg path {
   fill: #F2CC4D;
 }
-.how-we-do-section .how-we-write-wrap .write-image {
+.how-we-do-section .how-we-do-card-wrapper {
+  height: 520px;
+  overflow-x: clip;
+  overflow-y: scroll;
+}
+.how-we-do-section .how-we-do-card-wrapper .how-we-write-wrap .write-image {
   padding-bottom: 32px;
 }
-.how-we-do-section .how-we-write-wrap .write-image img {
+.how-we-do-section .how-we-do-card-wrapper .how-we-write-wrap .write-image img {
   border-radius: 32px 0px;
 }
-.how-we-do-section .how-we-write-wrap .content .title h2 {
+.how-we-do-section .how-we-do-card-wrapper .how-we-write-wrap .content .title h2 {
   font-family: var(--font-public-sans);
   font-weight: 600;
   font-size: 23px;
@@ -5733,7 +5738,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   color: rgb(0, 0, 0);
   padding-bottom: 12px;
 }
-.how-we-do-section .how-we-write-wrap .content .title p {
+.how-we-do-section .how-we-do-card-wrapper .how-we-write-wrap .content .title p {
   font-family: var(--font-poppins);
   font-weight: 400;
   font-size: 16px;
