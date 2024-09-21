@@ -4539,6 +4539,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-size: 32px;
   line-height: 40px;
   color: var(--white-color);
+  margin: 0;
 }
 .footer-section-style-2 .footer-top-wrap .footer-top-area .footer-top-wrap .title-top .bottom-btn a {
   background-color: #013228;
@@ -4601,6 +4602,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-size: 20px;
   line-height: 20px;
   color: #cdd5d7;
+  margin: 0;
 }
 .footer-section-style-2 .footer-wrap-2 {
   margin-bottom: 70px;
@@ -4615,6 +4617,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 600;
   line-height: 36px;
   padding-bottom: 19px;
+  margin: 0;
 }
 .footer-section-style-2 .footer-wrap-2 .from .footer-email {
   display: flex;
@@ -4711,6 +4714,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   border-radius: 69px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .footer-section-style-2 .footer-bottom-wrap .footer-bottom .footer-bottom-write ul li a:hover {
   color: rgb(237, 119, 51);

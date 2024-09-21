@@ -5370,6 +5370,7 @@ header.style-2 {
               font-size: 32px;
               line-height: 40px;
               color: var(--white-color);
+              margin: 0;
             }
 
             a {
@@ -5447,6 +5448,7 @@ header.style-2 {
             font-size: 20px;
             line-height: 20px;
             color: #cdd5d7;
+            margin: 0;
           }
         }
       }
@@ -5464,6 +5466,7 @@ header.style-2 {
         font-weight: 600;
         line-height: 36px;
         padding-bottom: 19px;
+        margin: 0;
       }
       .footer-email {
         display: flex;
@@ -5582,6 +5585,7 @@ header.style-2 {
                 border-radius: 69px;
                 display: flex;
                 align-items: center;
+                justify-content: center;
               }
               &:hover {
                 color: rgba(237, 119, 51, 1);
