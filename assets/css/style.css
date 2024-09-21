@@ -1934,6 +1934,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 .marquee-section-1 .marquee_text {
   overflow: hidden;
   padding: 28px 28px;
+  height: 91px;
 }
 .marquee-section-1 .marquee_text .js-marquee {
   display: flex;
