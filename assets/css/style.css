@@ -3252,6 +3252,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 22px;
   margin-top: 12px;
 }
+.our-service-section-card .content-wrap .button-wrap-2 {
+  z-index: 1;
+}
 .our-service-section-card .content-wrap .button-wrap-2 a {
   background-color: var(--background-color-2-2);
   border-radius: 80px;
