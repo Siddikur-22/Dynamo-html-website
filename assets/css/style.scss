@@ -3854,6 +3854,11 @@ header.style-2 {
         line-height: 24px;
         font-family: var(--font-inter);
         padding: 17px 30px;
+        &:hover{
+          background-color: transparent;
+          border: 1px solid rgba(255, 129, 55, 1);
+          
+        }
       }
     }
   }

@@ -3265,6 +3265,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-family: var(--font-inter);
   padding: 17px 30px;
 }
+.our-service-section-card .content-wrap .button-wrap-2 a:hover {
+  background-color: transparent;
+  border: 1px solid rgb(255, 129, 55);
+}
 .our-service-section-card .service-card-2 {
   border: 1px solid #053c30;
   padding: 35px 30px;
