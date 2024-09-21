@@ -1495,6 +1495,8 @@ header.style-1 {
   }
     &:hover{
       background-color:#1E2FC0;
+      // background-image: url("../image/All-image/shape/card-hover-shape-2.png");
+      // background-repeat: no-repeat;
       opacity: 77%;
       .icon{
         svg{
@@ -6712,6 +6714,9 @@ header.style-3 {
       }
     }
     &:hover {
+      background-image: url("../image/All-image/banner-img/card-hover-bc.png");
+      background-repeat: no-repeat;
+      background-size: cover;
       .content {
         h3 {
           a {

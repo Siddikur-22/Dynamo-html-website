@@ -5658,6 +5658,11 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   justify-content: center;
   border-radius: 50%;
 }
+.innovation-solution-section .innovation-card:hover {
+  background-image: url("../image/All-image/banner-img/card-hover-bc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .innovation-solution-section .innovation-card:hover .content h3 a {
   color: rgb(242, 204, 77);
 }
