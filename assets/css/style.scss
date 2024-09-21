@@ -4774,9 +4774,16 @@ header.style-2 {
       }
     }
   }
+
+
+
   .carousel {
     position: relative;
     margin-bottom: 110px;
+    z-index: 1;
+    .carousel-inner{
+      overflow: visible;
+    }
     .carousel-control-prev {
       position: absolute;
       left: 88%;
@@ -4910,6 +4917,7 @@ header.style-2 {
       }
     }
   }
+
   .right-side-net-shape{
     .right-net{
       position: absolute;

@@ -4041,6 +4041,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
 .Feedback-Showcase .carousel {
   position: relative;
   margin-bottom: 110px;
+  z-index: 1;
+}
+.Feedback-Showcase .carousel .carousel-inner {
+  overflow: visible;
 }
 .Feedback-Showcase .carousel .carousel-control-prev {
   position: absolute;
