@@ -843,12 +843,12 @@ header.style-1 {
     display: inline-block;
     position: relative;
     font-family: var(--font-public-sans);
+    z-index: 1;
 
     > ul {
       list-style: none;
       margin: 0;
       padding: 0;
-      z-index: 1;
       > li {
         display: inline-block;
         position: relative;

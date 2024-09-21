@@ -772,12 +772,12 @@ header.style-1 .main-menu {
   display: inline-block;
   position: relative;
   font-family: var(--font-public-sans);
+  z-index: 1;
 }
 header.style-1 .main-menu > ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  z-index: 1;
 }
 header.style-1 .main-menu > ul > li {
   display: inline-block;
