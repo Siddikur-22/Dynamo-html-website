@@ -2091,7 +2091,9 @@ header.style-1 {
       padding: 11px;
       border-radius: 97px;
       gap:5px;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin: 0 auto;
       .nav-link{
         border-radius: 80px;
@@ -3447,7 +3449,7 @@ header.style-2 {
 .banner-area-2 {
   position: relative;
 
-  .banner-content {
+  .section-title {
     max-width: 670px;
     width: 100%;
     background-image: url("../image/All-image/banner-img/banner-back-shape.png");
@@ -3515,7 +3517,7 @@ header.style-2 {
       }
     }
 
-    .banner-content-bottom {
+    .section-title-bottom {
       display: flex;
       align-items: center;
       gap: 36px;
@@ -3647,7 +3649,7 @@ header.style-2 {
 // who-we-are-section start
 .who-we-are-section {
   position: relative;
-  .section-head {
+  .section-title {
     .content {
       > span {
         font-family: var(--font-inter);
@@ -3813,11 +3815,6 @@ header.style-2 {
 .our-service-section-card {
   background-color: var(--background-color-2);
   position: relative;
-  .content-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     .section-title {
       > span {
         font-family: var(--font-inter);
@@ -3863,7 +3860,7 @@ header.style-2 {
         }
       }
     }
-  }
+
 
   .service-card-2 {
     border: 1px solid #053c30;
@@ -4134,11 +4131,6 @@ header.style-2 {
 // Experienced-Creative end
 // our recent work section start
 .our-recent-work {
-  .recent-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     .section-title {
       > span {
         font-family: var(--font-inter);
@@ -4173,7 +4165,6 @@ header.style-2 {
         }
       }
     }
-
     .button-wrap {
       a {
         border: 1px solid #161616;
@@ -4184,16 +4175,13 @@ header.style-2 {
         line-height: 24px;
         font-family: var(--font-inter);
         padding: 16px 32px;
+        &:hover{
+          background-color: var(--background-color-2);
+          transition: background-color 0.4s ease, color 0.3s ease;
+          color: var(--white-color);
+        }
       }
     }
-    .button-wrap:hover {
-      a {
-        background-color: var(--background-color-2);
-        transition: background-color 0.4s ease, color 0.3s ease;
-        color: var(--white-color);
-      }
-    }
-  }
 
   .Inventory-content {
     background-color: #f8f8f8;
@@ -4933,11 +4921,6 @@ header.style-2 {
 // Feedback Showcase end
 // Our-Newest-Articles start
 .Our-Newest-Articles {
-  .Newest-Articles-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     .section-title {
       > span {
         font-family: var(--font-inter);
@@ -4972,7 +4955,6 @@ header.style-2 {
         }
       }
     }
-
     .button-wrap {
       a {
         border: 1px solid #161616;
@@ -4992,7 +4974,7 @@ header.style-2 {
         color: var(--white-color);
       }
     }
-  }
+
 
   .blog-card {
     background-color: #F8F8F8;

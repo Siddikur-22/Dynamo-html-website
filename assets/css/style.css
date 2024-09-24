@@ -1802,7 +1802,9 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   padding: 11px;
   border-radius: 97px;
   gap: 5px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
 }
 .Pricing-section .nav-button-wrapper .nav-pills .nav-link {
@@ -2910,12 +2912,12 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
 .banner-area-2 {
   position: relative;
 }
-.banner-area-2 .banner-content {
+.banner-area-2 .section-title {
   max-width: 670px;
   width: 100%;
   background-image: url("../image/All-image/banner-img/banner-back-shape.png");
 }
-.banner-area-2 .banner-content > span {
+.banner-area-2 .section-title > span {
   color: var(--span-color-2);
   font-family: var(--font-inter);
   font-size: 14px;
@@ -2929,25 +2931,25 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 16px;
   padding: 5px 6px;
 }
-.banner-area-2 .banner-content > span i {
+.banner-area-2 .section-title > span i {
   padding-left: 10px;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .banner-area-2 .banner-content > span {
+  .banner-area-2 .section-title > span {
     margin-bottom: 15px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .banner-area-2 .banner-content > span {
+  .banner-area-2 .section-title > span {
     margin-bottom: 10px;
   }
 }
 @media (max-width: 576px) {
-  .banner-area-2 .banner-content > span {
+  .banner-area-2 .section-title > span {
     margin-bottom: 10px;
   }
 }
-.banner-area-2 .banner-content h1 {
+.banner-area-2 .section-title h1 {
   color: var(--title-color);
   font-family: var(--font-public-sans);
   font-weight: 900;
@@ -2955,7 +2957,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   line-height: 82px;
   margin-bottom: 24px;
 }
-.banner-area-2 .banner-content p {
+.banner-area-2 .section-title p {
   color: var(--paragraph-color-2);
   font-family: var(--font-inter);
   font-size: 18px;
@@ -2964,47 +2966,47 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 56px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .banner-area-2 .banner-content p {
+  .banner-area-2 .section-title p {
     font-size: 15px;
     margin-bottom: 25px;
   }
 }
 @media (max-width: 991px) {
-  .banner-area-2 .banner-content p {
+  .banner-area-2 .section-title p {
     margin-bottom: 35px;
   }
 }
 @media (max-width: 576px) {
-  .banner-area-2 .banner-content p {
+  .banner-area-2 .section-title p {
     font-size: 15px;
     margin-bottom: 20px;
   }
 }
-.banner-area-2 .banner-content .banner-content-bottom {
+.banner-area-2 .section-title .section-title-bottom {
   display: flex;
   align-items: center;
   gap: 36px;
 }
-.banner-area-2 .banner-content .banner-content-bottom .client {
+.banner-area-2 .section-title .section-title-bottom .client {
   display: flex;
   gap: 5px;
 }
-.banner-area-2 .banner-content .banner-content-bottom .client .client-img .client-image {
+.banner-area-2 .section-title .section-title-bottom .client .client-img .client-image {
   margin-left: -30px;
 }
-.banner-area-2 .banner-content .banner-content-bottom .client .ratting-area {
+.banner-area-2 .section-title .section-title-bottom .client .ratting-area {
   align-items: center;
   gap: 5px;
 }
-.banner-area-2 .banner-content .banner-content-bottom .client .ratting-area .star {
+.banner-area-2 .section-title .section-title-bottom .client .ratting-area .star {
   display: flex;
   align-items: center;
   gap: 5px;
 }
-.banner-area-2 .banner-content .banner-content-bottom .client .ratting-area .star li i {
+.banner-area-2 .section-title .section-title-bottom .client .ratting-area .star li i {
   color: var(--primary-color-2-2);
 }
-.banner-area-2 .banner-content .banner-content-bottom .client .ratting-area .star span {
+.banner-area-2 .section-title .section-title-bottom .client .ratting-area .star span {
   color: var(--background-color-2);
   font-family: var(--font-inter);
   font-weight: 500;
@@ -3088,7 +3090,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
 .who-we-are-section {
   position: relative;
 }
-.who-we-are-section .section-head .content > span {
+.who-we-are-section .section-title .content > span {
   font-family: var(--font-inter);
   font-weight: 500;
   font-size: 14px;
@@ -3098,10 +3100,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   border-radius: 47px;
   padding: 12px 26px;
 }
-.who-we-are-section .section-head .content > span svg {
+.who-we-are-section .section-title .content > span svg {
   margin-left: 10px;
 }
-.who-we-are-section .section-head .content h2 {
+.who-we-are-section .section-title .content h2 {
   font-family: var(--font-public-sans);
   font-weight: 700;
   font-size: 50px;
@@ -3110,10 +3112,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 22px;
   margin-top: 12px;
 }
-.who-we-are-section .section-head .content h2 span {
+.who-we-are-section .section-title .content h2 span {
   color: var(--background-color-2-2);
 }
-.who-we-are-section .section-head .content p {
+.who-we-are-section .section-title .content p {
   font-family: var(--font-inter);
   font-weight: 400;
   font-size: 18px;
@@ -3226,12 +3228,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   background-color: var(--background-color-2);
   position: relative;
 }
-.our-service-section-card .content-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.our-service-section-card .content-wrap .section-title > span {
+.our-service-section-card .section-title > span {
   font-family: var(--font-inter);
   font-weight: 500;
   font-size: 14px;
@@ -3241,10 +3238,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   border-radius: 47px;
   padding: 12px 26px;
 }
-.our-service-section-card .content-wrap .section-title > span svg {
+.our-service-section-card .section-title > span svg {
   margin-left: 10px;
 }
-.our-service-section-card .content-wrap .section-title h2 {
+.our-service-section-card .section-title h2 {
   font-family: var(--font-public-sans);
   font-weight: 700;
   font-size: 50px;
@@ -3253,10 +3250,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 22px;
   margin-top: 12px;
 }
-.our-service-section-card .content-wrap .button-wrap-2 {
+.our-service-section-card .button-wrap-2 {
   z-index: 1;
 }
-.our-service-section-card .content-wrap .button-wrap-2 a {
+.our-service-section-card .button-wrap-2 a {
   background-color: var(--background-color-2-2);
   border-radius: 80px;
   color: var(--white-color);
@@ -3266,7 +3263,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-family: var(--font-inter);
   padding: 17px 30px;
 }
-.our-service-section-card .content-wrap .button-wrap-2 a:hover {
+.our-service-section-card .button-wrap-2 a:hover {
   background-color: transparent;
   border: 1px solid rgb(255, 129, 55);
 }
@@ -3497,12 +3494,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   top: 0%;
 }
 
-.our-recent-work .recent-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.our-recent-work .recent-content .section-title > span {
+.our-recent-work .section-title > span {
   font-family: var(--font-inter);
   font-weight: 500;
   font-size: 14px;
@@ -3512,10 +3504,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   border-radius: 47px;
   padding: 12px 26px;
 }
-.our-recent-work .recent-content .section-title > span svg {
+.our-recent-work .section-title > span svg {
   margin-left: 10px;
 }
-.our-recent-work .recent-content .section-title h2 {
+.our-recent-work .section-title h2 {
   font-family: var(--font-public-sans);
   font-weight: 700;
   font-size: 50px;
@@ -3524,13 +3516,13 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 22px;
   margin-top: 12px;
 }
-.our-recent-work .recent-content .section-title h2 > span {
+.our-recent-work .section-title h2 > span {
   color: var(--paragraph-color-2);
 }
-.our-recent-work .recent-content .section-title h2 .red-dot {
+.our-recent-work .section-title h2 .red-dot {
   color: var(--primary-color-2);
 }
-.our-recent-work .recent-content .button-wrap a {
+.our-recent-work .button-wrap a {
   border: 1px solid #161616;
   border-radius: 80px;
   color: var(--title-color);
@@ -3540,7 +3532,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-family: var(--font-inter);
   padding: 16px 32px;
 }
-.our-recent-work .recent-content .button-wrap:hover a {
+.our-recent-work .button-wrap a:hover {
   background-color: var(--background-color-2);
   transition: background-color 0.4s ease, color 0.3s ease;
   color: var(--white-color);
@@ -4166,12 +4158,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   top: 0%;
 }
 
-.Our-Newest-Articles .Newest-Articles-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.Our-Newest-Articles .Newest-Articles-content .section-title > span {
+.Our-Newest-Articles .section-title > span {
   font-family: var(--font-inter);
   font-weight: 500;
   font-size: 14px;
@@ -4181,10 +4168,10 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   border-radius: 47px;
   padding: 12px 26px;
 }
-.Our-Newest-Articles .Newest-Articles-content .section-title > span svg {
+.Our-Newest-Articles .section-title > span svg {
   margin-left: 10px;
 }
-.Our-Newest-Articles .Newest-Articles-content .section-title h2 {
+.Our-Newest-Articles .section-title h2 {
   font-family: var(--font-public-sans);
   font-weight: 700;
   font-size: 50px;
@@ -4193,13 +4180,13 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 22px;
   margin-top: 12px;
 }
-.Our-Newest-Articles .Newest-Articles-content .section-title h2 > span {
+.Our-Newest-Articles .section-title h2 > span {
   color: var(--paragraph-color-2);
 }
-.Our-Newest-Articles .Newest-Articles-content .section-title h2 .red-dot {
+.Our-Newest-Articles .section-title h2 .red-dot {
   color: var(--primary-color-2);
 }
-.Our-Newest-Articles .Newest-Articles-content .button-wrap a {
+.Our-Newest-Articles .button-wrap a {
   border: 1px solid #161616;
   border-radius: 80px;
   color: var(--title-color);
@@ -4209,7 +4196,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-family: var(--font-inter);
   padding: 16px 35px;
 }
-.Our-Newest-Articles .Newest-Articles-content .button-wrap:hover a {
+.Our-Newest-Articles .button-wrap:hover a {
   background-color: var(--background-color-2);
   transition: background-color 0.4s ease, color 0.3s ease;
   color: var(--white-color);
