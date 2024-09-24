@@ -3449,6 +3449,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
 }
 .Experienced-Creative .Experienced-content .video-img-wrap .video-img {
   position: relative;
+  z-index: 1;
 }
 .Experienced-Creative .Experienced-content .video-img-wrap .video-img img {
   width: 100%;

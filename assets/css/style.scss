@@ -4069,9 +4069,10 @@ header.style-2 {
 
     .video-img-wrap {
       position: relative;
-
+      
       .video-img {
         position: relative;
+        z-index: 1;
 
         img {
           width: 100%;
