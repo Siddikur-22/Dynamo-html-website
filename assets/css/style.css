@@ -1084,25 +1084,25 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   background-size: cover;
   position: relative;
 }
-.banner-section .section-title-first {
-  margin-top: 110px;
+.banner-section .section-title {
   max-width: 970px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
-.banner-section .section-title-first h1 {
+.banner-section .section-title h1 {
   color: var(--title-color);
   font-family: var(--font-public-sans);
   font-size: 74px;
   font-weight: 800;
   line-height: 84px;
+  margin: 0;
+  padding-bottom: 24px;
 }
-.banner-section .section-title-first span {
+.banner-section .section-title span {
   color: var(--primary-color);
   font-family: var(--font-public-sans);
 }
-.banner-section .section-title-first p {
+.banner-section .section-title p {
   color: var(--paragraph-color);
   font-family: var(--font-poppins);
   font-weight: 400;
@@ -1110,12 +1110,9 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   line-height: 34px;
   max-width: 680px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 24px;
-  margin-bottom: 40px;
+  margin: 0 auto;
 }
-.banner-section .section-title-first ul {
+.banner-section .section-title ul {
   background-color: #FCFBFF;
   opacity: 80%;
   border-radius: 50px;
@@ -1130,19 +1127,19 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   justify-content: space-between;
   gap: 20px;
 }
-.banner-section .section-title-first ul li {
+.banner-section .section-title ul li {
   display: flex;
   align-items: center;
   gap: 6px;
 }
-.banner-section .section-title-first ul li h6 {
+.banner-section .section-title ul li h6 {
   font-family: var(--font-public-sans);
   font-weight: 600;
   font-size: 16px;
   color: var(--paragraph-color);
   margin-bottom: 0;
 }
-.banner-section .section-title-first ul li h6 strong {
+.banner-section .section-title ul li h6 strong {
   color: var(--title-color);
 }
 .banner-section .button-group {
@@ -1245,14 +1242,14 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.service-section .section-title h1 {
+.service-section .section-title h2 {
   font-family: var(--font-public-sans);
   color: var(--title-color);
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  margin-top: 2px;
-  margin-bottom: 12px;
+  margin: 0;
+  padding-bottom: 12px;
 }
 .service-section .section-title p {
   font-family: var(--font-poppins);
@@ -1605,11 +1602,11 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 .Essential-section {
   background-image: url("../image/All-image/banner-img/Essential-img.png");
 }
-.Essential-section .Essential-section-title {
+.Essential-section .section-title {
   margin-top: 137px;
   margin-bottom: 80px;
 }
-.Essential-section .Essential-section-title h1 {
+.Essential-section .section-title h2 {
   font-family: var(--font-public-sans);
   color: var(--white-color);
   font-weight: 700;
@@ -1621,7 +1618,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   max-width: 695px;
   width: 100%;
 }
-.Essential-section .Essential-section-title p {
+.Essential-section .section-title p {
   font-family: var(--font-poppins);
   font-size: 18px;
   font-weight: 400;
@@ -1632,13 +1629,13 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 42px;
   color: var(--white-color);
 }
-.Essential-section .Essential-section-title .Essential-button {
+.Essential-section .section-title .Essential-button {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 25px;
 }
-.Essential-section .Essential-section-title .Essential-button .primary-btn {
+.Essential-section .section-title .Essential-button .primary-btn {
   background-color: var(--white-color);
   color: var(--title-color);
   padding: 14px 32px;
@@ -1647,12 +1644,12 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 600;
   font-family: var(--font-public-sans);
 }
-.Essential-section .Essential-section-title .Essential-button .primary-btn:hover {
+.Essential-section .section-title .Essential-button .primary-btn:hover {
   background-color: #3147FF;
   border: 1px solid #3147FF;
   color: var(--white-color);
 }
-.Essential-section .Essential-section-title .Essential-button .primary-btn:hover svg path {
+.Essential-section .section-title .Essential-button .primary-btn:hover svg path {
   fill: var(--white-color);
 }
 
@@ -2036,7 +2033,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   bottom: 5%;
 }
 
-.our-latest-card-section .section-title span {
+.blog-section .section-title span {
   color: #3147FF;
   font-family: var(--font-public-sans);
   font-weight: 500;
@@ -2045,7 +2042,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.our-latest-card-section .section-title h1 {
+.blog-section .section-title h1 {
   font-family: var(--font-public-sans);
   color: var(--title-color);
   font-weight: 700;
@@ -2054,7 +2051,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-top: 2px;
   margin-bottom: 12px;
 }
-.our-latest-card-section .section-title p {
+.blog-section .section-title p {
   font-family: var(--font-poppins);
   color: var(--paragraph-color);
   font-size: 18px;
@@ -2065,31 +2062,31 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   margin-left: auto;
   margin-right: auto;
 }
-.our-latest-card-section .blog-card {
+.blog-section .blog-card {
   border: 1px solid #EEEEEE;
   padding: 18px;
   border-radius: 16px;
 }
-.our-latest-card-section .blog-card .blog-card-img-wrap {
+.blog-section .blog-card .blog-card-img-wrap {
   position: relative;
   overflow: hidden;
   border-radius: 9px;
 }
-.our-latest-card-section .blog-card .blog-card-img-wrap .card-img {
+.blog-section .blog-card .blog-card-img-wrap .card-img {
   position: relative;
   overflow: hidden;
   display: block;
   transition: all 0.5s ease-out;
 }
-.our-latest-card-section .blog-card .blog-card-img-wrap .card-img img {
+.blog-section .blog-card .blog-card-img-wrap .card-img img {
   transition: all 0.5s ease-out;
 }
 @media (max-width: 991px) {
-  .our-latest-card-section .blog-card .blog-card-img-wrap .card-img img {
+  .blog-section .blog-card .blog-card-img-wrap .card-img img {
     width: 100%;
   }
 }
-.our-latest-card-section .blog-card .blog-card-img-wrap .card-img::after {
+.blog-section .blog-card .blog-card-img-wrap .card-img::after {
   position: absolute;
   width: 200%;
   height: 0%;
@@ -2100,7 +2097,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   content: "";
   z-index: 1;
 }
-.our-latest-card-section .blog-card .blog-card-img-wrap .top-button {
+.blog-section .blog-card .blog-card-img-wrap .top-button {
   color: var(--white-color);
   font-family: var(--font-inter);
   font-size: 14px;
@@ -2117,10 +2114,10 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   left: 0px;
   z-index: 1;
 }
-.our-latest-card-section .blog-card .blog-card-img-wrap .top-button svg {
+.blog-section .blog-card .blog-card-img-wrap .top-button svg {
   fill: var(--white-color);
 }
-.our-latest-card-section .blog-card .blog-card-img-wrap .date {
+.blog-section .blog-card .blog-card-img-wrap .date {
   color: black;
   font-family: var(--font-inter);
   font-size: 14px;
@@ -2136,17 +2133,17 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   right: 0;
   z-index: 1;
 }
-.our-latest-card-section .blog-card .card-content {
+.blog-section .blog-card .card-content {
   padding-top: 25px;
 }
-.our-latest-card-section .blog-card .card-content .blog-meta {
+.blog-section .blog-card .card-content .blog-meta {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
 }
-.our-latest-card-section .blog-card .card-content .blog-meta .category {
+.blog-section .blog-card .card-content .blog-meta .category {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -2156,15 +2153,15 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   flex-wrap: wrap;
   gap: 10px;
 }
-.our-latest-card-section .blog-card .card-content .blog-meta .category span {
+.blog-section .blog-card .card-content .blog-meta .category span {
   color: #3F444B;
   opacity: 70%;
 }
-.our-latest-card-section .blog-card .card-content .blog-meta .category li {
+.blog-section .blog-card .card-content .blog-meta .category li {
   position: relative;
   line-height: 1;
 }
-.our-latest-card-section .blog-card .card-content .blog-meta .category li a {
+.blog-section .blog-card .card-content .blog-meta .category li a {
   color: var(--text-color);
   font-family: var(--font-inter);
   font-size: 13px;
@@ -2173,16 +2170,16 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   text-decoration: underline;
   transition: 0.5s;
 }
-.our-latest-card-section .blog-card .card-content .blog-meta .category li a:hover {
+.blog-section .blog-card .card-content .blog-meta .category li a:hover {
   color: var(--primary-color1);
 }
-.our-latest-card-section .blog-card .card-content .blog-meta .blog-comment {
+.blog-section .blog-card .card-content .blog-meta .blog-comment {
   position: relative;
   padding-left: 20px;
   line-height: 1;
   list-style-type: none;
 }
-.our-latest-card-section .blog-card .card-content .blog-meta .blog-comment::before {
+.blog-section .blog-card .card-content .blog-meta .blog-comment::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -2192,7 +2189,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   width: 1px;
   height: 12px;
 }
-.our-latest-card-section .blog-card .card-content .blog-meta .blog-comment span {
+.blog-section .blog-card .card-content .blog-meta .blog-comment span {
   font-family: var(--font-poppins);
   color: #3F444B;
   opacity: 70%;
@@ -2200,10 +2197,10 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   font-size: 15px;
   line-height: 14px;
 }
-.our-latest-card-section .blog-card .card-content h4 {
+.blog-section .blog-card .card-content h4 {
   margin-bottom: 20px;
 }
-.our-latest-card-section .blog-card .card-content h4 a {
+.blog-section .blog-card .card-content h4 a {
   color: var(--title-color);
   font-family: var(--font-public-sans);
   font-size: 26px;
@@ -2212,19 +2209,19 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   transition: 0.5s;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .our-latest-card-section .blog-card .card-content h4 a {
+  .blog-section .blog-card .card-content h4 a {
     font-size: 22px;
   }
 }
 @media (max-width: 576px) {
-  .our-latest-card-section .blog-card .card-content h4 a {
+  .blog-section .blog-card .card-content h4 a {
     font-size: 22px;
   }
 }
-.our-latest-card-section .blog-card .card-content h4 a:hover {
+.blog-section .blog-card .card-content h4 a:hover {
   color: var(--primary-color1);
 }
-.our-latest-card-section .blog-card .card-content .read-more-btn {
+.blog-section .blog-card .card-content .read-more-btn {
   color: var(--text-color);
   font-family: var(--font-inter);
   font-size: 17px;
@@ -2237,42 +2234,42 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   gap: 6px;
   transition: 0.5s;
 }
-.our-latest-card-section .blog-card .card-content .read-more-btn svg {
+.blog-section .blog-card .card-content .read-more-btn svg {
   fill: var(--text-color);
   transition: 0.5s;
 }
-.our-latest-card-section .blog-card .card-content .read-more-btn:hover {
+.blog-section .blog-card .card-content .read-more-btn:hover {
   color: var(--primary-color1);
 }
-.our-latest-card-section .blog-card .card-content .read-more-btn:hover svg {
+.blog-section .blog-card .card-content .read-more-btn:hover svg {
   transform: rotate(45deg);
   fill: var(--primary-color1);
 }
-.our-latest-card-section .blog-card:hover .blog-card-img-wrap .card-img img {
+.blog-section .blog-card:hover .blog-card-img-wrap .card-img img {
   transform: scale(1.1);
 }
-.our-latest-card-section .blog-card:hover .blog-card-img-wrap .card-img::after {
+.blog-section .blog-card:hover .blog-card-img-wrap .card-img::after {
   height: 250%;
   transition: all 600ms linear;
   background-color: transparent;
 }
-.our-latest-card-section .blog-card:hover .read-more-btn {
+.blog-section .blog-card:hover .read-more-btn {
   color: #3147FF;
 }
-.our-latest-card-section .blog-card:hover .read-more-btn svg path {
+.blog-section .blog-card:hover .read-more-btn svg path {
   fill: #3147FF;
 }
-.our-latest-card-section .blog-card.style-2 {
+.blog-section .blog-card.style-2 {
   border-radius: 10px;
   border: 1px solid rgba(var(--title-color-opc), 0.1);
 }
-.our-latest-card-section .blog-card.style-2 .blog-card-img-wrap {
+.blog-section .blog-card.style-2 .blog-card-img-wrap {
   border-radius: 10px 10px 0 0;
 }
-.our-latest-card-section .blog-card.style-2 .blog-card-img-wrap .card-img img {
+.blog-section .blog-card.style-2 .blog-card-img-wrap .card-img img {
   border-radius: 10px 10px 0 0;
 }
-.our-latest-card-section .blog-card.style-2 .blog-card-img-wrap .date {
+.blog-section .blog-card.style-2 .blog-card-img-wrap .date {
   position: absolute;
   top: 6px;
   left: 6px;
@@ -2290,12 +2287,12 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   justify-content: center;
 }
 @media (max-width: 576px) {
-  .our-latest-card-section .blog-card.style-2 .blog-card-img-wrap .date {
+  .blog-section .blog-card.style-2 .blog-card-img-wrap .date {
     width: 65px;
     height: 65px;
   }
 }
-.our-latest-card-section .blog-card.style-2 .blog-card-img-wrap .date span {
+.blog-section .blog-card.style-2 .blog-card-img-wrap .date span {
   color: var(--white-color);
   text-align: center;
   font-family: var(--font-inter);
@@ -2305,7 +2302,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   letter-spacing: 0.22px;
   display: block;
 }
-.our-latest-card-section .blog-card.style-2 .blog-card-img-wrap .date span strong {
+.blog-section .blog-card.style-2 .blog-card-img-wrap .date span strong {
   font-size: 22px;
   font-weight: 700;
   font-family: var(--font-hankenGrotesk);
@@ -2313,45 +2310,45 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   display: block;
 }
 @media (max-width: 576px) {
-  .our-latest-card-section .blog-card.style-2 .blog-card-img-wrap .date span strong {
+  .blog-section .blog-card.style-2 .blog-card-img-wrap .date span strong {
     font-size: 20px;
   }
 }
-.our-latest-card-section .blog-card.style-2 .card-content {
+.blog-section .blog-card.style-2 .card-content {
   padding: 30px 25px;
 }
 @media (max-width: 1199px) {
-  .our-latest-card-section .blog-card.style-2 .card-content {
+  .blog-section .blog-card.style-2 .card-content {
     padding: 25px 20px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .our-latest-card-section .blog-card.style-2 .card-content h4 a {
+  .blog-section .blog-card.style-2 .card-content h4 a {
     font-size: 23px;
   }
 }
 @media (max-width: 1199px) {
-  .our-latest-card-section .blog-card.style-2 .card-content h4 a {
+  .blog-section .blog-card.style-2 .card-content h4 a {
     font-size: 22px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .our-latest-card-section .blog-card.style-2 .card-content h4 a {
+  .blog-section .blog-card.style-2 .card-content h4 a {
     font-size: 20px;
   }
 }
-.our-latest-card-section .blog-card.style-2.two {
+.blog-section .blog-card.style-2.two {
   border: none;
 }
-.our-latest-card-section .blog-card.style-2.two .card-content {
+.blog-section .blog-card.style-2.two .card-content {
   padding: 30px 0 0;
 }
 @media (max-width: 1199px) {
-  .our-latest-card-section .blog-card.style-2.two .card-content {
+  .blog-section .blog-card.style-2.two .card-content {
     padding: 25px 0px 0;
   }
 }
-.our-latest-card-section .blog-card.style-2:hover .blog-card-img-wrap .date {
+.blog-section .blog-card.style-2:hover .blog-card-img-wrap .date {
   background-color: var(--primary-color1);
 }
 
@@ -6166,6 +6163,88 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   font-size: 24px;
   line-height: 44px;
   color: #515151;
+}
+
+.testimonial-section {
+  background-color: rgb(246, 249, 252);
+}
+.testimonial-section .section-title span {
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(81, 81, 81);
+  margin-bottom: 18px;
+  padding: 5px 30px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50px;
+}
+.testimonial-section .section-title h2 {
+  font-family: var(--font-public-sans);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: var(--title-color);
+  margin: 0;
+}
+.testimonial-section .swiper-wrapper {
+  position: relative;
+}
+.testimonial-section .swiper-wrapper .swiper-slide .testimonial-card {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 0px 32px;
+  padding: 40px;
+  max-width: 500px;
+}
+.testimonial-section .swiper-wrapper .swiper-slide .testimonial-card .star-area {
+  margin-bottom: 30px;
+}
+.testimonial-section .swiper-wrapper .swiper-slide .testimonial-card .star-area ul {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.testimonial-section .swiper-wrapper .swiper-slide .testimonial-card .testimonial-content {
+  padding-bottom: 30px;
+}
+.testimonial-section .swiper-wrapper .swiper-slide .testimonial-card .testimonial-content p {
+  max-width: 448px;
+  width: 100%;
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #515151;
+  margin: 0;
+}
+.testimonial-section .swiper-wrapper .swiper-slide .testimonial-card .author-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial-section .swiper-wrapper .swiper-slide .testimonial-card .author-area .author-content h4 {
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--title-color);
+  padding-bottom: 4px;
+  margin: 0;
+}
+.testimonial-section .swiper-wrapper .swiper-slide .testimonial-card .author-area .author-content h6 {
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: 16px;
+  color: #515151;
+  margin: 0;
+}
+.testimonial-section .btn-wrapper {
+  position: absolute;
+  left: 50%;
+}
+.testimonial-section .btn-wrapper .swiper-button-prev {
+  position: absolute;
 }
 
 .our-blog-news .section-title .content {
