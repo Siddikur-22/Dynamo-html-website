@@ -3642,6 +3642,9 @@ header.style-2 {
         background-image: linear-gradient(to right, #ffeee2, #fff8f3);
         border-radius: 47px;
         padding: 12px 26px;
+        margin-bottom: 12px;
+        display: inline-flex;
+        align-items: center;
 
         svg {
           margin-left: 10px;
@@ -3654,8 +3657,8 @@ header.style-2 {
         font-size: 50px;
         line-height: 60px;
         color: var(--title-color);
-        margin-bottom: 22px;
-        margin-top: 12px;
+        margin: 0;
+        padding-bottom: 22px;
 
         span {
           color: var(--background-color-2-2);
@@ -4019,8 +4022,7 @@ header.style-2 {
         color: var(--primary-color-2);
         max-width: 979px;
         width: 100%;
-        margin-bottom: 22px;
-        margin-top: 12px;
+        margin-bottom: 40px;
 
         > span {
           color: var(--title-color);
@@ -4127,6 +4129,9 @@ header.style-2 {
         background-image: linear-gradient(to right, #ffeee2, #fff8f3);
         border-radius: 47px;
         padding: 12px 26px;
+        margin-bottom: 12px;
+        display: inline-flex;
+        align-items: center;
 
         svg {
           margin-left: 10px;
@@ -4139,7 +4144,7 @@ header.style-2 {
         font-size: 50px;
         line-height: 60px;
         color: var(--title-color);
-        margin-top: 12px;
+        margin:0;
 
         > span {
           color: var(--paragraph-color-2);
@@ -4160,6 +4165,8 @@ header.style-2 {
         line-height: 24px;
         font-family: var(--font-inter);
         padding: 16px 32px;
+        display: inline-flex;
+        align-items: center;
         &:hover{
           background-color: var(--background-color-2);
           transition: background-color 0.4s ease, color 0.3s ease;
@@ -4348,6 +4355,9 @@ header.style-2 {
         background-image: linear-gradient(to right, #ffeee2, #fff8f3);
         border-radius: 47px;
         padding: 12px 26px;
+        margin-bottom: 12px;
+        display: inline-flex;
+        align-items: center;
 
         svg {
           margin-left: 10px;
@@ -4361,7 +4371,7 @@ header.style-2 {
         line-height: 60px;
         color: var(--title-color);
         margin-bottom: 22px;
-        margin-top: 12px;
+        margin: 0;
 
         > span {
           color: #26252e;
@@ -4707,6 +4717,9 @@ header.style-2 {
         background-image: linear-gradient(to right, #034a3c, #013228);
         border-radius: 47px;
         padding: 12px 26px;
+        margin-bottom: 12px;
+        display: inline-flex;
+        align-items: center;
 
         svg {
           margin-left: 10px;
@@ -4720,7 +4733,7 @@ header.style-2 {
         line-height: 60px;
         color: var(--white-color);
         margin-bottom: 22px;
-        margin-top: 12px;
+       margin: 0;
 
         > span {
           color: #1c6c5c;
@@ -4916,6 +4929,9 @@ header.style-2 {
         background-image: linear-gradient(to right, #ffeee2, #fff8f3);
         border-radius: 47px;
         padding: 12px 26px;
+        margin-bottom: 12px;
+        display: inline-flex;
+        align-items: center;
 
         svg {
           margin-left: 10px;
@@ -4929,7 +4945,7 @@ header.style-2 {
         line-height: 60px;
         color: var(--title-color);
         margin-bottom: 22px;
-        margin-top: 12px;
+        margin: 0;
 
         > span {
           color: var(--paragraph-color-2);
@@ -4950,6 +4966,8 @@ header.style-2 {
         line-height: 24px;
         font-family: var(--font-inter);
         padding: 16px 35px;
+        display: inline-flex;
+        align-items: center;
       }
     }
     .button-wrap:hover {
@@ -6576,6 +6594,8 @@ header.style-3 {
       font-family: var(--font-public-sans);
       padding: 22px 41px;
       background-color: #F2CC4D;
+      display: inline-flex;
+      align-items: center;
       svg {
         margin-left: 11px;
       }
@@ -6762,7 +6782,6 @@ header.style-3 {
           color: var(--paragraph-color-3);
           max-width: 489px;
           width: 100%;
-          margin-bottom: 40px;
         }
       }
       .bottom-wrap {
@@ -6775,6 +6794,8 @@ header.style-3 {
             font-weight: 700;
             font-size: 19px;
             line-height: 24px;
+            display: inline-flex;
+            align-items: center;
             svg {
               margin-left: 11px;
             }
@@ -6896,6 +6917,8 @@ header.style-3 {
       line-height: 24px;
       font-family: var(--font-public-sans);
       padding: 22px 41px;
+      display: inline-flex;
+      align-items: center;
      
       svg {
         margin-left: 11px;
@@ -7458,7 +7481,7 @@ header.style-3 {
   
   }
   }
-.testimonial-wrap{
+  .testimonial-wrap{
   .testimonial-card3{
     background-color:rgba(255, 255, 255, 1);
     padding: 40px 35px;
@@ -7519,7 +7542,7 @@ header.style-3 {
         }
     }
   }
-}
+  }
 }
 
 // our-blog-news start
@@ -9559,6 +9582,8 @@ header.style-4 {
         line-height: 24px;
         font-family: var(--font-poppins);
         padding: 16px 36px;
+        display: inline-flex;
+        align-items: center;
         &:hover{
           background-color: #615CF6;
           border: 1px solid #615CF6 ;
@@ -10404,6 +10429,8 @@ svg{
       line-height: 24px;
       font-family: var(--font-poppins);
       padding: 16px 36px;
+      display: inline-flex;
+      align-items: center;
       &:hover{
         background-color: #615CF6;
         border: 1px solid #615CF6 ;

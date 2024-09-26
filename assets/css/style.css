@@ -3096,6 +3096,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   background-image: linear-gradient(to right, #ffeee2, #fff8f3);
   border-radius: 47px;
   padding: 12px 26px;
+  margin-bottom: 12px;
+  display: inline-flex;
+  align-items: center;
 }
 .who-we-are-section .section-title .content > span svg {
   margin-left: 10px;
@@ -3106,8 +3109,8 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-size: 50px;
   line-height: 60px;
   color: var(--title-color);
-  margin-bottom: 22px;
-  margin-top: 12px;
+  margin: 0;
+  padding-bottom: 22px;
 }
 .who-we-are-section .section-title .content h2 span {
   color: var(--background-color-2-2);
@@ -3424,8 +3427,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   color: var(--primary-color-2);
   max-width: 979px;
   width: 100%;
-  margin-bottom: 22px;
-  margin-top: 12px;
+  margin-bottom: 40px;
 }
 .Experienced-Creative .Experienced-content .section-title h2 > span {
   color: var(--title-color);
@@ -3505,6 +3507,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   background-image: linear-gradient(to right, #ffeee2, #fff8f3);
   border-radius: 47px;
   padding: 12px 26px;
+  margin-bottom: 12px;
+  display: inline-flex;
+  align-items: center;
 }
 .our-recent-work .section-title > span svg {
   margin-left: 10px;
@@ -3515,7 +3520,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   font-size: 50px;
   line-height: 60px;
   color: var(--title-color);
-  margin-top: 12px;
+  margin: 0;
 }
 .our-recent-work .section-title h2 > span {
   color: var(--paragraph-color-2);
@@ -3532,6 +3537,8 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   line-height: 24px;
   font-family: var(--font-inter);
   padding: 16px 32px;
+  display: inline-flex;
+  align-items: center;
 }
 .our-recent-work .button-wrap a:hover {
   background-color: var(--background-color-2);
@@ -3686,6 +3693,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   background-image: linear-gradient(to right, #ffeee2, #fff8f3);
   border-radius: 47px;
   padding: 12px 26px;
+  margin-bottom: 12px;
+  display: inline-flex;
+  align-items: center;
 }
 .Startup-Approach .Startup-Approach-content .section-title > span svg {
   margin-left: 10px;
@@ -3697,7 +3707,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   line-height: 60px;
   color: var(--title-color);
   margin-bottom: 22px;
-  margin-top: 12px;
+  margin: 0;
 }
 .Startup-Approach .Startup-Approach-content .section-title h2 > span {
   color: #26252e;
@@ -3999,6 +4009,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   background-image: linear-gradient(to right, #034a3c, #013228);
   border-radius: 47px;
   padding: 12px 26px;
+  margin-bottom: 12px;
+  display: inline-flex;
+  align-items: center;
 }
 .Feedback-Showcase .Feedback-Showcase-content .section-title > span svg {
   margin-left: 10px;
@@ -4010,7 +4023,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   line-height: 60px;
   color: var(--white-color);
   margin-bottom: 22px;
-  margin-top: 12px;
+  margin: 0;
 }
 .Feedback-Showcase .Feedback-Showcase-content .section-title h2 > span {
   color: #1c6c5c;
@@ -4168,6 +4181,9 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   background-image: linear-gradient(to right, #ffeee2, #fff8f3);
   border-radius: 47px;
   padding: 12px 26px;
+  margin-bottom: 12px;
+  display: inline-flex;
+  align-items: center;
 }
 .Our-Newest-Articles .section-title > span svg {
   margin-left: 10px;
@@ -4179,7 +4195,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   line-height: 60px;
   color: var(--title-color);
   margin-bottom: 22px;
-  margin-top: 12px;
+  margin: 0;
 }
 .Our-Newest-Articles .section-title h2 > span {
   color: var(--paragraph-color-2);
@@ -4196,6 +4212,8 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   line-height: 24px;
   font-family: var(--font-inter);
   padding: 16px 35px;
+  display: inline-flex;
+  align-items: center;
 }
 .Our-Newest-Articles .button-wrap:hover a {
   background-color: var(--background-color-2);
@@ -5550,6 +5568,8 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   font-family: var(--font-public-sans);
   padding: 22px 41px;
   background-color: #F2CC4D;
+  display: inline-flex;
+  align-items: center;
 }
 .innovation-solution-section .button-right a svg {
   margin-left: 11px;
@@ -5709,7 +5729,6 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   color: var(--paragraph-color-3);
   max-width: 489px;
   width: 100%;
-  margin-bottom: 40px;
 }
 .how-we-do-section .how-we-middle-wrap .content .bottom-wrap a {
   background-color: var(--primary-color-2-2);
@@ -5720,6 +5739,8 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   font-weight: 700;
   font-size: 19px;
   line-height: 24px;
+  display: inline-flex;
+  align-items: center;
 }
 .how-we-do-section .how-we-middle-wrap .content .bottom-wrap a svg {
   margin-left: 11px;
@@ -5818,6 +5839,8 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   line-height: 24px;
   font-family: var(--font-public-sans);
   padding: 22px 41px;
+  display: inline-flex;
+  align-items: center;
 }
 .explore-our-projects .button-right a svg {
   margin-left: 11px;
@@ -8099,6 +8122,8 @@ header.style-4 .nav-right .mobile-menu-btn svg {
   line-height: 24px;
   font-family: var(--font-poppins);
   padding: 16px 36px;
+  display: inline-flex;
+  align-items: center;
 }
 .project-showcase .button-wrap a:hover {
   background-color: #615CF6;
@@ -8834,6 +8859,8 @@ header.style-4 .nav-right .mobile-menu-btn svg {
   line-height: 24px;
   font-family: var(--font-poppins);
   padding: 16px 36px;
+  display: inline-flex;
+  align-items: center;
 }
 .insights-section .button-wrap a:hover {
   background-color: #615CF6;
