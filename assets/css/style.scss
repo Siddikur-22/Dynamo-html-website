@@ -3807,7 +3807,9 @@ header.style-2 {
         background-image: linear-gradient(to right, #034a3c, #013228);
         border-radius: 47px;
         padding: 12px 26px;
-
+        margin-bottom: 12px;
+        display: inline-flex;
+        align-items: center;
         svg {
           margin-left: 10px;
         }
@@ -3819,8 +3821,7 @@ header.style-2 {
         font-size: 50px;
         line-height: 60px;
         color: var(--white-color);
-        margin-bottom: 22px;
-        margin-top: 12px;
+        margin: 0;
       }
     }
 
@@ -3835,6 +3836,8 @@ header.style-2 {
         line-height: 24px;
         font-family: var(--font-inter);
         padding: 17px 30px;
+        display: inline-flex;
+        align-items: center;
         &:hover{
           background-color: transparent;
           border: 1px solid rgba(255, 129, 55, 1);
@@ -7389,14 +7392,6 @@ header.style-3 {
       }
     }
   }
-  .btn-wrapper{
-    position: absolute;
-    left: 50%;
-    .swiper-button-prev{
-      position: absolute;
-
-    }
-  }
 }
 // testimonial-section end
 
@@ -7427,7 +7422,43 @@ header.style-3 {
       }
     }
   }
-  .testimonial-wrap{
+  .slider-btn-and-pagination-wrap{
+  .slider-btn-group{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    .home3-testimonial-prev{
+      background-color: #ffffff;
+      border: 1px solid #49526180;
+      width: 51px;
+      height: 51px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover{
+        background-color: #F2CC4D;
+        border: 1px solid #F2CC4D;
+       }
+    }
+    .home3-testimonial-next{
+      background-color: #ffffff;
+      border: 1px solid #49526180;
+      width: 51px;
+      height: 51px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover{
+        background-color: #F2CC4D;
+        border: 1px solid #F2CC4D;
+       }
+    }
+  
+  }
+  }
+.testimonial-wrap{
   .testimonial-card3{
     background-color:rgba(255, 255, 255, 1);
     padding: 40px 35px;
@@ -7489,28 +7520,7 @@ header.style-3 {
     }
   }
 }
-.slider-btn-and-pagination-wrap{
-  .slider-btn-group{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    position: relative;
-    .home3-testimonial-prev{
-      position: absolute;
-      bottom:50%;
-      right: 30%;
-    }
-  }
 }
-}
-
-
-
-
-
-
-
-
 
 // our-blog-news start
 .our-blog-news {
